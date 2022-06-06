@@ -1,0 +1,65 @@
+.page-title-box {
+  padding: 20px 0;
+  border-top: 1px solid $light-gray;
+
+  .page-title {
+	padding-left: 20px;
+    font-size: 32px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding: 20px 0;
+
+    .page-title {
+      font-size: 47px;
+      line-height: 53px;
+    }
+  }
+}
+
+.page__head {
+  
+  .page-image {    
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: contain;
+    
+    &:after {
+      content: "";
+      display: table;
+      width: 100%;
+      min-height: 300px;
+      padding-top: 50%;
+    }
+  }
+}
+
+.page {
+  margin: 20px auto;
+
+  img {
+    margin: 30px 0;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    margin: 40px auto;
+  }
+}
+
+.page-box {
+  text-align: center;
+
+  .back-arrow {
+    a {
+      display: inline-block;
+      margin-left: 10px;
+      color: $dark;
+      font-weight: 700;
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}

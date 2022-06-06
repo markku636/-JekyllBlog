@@ -1,0 +1,46 @@
+#-------------------------------
+# General Site Settings
+url: https://blog.markkulab.net/
+title: Mark.Ku
+logo: mylogo.webp # You can add own logo.
+description: 擁有豐富網站開發經驗，直播系統、POS系統、電子商務、平台網站、SEO，專業的網站開發鐵三工程師。
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Mark.Ku
+  image: 01.webp
+  say-hello: Hi, I’m <strong>Mark.Ku</strong>
+  bio: 擁有豐富網站開發經驗，直播系統、POS系統、電子商務、平台網站、SEO，專業的網站開發鐵三工程師。
+
+
+#-------------------------------
+# Contact links
+
+facebook: https://www.facebook.com/mark.ku.509/ # Add your Facebook handle
+website: https://works.markkulab.net/zh-TW/Works # Add your Facebook handle
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: artemsheludko_ # Add instagram username
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+google_analytics: UA-92508931-1 # your own tracking ID
+
