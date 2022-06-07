@@ -19,11 +19,12 @@ layout: default
             
 			{% if page.tags %}
 		  <div class="post__tags">
-              {% for tag in page.tags %}
-			  
-            <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">
-			{{ tag }} 
-			</a>
+		      {% assign sortedTags = page.tags | sort %}
+
+              {% for tag in sortedTags %}
+
+			<a href="{{ site.baseurl }}/tag/{{ tag }}" class="post-tag">{{ tag }}</a>           
+		
             {% endfor %}
           </div>
           {% endif %}
