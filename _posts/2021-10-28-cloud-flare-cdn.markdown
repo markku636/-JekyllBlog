@@ -32,9 +32,7 @@ Could Flare 服務是建構在反向代理伺服器上，因此需要將 DNS 託
 ### 3. 選擇免費方案  
 ![](https://i.imgur.com/mcH7KVR.png)
 
-### 4. 下一步  
-
-![](https://i.imgur.com/G98ERUQ.png)
+### 4. 下一步  ![](https://i.imgur.com/G98ERUQ.png)
 
 ### 5. 過程中會要求你將 DNS 託管給 Could Flare > 需要到你的 DNS 託管給 Could Flare  
 ![](https://i.imgur.com/jarLmpq.png)
@@ -54,6 +52,12 @@ Could Flare 服務是建構在反向代理伺服器上，因此需要將 DNS 託
 ### 10.查詢自己是連上那個 CDN 節點 > 參考 colo 屬性值  
 https://yourdomain/cdn-cgi/trace  
 ![](https://i.imgur.com/cPHqyky.png)
+
+### 11. 也可以透過 tracert route 看經過那些路由
+```
+tracert markkulab.net
+```
+![](https://i.imgur.com/ktNI0pA.png)
 
 ## 補充
 ### 1. 啟用開發者模式，暫時關閉 CDN 主機的快取機制
