@@ -8,13 +8,13 @@ permalink: /tags/
     <h2>所有標籤</h2>
 </div>	
 <div class=" container">
-  <div class="tag-item">
+  <div>
     {% for tag in site.tags %}
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
     {% endfor %}
   </div>
   <br/>
-  <div class="">
+  <div class="tag-item">
     {% for tag in site.tags %}	
 	<div class="">
     <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
@@ -30,14 +30,16 @@ permalink: /tags/
 
 <style>
 .tag-item{
-display:none
+display:nonef
 }
 
 </style>
 
 <script>
+$(function(){
 $(window).on('hashchange', function(e) { 
 $('.tag-item').hide()
 $(location.hash).show()
 });
+}
 </script>
