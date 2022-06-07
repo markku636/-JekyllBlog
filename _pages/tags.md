@@ -5,7 +5,7 @@ permalink: /tags/
 
 <div class="arhive-head">
   <div class="container">
-    <h1 class="archive-title">Tag: <span>{{ page.tag }}</span></h1>
+    <h1 class="archive-title">Tag: <span>{{ page.tag }} {{hash }}</span></h1>
   </div>
 </div>
 
