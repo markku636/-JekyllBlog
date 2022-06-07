@@ -1,6 +1,6 @@
 ---
 layout: default
-title: tags
+title: 標籤
 permalink: /tags/
 ---
 <div class="tags-expo">
