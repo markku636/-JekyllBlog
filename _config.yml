@@ -31,6 +31,3 @@ sass:
   sass_dir: _sass
   style: compressed
   
-collections:
-  tag:
-    output: true

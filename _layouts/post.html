@@ -16,13 +16,14 @@ layout: default
             <span>By</span>
             <a href="{{ site.web_site_domain }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
           </div>
-
-          {% if page.tags.size >= 1 %}          
+            
+			{% if page.tags %}
 		  <div class="post__tags">
-
-              {% assign sortedCategories = page.categories | sort %}
-			  {% for category in sortedCategories %}
-               <a href="/category/{{ category }}">{{ category }}</a>
+              {% for tag in page.tags %}
+			  
+            <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">
+			{{ tag }} 
+			</a>
             {% endfor %}
           </div>
           {% endif %}
