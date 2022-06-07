@@ -38,11 +38,8 @@ display:none;
 </style>
 
 <script>
-
-    
-       window.onhashchange = function () {              
-	
-		var array = document.getElementsByClassName("tag-item")
+var showTagContent = function(){
+	var array = document.getElementsByClassName("tag-item")
 
 		for (let i=0; i<array.length; i++) {
 		array[i].style.display ='none';
@@ -54,8 +51,15 @@ display:none;
 		{
 		showEle.style.display = "block";
 		}
-       }
+}
+    
+window.onhashchange = function () {              
+	showTagContent()
+}
          
     
+window.onload = function() {
+  showTagContent()
+};
 
 </script>
