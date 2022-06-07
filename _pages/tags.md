@@ -2,8 +2,6 @@
 layout: default
 permalink: /tags/
 ---
-
-
 <div class="arhive-head">
   <div class="container">
     <h1 class="archive-title">Tag: <span id="tagName"></span></h1>
@@ -20,10 +18,9 @@ permalink: /tags/
      {% include article-content.html %}
     {% endfor %}
     </div>
-    {% endfor %}
-	
+    {% endfor %}	
   </div>	  
-</div>
+
 
 <style>
 .tag-item{
