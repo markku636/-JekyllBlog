@@ -14,7 +14,7 @@ permalink: /tags/
     {% endfor %}
   </div>
   <br/>
-  <div class="tag-item">
+  <div class="tag-item" style="display:none">
     {% for tag in site.tags %}	
 	<div class="">
     <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
@@ -36,10 +36,13 @@ display:nonef
 </style>
 
 <script>
-$(function(){
-$(window).on('hashchange', function(e) { 
-$('.tag-item').hide()
-$(location.hash).show()
-});
-}
+
+    if (("onhashchange" in window) && !($.browser.msie)) {
+         window.onhashchange = function () {              
+			  $('.tag-item').hide()
+			  $(location.hash).show()
+         }
+         
+    }
+
 </script>
