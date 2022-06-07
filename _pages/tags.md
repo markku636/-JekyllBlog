@@ -2,7 +2,6 @@
 layout: default
 title: tags
 permalink: /tags/
-title: 標籤
 ---
 
 <div class="arhive-head">
