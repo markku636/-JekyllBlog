@@ -18,13 +18,13 @@ permalink: /tags/
     {% for tag in site.tags %}	
 	<div class="tag-item" id="tag-group-{{ tag[0] | slugify }}">
     <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
-	</div>	
-    
+	    
     {% for post in tag[1] %}
      {% include article-content.html %}
     {% endfor %}
     
     {% endfor %}
+	</div>	
   </div>
 </div>
 
@@ -40,13 +40,18 @@ display:none;
     
        window.onhashchange = function () {              
 	
-		let array = document.getElementsByClassName("tag-item")
+		var array = document.getElementsByClassName("tag-item")
 
 		for (let i=0; i<array.length; i++) {
 		array[i].style.display ='none';
 		}			 
 			  
-		document.getElementById('tag-group-' + location.hash.replace('#','')).style.display = "block";
+		var showEle =  document.getElementById('tag-group-' + location.hash.replace('#',''))
+		
+		if(showEle)
+		{
+		showEle.style.display = "block";
+		}
        }
          
     
