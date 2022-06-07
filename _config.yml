@@ -26,4 +26,10 @@ include:
 sass:
   sass_dir: _sass
   style: compressed
+
+# 全域 seo   
+title: "Mark's Blog" # 網站的名稱
+locale: "zh-TW" # 自己的地區
+description: "擁有豐富網站開發經驗，直播系統、POS系統、電子商務、平台網站、SEO，專業的網站開發鐵三工程師。" # 網站的描述
+url: "https://blog.markkulab.net/" # 自己部落格的網址
   
