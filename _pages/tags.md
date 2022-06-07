@@ -8,12 +8,10 @@ permalink: /tags/
   </div>
  </div>
   
-  <div class="">
+  <div class="container">
     {% for tag in site.tags %}	
 	<div class="tag-item" id="tag-group-{{ tag[0] | slugify }}" >
-	
-    <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
-	
+    	
     {% for post in tag[1] %}
      {% include article-content.html %}
     {% endfor %}
