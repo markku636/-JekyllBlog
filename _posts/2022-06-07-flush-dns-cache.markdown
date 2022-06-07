@@ -9,7 +9,7 @@ tags:   dns cache clear
 某次將 DNS 主機託管 Cloud Falre 時，發現中華電信的 DNS 記錄，一直無法更新，就上網查看看有沒有什麼辦法提前讓 DNS 生效，不過查到的方法，僅限於比較大的 DNS 服務商的主機，才有提供提前清除的功能，寫這篇的目的就是做個筆記。
 
 ## DNS 相關工具
-就能發現是否在全球 DNS 伺服器中完全解析成功  
+用來檢查全球 DNS 伺服器中是否能夠解析成功及測試的小工具
 DNSChecke : https://dnschecker.org/  
 OpenDNS CacheCheck : https://cachecheck.opendns.com/  
 DNS 效能測試工具 https://www.dnsperf.com/  
