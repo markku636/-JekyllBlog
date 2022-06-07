@@ -4,16 +4,11 @@ permalink: /tags/
 ---
 
 
-<div class="container">
-    <h2>所有標籤</h2>
-</div>	
-<div class=" container">
-  <div>
-    {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
-    {% endfor %}
+<div class="arhive-head">
+  <div class="container">
+    <h1 class="archive-title">Tag: <span id="tagName"></span></h1>
   </div>
-  <br/>
+ </div>
   
   <div class="">
     {% for tag in site.tags %}	
@@ -38,19 +33,23 @@ display:none;
 </style>
 
 <script>
-var showTagContent = function(){
+	var showTagContent = function(){
 	var array = document.getElementsByClassName("tag-item")
 
-		for (let i=0; i<array.length; i++) {
-		array[i].style.display ='none';
-		}			 
+	for (let i=0; i<array.length; i++) {
+	array[i].style.display ='none';
+	}			 
 			  
-		var showEle =  document.getElementById('tag-group-' + decodeURIComponent(location.hash.replace('#','')))
+	var hashtag =decodeURIComponent(location.hash.replace('#',''))
+	var showEle =  document.getElementById('tag-group-' + hashtag)
 		
-		if(showEle)
-		{
+	if(showEle)
+	{
 		showEle.style.display = "block";
-		}
+	}
+	document.getElementById('tagName').textContent = hashtag
+		
+		
 }
     
 window.onhashchange = function () {              
