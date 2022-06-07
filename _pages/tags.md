@@ -14,9 +14,9 @@ permalink: /tags/
     {% endfor %}
   </div>
   <br/>
-  <div class="tags-expo-section">
+  <div class="">
     {% for tag in site.tags %}	
-	<div class="container">
+	<div class="">
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
 	</div>	
     
