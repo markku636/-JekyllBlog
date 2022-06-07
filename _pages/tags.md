@@ -5,15 +5,9 @@ permalink: /tags/
 
 <div class="arhive-head">
   <div class="container">
-    <h1 class="archive-title">Tag: <span>{{ site.data.projects | jsonify }}-{{page.hash}}</span></h1>
+    <h1 class="archive-title">Tag: <span>{{ site.data | jsonify }}-{{page}}</span></h1>
   </div>
 </div>
-
-
-{% for post in page.posts %}
-  {% include article-content.html %}
-{% endfor %}
-
 
 <div class="tags-expo">
   <div class="tags-expo-list">
