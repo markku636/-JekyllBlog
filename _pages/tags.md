@@ -46,7 +46,7 @@ display:none;
 		array[i].style.display ='none';
 		}			 
 			  
-		var showEle =  document.getElementById('tag-group-' + location.hash.replace('#',''))
+		var showEle =  document.getElementById('tag-group-' + decodeURIComponent(location.hash.replace('#','')))
 		
 		if(showEle)
 		{
