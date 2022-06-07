@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /tags/
 ---
 
 <div class="arhive-head">
