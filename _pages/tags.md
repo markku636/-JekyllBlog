@@ -3,13 +3,11 @@ layout: default
 permalink: /tags/
 ---
 
-<div class="arhive-head">
-  <div class="container">
-    <h1 class="archive-title">Tag: <span>{{ site.data | jsonify }}-{{page}}</span></h1>
-  </div>
-</div>
 
-<div class="tags-expo">
+<div class="container">
+    <h2>所有標籤</h2>
+</div>	
+<div class="tags-expo container">
   <div class="tags-expo-list">
     {% for tag in site.tags %}
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
@@ -17,12 +15,10 @@ permalink: /tags/
   </div>
   <br/>
   <div class="tags-expo-section">
-    {% for tag in site.tags %}
-	<div class="article">
+    {% for tag in site.tags %}	
 	<div class="container">
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-	</div>
-	</div>
+	</div>	
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
        {% include article-content.html %}
