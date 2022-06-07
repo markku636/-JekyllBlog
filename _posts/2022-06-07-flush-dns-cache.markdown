@@ -4,6 +4,9 @@ title:  提前強制更新各家 DNS Cache
 date:   2022-06-06 01:01:35 +0800
 image:  dns.webp
 tags:   dns cache clear 
+categories: 
+    - "architecture"
+    - "aws"
 ---
 ## 前言
 某次將 DNS 主機託管 Cloud Falre 時，發現中華電信的 DNS 記錄，一直無法更新，就上網查看看有沒有什麼辦法提前讓 DNS 生效，不過查到的方法，僅限於比較大的 DNS 服務商的主機，才有提供提前清除的功能，寫這篇的目的就是做個筆記。
