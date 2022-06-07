@@ -14,9 +14,9 @@ permalink: /tags/
     {% endfor %}
   </div>
   <br/>
-  <div class="tag-item" style="display:none">
+  <div class="">
     {% for tag in site.tags %}	
-	<div class="">
+	<div class="tag-item" id="tag-group-{{ tag[0] | slugify }}">
     <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
 	</div>	
     
@@ -30,19 +30,25 @@ permalink: /tags/
 
 <style>
 .tag-item{
-display:nonef
+display:none;
 }
 
 </style>
 
 <script>
 
-    if (("onhashchange" in window) && !($.browser.msie)) {
-         window.onhashchange = function () {              
-			  $('.tag-item').hide()
-			  $(location.hash).show()
-         }
+    
+       window.onhashchange = function () {              
+	
+		let array = document.getElementsByClassName("tag-item")
+
+		for (let i=0; i<array.length; i++) {
+		array[i].style.display ='none';
+		}			 
+			  
+		document.getElementById('tag-group-' + location.hash.replace('#','')).style.display = "block";
+       }
          
-    }
+    
 
 </script>
