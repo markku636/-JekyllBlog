@@ -26,7 +26,11 @@ title: 標籤
   <br/>
   <div class="tags-expo-section">
     {% for tag in site.tags %}
+	<div class="article">
+	<div class="container">
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+	</div>
+	</div>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
        {% include article-content.html %}
