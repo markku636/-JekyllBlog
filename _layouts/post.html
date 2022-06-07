@@ -17,12 +17,19 @@ layout: default
             <a href="{{ site.web_site_domain }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
           </div>
 
-          {% if page.tags.size >= 1 %}
-          <div class="post__tags">
-            {% for tag in page.tags %}              
-			  <a href="{{ site.url }}/tags.html#{{ tag | cgi_    e    scape }}" title="Pages tagged {{ tag }}" rel="tag" class="post-tag post__tags-tag">{{ tag }}</a>
-            {% endfor %}
-          </div>
+     {% if page.tags.size >= 1 %}
+         
+	<div class="post__tags">
+      {% assign sortedTags = page.tags | sort %}
+      <small>Tags: </small>
+      {% for tag in sortedTags %}
+        <span class="tag">
+          <small> <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tags-tag"> #{{ tag }}</a></small>
+        </span> 
+      {% endfor %}
+      <br>
+    </div>
+		  
           {% endif %}
         </div>
       </div>
