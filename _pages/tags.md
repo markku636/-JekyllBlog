@@ -8,7 +8,7 @@ permalink: /tags/
   </div>
  </div>
   
-  <div class="container">
+  <div class="">
     {% for tag in site.tags %}	
 	<div class="tag-item" id="tag-group-{{ tag[0] | slugify }}" >
     	
