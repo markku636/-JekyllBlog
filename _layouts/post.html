@@ -21,7 +21,7 @@ layout: default
 		  <div class="post__tags">
               {% for tag in page.tags %}
 			  
-            <a href="{{ site.baseurl }}/tag/#{{ tag | slugify }}" class="post-tag">
+            <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">
 			{{ tag }} 
 			</a>
             {% endfor %}
