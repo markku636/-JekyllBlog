@@ -20,7 +20,7 @@ DNS 效能測試工具 : [連結](https://www.dnsperf.com/)
 ## 清除 DNS 快取
 Google(1.1.1.1) - Flush Cache : [連結](https://developers.google.com/speed/public-dns/cache)  
 Purge Cache(CloudFlare) : [連結](https://1.1.1.1/purge-cache/)  
-中華電信 168.95.1.1 : 不提供，只能靜待 24 小時(台灣 ISP 太落後了，多數都沒支援 API，或讓用戶更方便快速的功能)  
+中華電信 168.95.1.1 : 只能靜待 24 小時(台灣 ISP 太落後了，多數都沒支援 API，或讓用戶更方便快速的功能)  
 
 ## Windows清除本機DNS Cache 的方法
 
