@@ -5,6 +5,8 @@ date:  2021-12-07 01:01:01 +0800
 image:  frontend-rendering-performance-issue2.webp
 categories: Frontend
 tags: frontend-large-data-rendering 
+description : 解決前端渲染大量資料渲染效能問題 Part's 2- 虛擬捲軸 && 分段渲染
+author : Mark ku
 ---
 
 ## 定義問題

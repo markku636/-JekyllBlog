@@ -5,6 +5,8 @@ date:   2021-05-03 15:01:35 +0800
 image:  robocopy.webp
 categories:  PowerShell
 tags:   opendialog robocopy powershell
+description : 用 Power shell 跳窗指定複製的資料夾
+author : Mark ku
 ---
 
 # 用 Power shell 跳窗指定複製的資料夾

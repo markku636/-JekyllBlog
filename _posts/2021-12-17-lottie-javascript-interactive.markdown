@@ -5,6 +5,8 @@ date:  2021-12-17 01:01:01 +0800
 image: animation.webp
 categories: Frontend
 tags: lottie Javascript interactive  Adobe After Effect AE
+description : 透過 Adobe After Effect 製作 lottie 動畫，並與 Javascript 互動 Part 1 - 動態替換文字
+author : Mark ku
 ---
 # 透過 Adobe After Effect 製作 lottie 動畫，並與 Javascript 互動 Part 1 - 動態替換文字
 

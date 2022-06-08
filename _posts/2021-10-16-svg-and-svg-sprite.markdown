@@ -5,6 +5,8 @@ date:  2021-10-16 01:01:01 +0800
 image: Bitmap_VS_SVG.webp
 categories: Frontend
 tags: vue svg svg-sprite
+description : VUE 框架導入 SVG & SVG Sprite 實戰筆記
+author : Mark ku
 ---
 
 ## 為什麼要導入 SVG & SVG Sprite

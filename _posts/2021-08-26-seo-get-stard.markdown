@@ -5,6 +5,8 @@ date:   2021-08-26 01:01:01 +0800
 image:  seo.webp
 categories: SEO
 tags:   seo google
+description : 捲起袖子動手做 SEO Part's 1 - 開始優化你的網站的 SEO
+author : Mark ku
 ---
 # SEO - 捲起袖子動手做 - 優化網站的 SEO - Get Started Part's 1
 ## 為何要做 SEO 

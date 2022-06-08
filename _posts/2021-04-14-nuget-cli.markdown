@@ -5,6 +5,8 @@ date:   2021-04-14 15:01:35 +0800
 image:  nuget.webp
 categories: NETCORE
 tags:   nuget
+description : Nuget CLI 常用指令
+author : Mark ku
 ---
 # Nuget CLI 常用指令
 # 自動化更新nuget

@@ -5,6 +5,8 @@ date:   2020-07-24 15:01:35 +0300
 image:  interview.webp
 categories: Frontend
 tags:   interview
+description : 面試官筆記
+author : Mark ku
 ---
 
 # Front-end-interview

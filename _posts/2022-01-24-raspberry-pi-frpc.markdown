@@ -5,6 +5,8 @@ date:   2022-01-24 01:01:01 +0800
 image:  raspberry.webp
 categories: Infra
 tags:   frp frp-c reverse proxy raspberry pi os linux
+description : 樹莓派安裝 fprc 內網穿透用戶端 - Linux 筆記
+author : Mark ku
 ---
 ## 解決問題
 希望只要外部網路有通，不須做任何的防火牆設定，隨時隨地即可遠端連線到我的樹莓派主機，類似於TeamViewer 的功能。
