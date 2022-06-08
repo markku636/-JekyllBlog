@@ -5,6 +5,8 @@ date:  2021-11-13 01:01:01 +0800
 image:  stylelint.webp
 categories: Frontend
 tags:   vue style lint downgrade
+description : 修正 Visaul Studio Code 的 Stylelint auto fix 功能失效 & 安裝舊版 vscode 插件
+author : Mark ku
 ---
 
 ## 問題

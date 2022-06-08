@@ -5,6 +5,8 @@ date:  2021-12-20 01:01:01 +0800
 image: translate.webp
 categories: Frontend
 tags: vue translate chinese Simplified Chinese convert
+description : Vue Cli 專案透過 chinese-language-loader 解決繁體自動轉換簡體問題
+author : Mark ku
 ---
 # Vue Cli 透過 chinese-language-loader 解決忘了繁體轉換簡體問題
 

@@ -5,6 +5,8 @@ date:  2022-05-15 01:01:01 +0800
 image: https.webp
 categories:  PowerShell
 tags: https  let's encrypt free https challenge Certificate Authority CA godaddy cloudflare powershell
+description : 使用 Powershell 達成 let's encrypt DNS 挑戰，取得 免費 https 憑證
+author : Mark ku
 ---
 
 ## 問題

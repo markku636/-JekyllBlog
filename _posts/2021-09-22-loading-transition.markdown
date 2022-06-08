@@ -5,6 +5,8 @@ date:  2021-09-22 01:01:01 +0800
 image:  loading.webp
 categories: Frontend
 tags:   vue loading vuex
+description : Vue 全域 / 非全域 Loading 的等待特效 ( 支援多個併發請求 )
+author : Mark ku
 ---
 # Vue 全域 / 非全域 Loading 的等待特效 ( 支援多個併發請求 )
 

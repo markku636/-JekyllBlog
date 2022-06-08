@@ -5,6 +5,8 @@ date:  2022-05-06 01:01:01 +0800
 image: memory-leak.webp
 categories: Frontend
 tags: keep alive clear dispose vuex include
+description : Vue 透過 include 及 Vuex 解決 keepAlive 難解的記憶體釋放問題
+author : Mark ku
 ---
 
 ## 問題

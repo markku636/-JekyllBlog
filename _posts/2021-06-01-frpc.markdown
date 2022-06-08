@@ -5,6 +5,8 @@ date:   2021-06-01 01:01:01 +0800
 image:  reverse-proxy.webp
 categories: Infra
 tags:   frp frp-c reverse proxy
+description : 透過frp-c 容器應用，簡單建立、高效能的內網穿透服務
+author : Mark ku
 ---
 # 透過frp-c 容器應用，簡單建立、高效能的內網穿透服務
 
