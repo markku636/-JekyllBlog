@@ -24,10 +24,10 @@
   
   <!-- Facebook Share -->
   {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
   {% endif %}
 
-  <meta property="og:description" content="{{ page.subtitle }}" />
+  <meta property="og:description" content="{{ page.title }}" />
 
   <style>
   {% capture include_to_scssify %}
