@@ -3,7 +3,7 @@ layout: post
 title:  透過 PowerShell 製作 JPG/ PNG 轉 webp 小工具 (使用 Google webp converter lib)
 date:   2021-08-07 01:01:01 +0800
 image:  webp_logo_webp.webp
-categories: Powershell
+categories:  PowerShell
 tags:   powershell webp converter powershell
 ---
 ## Webp 起緣

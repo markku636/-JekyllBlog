@@ -3,7 +3,7 @@ layout: post
 title: 使用 Powershell 達成 let's encrypt DNS 挑戰，取得 免費 https 憑證
 date:  2022-05-15 01:01:01 +0800
 image: https.webp
-categories: Powershell
+categories:  PowerShell
 tags: https  let's encrypt free https challenge Certificate Authority CA godaddy cloudflare powershell
 ---
 
