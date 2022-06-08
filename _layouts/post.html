@@ -32,14 +32,14 @@ layout: default
           </div>
             
 			{% if page.tags %}
+      <i class="ion-ios-pricetags icon-tags"></i>
 		  <div class="post__tags">
-              {% for tag in page.tags %}
-              <i class="ion-ios-pricetags icon-tags"></i>
+              {% for tag in page.tags %}              
             <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">
 			{{ tag }} 
 			</a>
-            {% endfor %}
-          </div>
+      {% endfor %}
+      </div>
           {% endif %}
         </div>
       </div>
