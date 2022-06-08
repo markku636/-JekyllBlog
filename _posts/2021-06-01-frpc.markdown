@@ -3,7 +3,7 @@ layout: post
 title:  透過frp-c 容器應用，簡單建立、高效能的內網穿透服務
 date:   2021-06-01 01:01:01 +0800
 image:  reverse-proxy.webp
-categories: 網路管理
+categories: Infra
 tags:   frp frp-c reverse proxy
 ---
 # 透過frp-c 容器應用，簡單建立、高效能的內網穿透服務

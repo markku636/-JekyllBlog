@@ -3,7 +3,7 @@ layout: post
 title:  給想去嘉明湖的一些事項參考事項
 date:   2020-03-29 15:01:35 +0800
 image:  jiaming-lake.webp
-categories: 旅行
+categories: Travel
 tags:   嘉明湖
 --- 
 
