@@ -95,17 +95,6 @@
   }
 }
 
-@media only screen and (max-width: 576px)
-{
- .post-image {
-   &:after {
-    content: "";
-    display: table;
-    width: 100%;
-    min-height: 200px;    
-  }
-  }
-}
 
 .post {
   margin: 80px auto;
