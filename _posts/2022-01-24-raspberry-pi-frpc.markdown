@@ -3,6 +3,7 @@ layout: post
 title:  樹莓派安裝 fprc 內網穿透用戶端 - Linux 筆記
 date:   2022-01-24 01:01:01 +0800
 image:  raspberry.webp
+categories: 網路管理
 tags:   frp frp-c reverse proxy raspberry pi os linux
 ---
 ## 解決問題

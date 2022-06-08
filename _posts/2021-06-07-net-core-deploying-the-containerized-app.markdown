@@ -3,6 +3,7 @@ layout: post
 title:  Net core 容器化部署
 date:   2021-06-06 01:01:01 +0800
 image:  dockernetcore.webp
+categories: NETCORE
 tags:   net-core docker-container
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  前端小遊戲，記憶體洩漏調效筆記
 date:   2022-01-24 01:01:01 +0800
 image:  animation-2.webp
+categories: 前端
 tags:   memory leak game animation
 ---
 

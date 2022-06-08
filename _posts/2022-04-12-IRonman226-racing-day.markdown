@@ -3,6 +3,7 @@ layout: post
 title: 軟體工程師的澎湖大鐵記實 - IRONMAN PENHU 226 - Part's 2  比賽日
 date:  2022-04-12 01:01:01 +0800
 image: ironman-2.webp
+categories: 鐵人三項
 tags: ironman pnehu 226 triathlon first last racing day 鐵人三項 三鐵
 ---
 

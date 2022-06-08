@@ -3,6 +3,7 @@ layout: post
 title: Vue 全域 / 非全域 Loading 的等待特效 ( 支援多個併發請求 )
 date:  2021-09-22 01:01:01 +0800
 image:  loading.webp
+categories: 前端
 tags:   vue loading vuex
 ---
 # Vue 全域 / 非全域 Loading 的等待特效 ( 支援多個併發請求 )

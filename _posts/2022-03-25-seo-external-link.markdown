@@ -3,6 +3,7 @@ layout: post
 title: 分析幾個知名網站被黑帽 SEO 的關鍵詞堆砌的問題
 date:  2022-03-25 01:01:01 +0800
 image: seo.webp
+categories: SEO
 tags: seo external link black hat query string inject
 ---
 

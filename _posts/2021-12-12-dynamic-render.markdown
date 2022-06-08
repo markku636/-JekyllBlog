@@ -3,6 +3,7 @@ layout: post
 title: 捲起袖子動手做 SEO Part's 3 - 來自 Google 的動態渲染工具 Rendertron for SEO
 date:  2021-12-12 01:01:01 +0800
 image: rendertron.webp
+categories: SEO
 tags: dynamic render seo google rendertron
 ---
 # 捲起袖子動手做 SEO Part's 3 - 來自 Google 的動態渲染工具 Rendertron for SEO
