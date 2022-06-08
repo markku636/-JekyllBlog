@@ -25,11 +25,7 @@ layout: default
           </div>
           {% endif %}
 		</div>
-        <div class="post__info">
-          <div class="post__author">
-            <span>By</span>
-            <a href="{{ site.web_site_domain }}/about" class="author-name">{{site.data.settings.author.name}}</a>
-          </div>
+        <div class="post__info">          
             
 			{% if page.tags %}
       <i class="ion-ios-pricetags icon-tags"></i>
@@ -42,6 +38,12 @@ layout: default
       </div>
           {% endif %}
         </div>
+		<div class="post__info"> 
+		<div class="post__author">
+            <span>By</span>
+            <a href="{{ site.web_site_domain }}/about" class="author-name">{{site.data.settings.author.name}}</a>
+          </div>
+		</div>
       </div>
     </div>
   </div>
