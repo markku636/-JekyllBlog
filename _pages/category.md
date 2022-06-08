@@ -4,20 +4,26 @@ permalink: /categories/
 title: 分類
 ---
 
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
+<div class="container">
+    <h2>所有分類</h2>
+</div>	
+<div class=" container">
+  <div class="categories-expo-list">
+    {% for category in site.categories %}
+    <a href="#{{ category[0] | slugify }}" class="post-category">{{ category[0] }}</a>
     {% endfor %}
   </div>
-{% endfor %}
+  <br/>
+  <div class="">
+    {% for category in site.categories %}	
+	<div class="">
+    <h3 id="{{ category[0] | slugify }}">{{ category[0] }}</h3>
+	</div>	
+    
+    {% for post in category[1] %}
+     {% include article-content.html %}
+    {% endfor %}
+    
+    {% endfor %}
+  </div>
 </div>
