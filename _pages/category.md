@@ -37,5 +37,6 @@ permalink: /categories/
 .site-tag a {
     display: inline-block;
     margin-right: 12px;
+    font-size:16px;
 }
 </style>
