@@ -3,7 +3,7 @@ layout: post
 title:  提前強制更新各家 DNS Cache 
 date:   2022-06-06 01:01:35 +0800
 image:  dns.webp
-categories: Infra
+categories: Infra test
 tags:   dns cache clear 
 ---
 ## 前言
