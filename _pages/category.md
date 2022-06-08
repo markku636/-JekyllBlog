@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /categories/
-title: 大分類
+title: 分章分類
 ---
 
 <div class="container">
