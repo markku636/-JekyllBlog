@@ -5,8 +5,6 @@ date:   2021-06-03 15:01:35 +0800
 image:  chocolatey.svg
 categories:  PowerShell
 tags:   powershell chocolatey docker powershell
-description : 用Power shell 及 chocolatey 撰寫自動化安裝應用程式及工具腳本
-author : Mark ku
 ---
 # 用Power shell 安裝 Docker with chocolatey
 

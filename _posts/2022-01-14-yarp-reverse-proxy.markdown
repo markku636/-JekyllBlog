@@ -5,8 +5,6 @@ date:  2022-01-14 01:01:01 +0800
 image: balance.webp
 categories: Infra
 tags: yarp reverse proxy load balance
-description : 用微軟的開源的 YARP 反向代理打造專屬的負載平衡軟體及多功能網關
-author : Mark ku
 ---
 # 用微軟的開源的 YARP 反向代理打造專屬的負載平衡軟體及多功能網關
 ## 前言

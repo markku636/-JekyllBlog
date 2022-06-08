@@ -5,8 +5,6 @@ date:   2022-02-06 01:01:01 +0800
 image:  dt2x.webp
 categories: NETCORE
 tags:   raspberry pi run net core  label-printer 4B receipt-printer
-description : 在樹莓派上運行 Net Core 應用程式，控制熱感式出單機及標籤機
-author : Mark ku
 ---
 
 # 在樹莓派上運行 Net Core 應用程式，控制熱感式出單機及標籤機

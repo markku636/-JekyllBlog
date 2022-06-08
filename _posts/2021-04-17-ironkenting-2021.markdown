@@ -5,8 +5,6 @@ date:   2021-04-15 15:01:35 +0800
 image:  ironman-kenting.webp
 categories: Triathlon
 tags:   ironman kenting triathlon 70.3 鐵人三項 三鐵
-description : IRonman Kenting 70.3 2021 賽事補給策略及風險應對
-author : Mark ku
 ---
 
 # IRonman 70.3 Kenting 

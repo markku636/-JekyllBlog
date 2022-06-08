@@ -5,8 +5,6 @@ date:   2022-05-27 01:01:01 +0800
 image:  stream.webp
 categories: Frontend
 tags:   直播, streaming
-description : 直播網站實戰開發筆記 Part's 2 - 打造自己的直播播放器
-author : Mark ku
 ---
 # 用 Vue 動手打造個人專屬的前端直播播放器的採用( hls.js )
 ## 前言

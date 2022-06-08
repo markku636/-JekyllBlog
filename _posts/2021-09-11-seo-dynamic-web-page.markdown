@@ -5,8 +5,6 @@ date:   2021-09-11 01:01:01 +0800
 image:  seo2.webp
 categories: SEO
 tags:   seo google ssr prerender dynamic render Rendertron
-description : 捲起袖子動手做 SEO Part's 2 - 優化動態網站對 Google 搜尋引擎的爬蟲友善度
-author : Mark ku
 ---
 # SEO Part 2 優化動態網站對 Google 搜尋引擎的爬蟲友善度
 ## 動態網站對 SEO 的影響

@@ -5,8 +5,6 @@ date:  2021-10-20 01:01:01 +0800
 image: debug.webp
 categories: Frontend
 tags: node Js  vue cli   Webpack plugin Vscode 除錯 debugger 筆記
-description : Node Js / Vue cli / Webpack plugin Vscode 除錯筆記
-author : Mark ku
 ---
 
 # Node Js / Vue cli  / Webpack plugin Vscode除錯筆記

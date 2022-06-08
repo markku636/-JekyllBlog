@@ -5,8 +5,6 @@ date:  2021-09-27 01:01:01 +0800
 image:  frontend-rendering-performance-issue.webp
 categories: Frontend
 tags: frontend-large-data-rendering 
-description : 解決前端渲染大量資料渲染效能問題
-author : Mark ku
 ---
 ## 問題
 在某些情況下，有些頁面需要顯示大量的資料 ，但因為資料量大太，渲染及執行過程中，瞬間造成瀏覽器卡頓或不回應。

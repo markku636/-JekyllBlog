@@ -5,8 +5,6 @@ date:  2022-01-17 01:01:01 +0800
 image: defense-ddos.webp
 categories: Security
 tags: ddos prevent ddos 
-description : DDOS 防禦筆記
-author : Mark ku
 ---
 ## 解決問題
 在網站上線後，多多少少都會遇到 DDOS 攻擊，整理了一些常見防範 DDOS 的方式，可以在 PROXY SERVER 或 API Gateway 實作，以下這些防範 DDOS 的邏輯。

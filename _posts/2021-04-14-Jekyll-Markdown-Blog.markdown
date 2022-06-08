@@ -5,8 +5,6 @@ date:   2021-04-14 15:01:35 +0800
 image:  jekyll.webp
 categories: Infra
 tags:   Jekyll
-description : 用Qnap Nas 的 Container Station 架設自己的 Jekyll Markdown Blog
-author : Mark ku
 ---
 # 用Qnap Nas Container Station 架設自己的 Jekyll Markdown Blog
 

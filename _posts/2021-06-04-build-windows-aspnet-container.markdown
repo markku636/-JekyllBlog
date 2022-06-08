@@ -5,8 +5,6 @@ date:   2021-06-04 15:01:35 +0800
 image:  windows-docker.webp
 categories: NETCORE
 tags:   windows docker aspnet website
-description : 使用 Windows Docker 來建立ASP.NET 網站容器
-author : Mark ku
 ---
 ## 安裝 windows Docker 相關軟體
 1.power shell 安裝 docker 需要的相關軟體 (需系統管理員方式執行)

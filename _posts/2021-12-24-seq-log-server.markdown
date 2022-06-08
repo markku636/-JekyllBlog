@@ -5,8 +5,6 @@ date:  2021-12-24 01:01:01 +0800
 image: seq.webp
 categories: NETCORE
 tags: log server  ELK Exceptionless Seq Splunk qnap docker nlog net core
-description : Qnap Docker Station 架設 輕量級日誌儲存、查詢、分析 日誌服務(Seq log server) - 本篇以 Net Core + Nlog 為例
-author : Mark ku
 ---
 # Qnap Docker Station 架設 輕量級日誌儲存、查詢、分析 日誌服務(Seq log server) - 本篇以 Net Core + Nlog 為例
 

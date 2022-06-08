@@ -5,8 +5,6 @@ date:   2021-04-15 15:01:35 +0800
 image:  release_note.webp
 categories:  PowerShell
 tags:   release notes powershell
-description : 優化開發流程系列，再也不用人工撰寫 Release Notes，本篇用Powershell 搭配 git log
-author : Mark ku
 ---
 # 優化開發流程系列，再也不用人工撰寫 Release Notes，本篇用Powershell 及 git log
 

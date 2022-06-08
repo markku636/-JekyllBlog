@@ -5,8 +5,6 @@ date:   2021-06-19 01:01:01 +0800
 image:  i18n.webp
 categories:  PowerShell
 tags:   powershell i18n語系檔 google sheet powershell
-description : 透過 PowerShell 下載 google sheet，產生 i18n 多語系翻譯 Json 檔
-author : Mark ku
 ---
 # 透過 PowerShell 下載 google sheet，產生 i18n 多語系翻譯 Json 檔
 

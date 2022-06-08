@@ -5,8 +5,6 @@ date:  2021-12-27 01:01:01 +0800
 image: certbot.webp
 categories: Infra
 tags: ssl certbot windows
-description : Windows Certbot 自動申請 Let’s Encrypt 免費的 SSL憑證筆記
-author : Mark ku
 ---
 # Windows Certbot 自動申請 Let’s Encrypt SSL憑證筆記
 

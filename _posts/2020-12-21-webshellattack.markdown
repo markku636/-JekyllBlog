@@ -5,8 +5,6 @@ date:   2020-12-21 15:01:35 +0300
 image:  webshellattack.webp
 categories: Security
 tags:   Resources
-description : 防範WebShell Attack
-author : Mark ku
 ---
 
 # 資安問題處理

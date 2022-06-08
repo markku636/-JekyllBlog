@@ -5,8 +5,6 @@ date:   2021-06-06 01:01:01 +0800
 image:  dockernetcore.webp
 categories: NETCORE
 tags:   net-core docker-container
-description : Net core 容器化部署
-author : Mark ku
 ---
 
 ## 首先開啟 Visual Studio ，對要佈署的專案右鍵 > 加入 > 容器化支援(此時就會在 該專案檔目錄產生一個 DockerFile)

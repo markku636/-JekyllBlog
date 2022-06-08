@@ -5,8 +5,6 @@ date:  2022-03-15 01:01:01 +0800
 image: ironman226.webp
 categories: Triathlon
 tags: ironman pnehu 226 triathlon prepare 鐵人三項 三鐵
-description : 軟體工程師的澎湖大鐵記實 - IRONMAN PENHU 226 - Part's 1 準備心歷路程
-author : Mark ku
 ---
 
 # 我的澎湖大鐵記實 - IRONMAN PENHU 226 - Part's 1 準備心歷路程

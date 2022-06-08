@@ -5,8 +5,6 @@ date:   2020-03-29 15:01:35 +0800
 image:  jiaming-lake.webp
 categories: Travel
 tags:   嘉明湖
-description : 給想去嘉明湖的一些事項參考事項
-author : Mark ku
 --- 
 
 # 給想去嘉明湖的一些事項參考事項

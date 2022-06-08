@@ -5,8 +5,6 @@ date:   2020-07-24 15:01:35 +0300
 image:  jwt.webp
 categories: Frontend
 tags:   Resources
-description : 實作JWT驗證所遇到的問題
-author : Mark ku
 ---
 
 # 實作JWT驗證所遇到的問題

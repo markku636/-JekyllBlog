@@ -5,8 +5,6 @@ date:  2021-12-31 01:01:01 +0800
 image: windows-docker.webp
 categories:  PowerShell
 tags: qnap powershell net core  Container Station deploy deployed powershell
-description : Powershell 一鍵遠端部署容器應用 - NET CORE  建置部署至Qnap Docker Container Station
-author : Mark ku
 ---
 # Powershell 一鍵遠端部署容器應用 - NET CORE  建置部署至Qnap Docker Container Station
 

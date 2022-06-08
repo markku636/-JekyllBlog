@@ -5,8 +5,6 @@ date:   2021-07-21 01:01:01 +0800
 image:  stream.webp
 categories: Cloud
 tags:   直播, streaming
-description : 直播網站實戰開發筆記 - 使用阿里雲
-author : Mark ku
 ---
 # 直播網站實戰開發筆記 - 使用阿里雲
 ## 談到直播就必需先了解推流與拉流

@@ -5,8 +5,6 @@ date:   2021-09-09 01:01:01 +0800
 image:  vue-intellisense.webp
 categories: Frontend
 tags:   vue intellisense
-description : Vue(Non Type Script) 搭配 VsCode 配置，像 Typescript 般，在專案開發時擁有自動智慧提示
-author : Mark ku
 ---
 # Vue(Non Type Script) 搭配 VsCode 配置，像 Typescript 般，在專案開發時擁有自動智慧提示
 ## 問題

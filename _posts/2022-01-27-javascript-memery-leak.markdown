@@ -5,8 +5,6 @@ date:   2022-01-24 01:01:01 +0800
 image:  animation-2.webp
 categories: Frontend
 tags:   memory leak game animation
-description : 前端小遊戲，記憶體洩漏調效筆記
-author : Mark ku
 ---
 
 ## 問題

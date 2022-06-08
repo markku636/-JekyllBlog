@@ -5,8 +5,6 @@ date:  2022-04-12 01:01:01 +0800
 image: ironman-2.webp
 categories: Triathlon
 tags: ironman pnehu 226 triathlon first last racing day 鐵人三項 三鐵
-description : 軟體工程師的澎湖大鐵記實 - IRONMAN PENHU 226 - Part's 2  比賽日
-author : Mark ku
 ---
 
 #### 在開賽前二天 - 一大早帶著我的行李飛往澎湖
