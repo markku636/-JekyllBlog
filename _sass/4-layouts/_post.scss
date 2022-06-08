@@ -40,6 +40,26 @@
       }
     }
   }
+  
+  .post__categories {
+   .post__category {
+     position: relative;
+     padding-left: 15px;
+     font-weight: 700;
+     &:before {
+       content: "";
+       position: absolute;
+       top: 50%;
+       left: 0;
+       transform: translateY(-50%);
+       width: 5px;
+       height: 5px;
+       border-radius: 50%;
+       background: $dark;
+     }
+   } 
+  }
+  
 
   .post__tags {
    .post__tags-tag {
@@ -78,10 +98,13 @@
 @media only screen and (max-width: 576px)
 {
  .post-image {
+   &:after {
+    content: "";
+    display: table;
+    width: 100%;
     min-height: 200px;    
   }
-}
-
+  }
 }
 
 .post {

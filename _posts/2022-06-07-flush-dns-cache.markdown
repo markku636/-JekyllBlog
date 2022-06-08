@@ -4,19 +4,20 @@ title:  提前強制更新各家 DNS Cache
 date:   2022-06-06 01:01:35 +0800
 image:  dns.webp
 tags:   dns cache clear 
+categories: dns cache clear 
 ---
 ## 前言
 在某次將 DNS 主機託管 Cloud Falre 時，發現中華電信的 DNS 一直無法更新，調查研究有沒有什麼辦法提前讓 DNS 生效，僅限於比較大的國際 DNS 服務商的主機，才有提供提手動清除的功能，寫這篇的目的就是做個記錄。
 
 ## DNS 相關工具
 用來檢查全球 DNS 伺服器中是否能夠解析成功及測試的小工具
-DNSChecke : https://dnschecker.org/  
-OpenDNS CacheCheck : https://cachecheck.opendns.com/  
-DNS 效能測試工具 https://www.dnsperf.com/  
+DNSChecke : [連結](https://dnschecker.org/)  
+OpenDNS CacheCheck : [連結](https://cachecheck.opendns.com/) 
+DNS 效能測試工具 : [連結](https://www.dnsperf.com/) 
 
 ## 清除 DNS 快取
-Google(1.1.1.1) - Flush Cache : https://developers.google.com/speed/public-dns/cache  
-Purge Cache(CloudFlare) : https://1.1.1.1/purge-cache/  
+Google(1.1.1.1) - Flush Cache : [連結](https://developers.google.com/speed/public-dns/cache  ) 
+Purge Cache(CloudFlare) : [連結](https://1.1.1.1/purge-cache/) 
 中華電信 168.95.1.1 : 不提供，只能靜等24小時(台灣 ISP 太落後了，很多都沒支援 API，或讓用戶更方便的功能)  
 
 ## Windows清除本機DNS Cache 的方法
@@ -26,4 +27,4 @@ ipconfig /flushdn
 ```
 
 ## 參考資料
-https://study.smallway.tw/other/6195/
+[參考資料1](https://study.smallway.tw/other/6195/)

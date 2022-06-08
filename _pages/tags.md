@@ -4,7 +4,7 @@ permalink: /tags/
 ---
 <div class="arhive-head">
   <div class="container">
-    <h1 class="archive-title">Tag: <span id="tagName"></span></h1>
+    <h1 class="archive-title">標籤: <span id="tagName"></span></h1>
   </div>
  </div>
   
