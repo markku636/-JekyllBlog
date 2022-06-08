@@ -14,8 +14,7 @@ paginate: 5
 paginate_path: "/page/:num"
 
 # route
-permalink: /:year/:month/:day/:title:output_ext
-
+permalink: /:year/:month/:day/:title
 
 # Pages Path
 defaults:
