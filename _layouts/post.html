@@ -11,7 +11,11 @@ layout: default
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
 		<div class="post__info">
-    <i class="ion-md-bookmarks icon-categories"></i>
+		<div class="post__author">
+           <span>By</span>
+           <a href="{{ site.web_site_domain }}/about" class="author-name">{{site.data.settings.author.name}}</a>
+         </div>
+		<i class="ion-md-bookmarks icon-categories"></i>
 		<div class="post__categories">      
       <span>大分類</span>                        
         </div>
@@ -25,11 +29,11 @@ layout: default
           </div>
           {% endif %}
 		</div>
-        <div class="post__info">          
+        <div class="post__info">   
             
 			{% if page.tags %}
 			<i class="ion-ios-pricetags icon-tags"></i>
-		  <div class="post__tags">
+		    <div class="post__tags">
               {% for tag in page.tags %}              
             <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">
 			{{ tag }} 
