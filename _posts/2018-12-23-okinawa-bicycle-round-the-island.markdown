@@ -3,7 +3,7 @@ layout: post
 title:  海外自助單車旅遊 Part 1 - 單車環沖繩心得
 date:   2018-12-23 15:01:35 +0800
 image:  okinawa.webp
-categories: Travel
+categories1: Travel
 tags:   海外自助單車旅遊
 --- 
 

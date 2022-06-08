@@ -3,7 +3,7 @@ layout: post
 title:  面試官筆記
 date:   2020-07-24 15:01:35 +0300
 image:  interview.webp
-categories: Frontend
+categories1: Frontend
 tags:   interview
 ---
 

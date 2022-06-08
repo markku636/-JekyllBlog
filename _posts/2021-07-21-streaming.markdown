@@ -3,7 +3,7 @@ layout: post
 title:  直播網站實戰開發筆記 - 使用阿里雲
 date:   2021-07-21 01:01:01 +0800
 image:  stream.webp
-categories: Cloud
+categories1: Cloud
 tags:   直播, streaming
 ---
 # 直播網站實戰開發筆記 - 使用阿里雲

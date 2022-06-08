@@ -3,7 +3,7 @@ layout: post
 title: Node Js / Vue cli / Webpack plugin Vscode 除錯筆記
 date:  2021-10-20 01:01:01 +0800
 image: debug.webp
-categories: Frontend
+categories1: Frontend
 tags: node Js  vue cli   Webpack plugin Vscode 除錯 debugger 筆記
 ---
 

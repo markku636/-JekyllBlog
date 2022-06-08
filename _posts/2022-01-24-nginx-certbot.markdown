@@ -3,7 +3,7 @@ layout: post
 title:  Qnap Docker Station 建立 nginx-certbot 容器應用，幫您自動延展 letsencrypt 免費 https 憑證
 date:   2022-01-24 01:01:01 +0800
 image:  certbot.webp
-categories: Infra
+categories1: Infra
 tags:   nginx-certbot https  letsencrypt
 ---
 ## 解決問題

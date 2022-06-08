@@ -3,7 +3,7 @@ layout: post
 title:  海外自助單車旅遊 Part 2 - MT 16 Fuji Hill climp 心得
 date:   2019-06-10 15:01:35 +0800
 image:  fuji.webp
-categories: Travel
+categories1: Travel
 tags:   海外自助單車旅遊
 ---
 # 海外自助單車旅遊 Part 2 - MT 16 Fuji Hill climp 心得

@@ -3,7 +3,7 @@ layout: post
 title:  Net core 應用程式，透過 Frpc 內網穿透時，取得用戶端真實 IP 
 date:   2022-01-23 01:01:01 +0800
 image:  reverse-proxy.webp
-categories: NETCORE
+categories1: NETCORE
 tags:   frp frp-c reverse proxy real ip proxy protocol
 ---
 

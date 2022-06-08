@@ -3,7 +3,7 @@ layout: post
 title:  用Power shell 及 chocolatey 撰寫自動化安裝應用程式及工具腳本
 date:   2021-06-03 15:01:35 +0800
 image:  chocolatey.svg
-categories:  PowerShell
+categories1:  PowerShell
 tags:   powershell chocolatey docker powershell
 ---
 # 用Power shell 安裝 Docker with chocolatey

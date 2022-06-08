@@ -3,7 +3,7 @@ layout: post
 title: 開源易用的網站監控工具 - uptime-kuma ，並支援多種方式發送通知
 date:  2021-12-12 01:01:01 +0800
 image:  uptime-kuma.webp
-categories: DevOps
+categories1: DevOps
 tags: uptime-kuma node js vue docker Uptime Robot telegram bot  monitoring tool
 ---
 ## uptime-kuma 監控應用工具

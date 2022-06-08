@@ -4,7 +4,7 @@ title:  樹莓派安裝 FRP SERVER
 date:   2022-02-03 01:01:01 +0800
 image:  reverse-proxy.webp
 tags:   frp frp-c reverse proxy
-categories: Infra
+categories1: Infra
 ---
 # 樹莓派安裝 FRP SERVER
 ## 解決問題

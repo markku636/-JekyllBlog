@@ -3,7 +3,7 @@ layout: post
 title:  直播網站實戰開發筆記 Part's 2 - 打造自己的直播播放器
 date:   2022-05-27 01:01:01 +0800
 image:  stream.webp
-categories: Frontend
+categories1: Frontend
 tags:   直播, streaming
 ---
 # 用 Vue 動手打造個人專屬的前端直播播放器的採用( hls.js )

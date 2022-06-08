@@ -3,7 +3,7 @@ layout: post
 title: 別讓第三方的 JS，拖慢網站首頁加載的速度 - Facebook Chat SDK 串接優化筆記
 date:  2022-05-02 01:01:01 +0800
 image: facebook.webp
-categories: Frontend
+categories1: Frontend
 tags: facebook message js enhance  chat sdk
 ---
 # 別讓第三方的 JS，拖慢網站首頁加載的速度 - Facebook Chat SDK 串接優化筆記

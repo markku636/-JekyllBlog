@@ -3,7 +3,7 @@ layout: post
 title:  SameSite Issue
 date:   2020-12-21 15:01:35 +0300
 image:  samesite.webp
-categories: Frontend
+categories1: Frontend
 tags:   Resources
 ---
 # 關於SameSite Cookie Issue 

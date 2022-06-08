@@ -3,7 +3,7 @@ layout: post
 title:  透過 Powershell 部署 SQL 腳本到多個網站的資料庫
 date:   2021-06-05 01:01:01 +0800
 image:  implementing-a-automated-database-deployment.webp
-categories:  PowerShell
+categories1:  PowerShell
 tags:   implementing-a-automated-database-deployment sql database multi-site database-deployment powershell
 ---
 

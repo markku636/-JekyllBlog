@@ -3,7 +3,7 @@ layout: post
 title: 捲起袖子動手做 SEO Part's 2 - 優化動態網站對 Google 搜尋引擎的爬蟲友善度
 date:   2021-09-11 01:01:01 +0800
 image:  seo2.webp
-categories: SEO
+categories1: SEO
 tags:   seo google ssr prerender dynamic render Rendertron
 ---
 # SEO Part 2 優化動態網站對 Google 搜尋引擎的爬蟲友善度
