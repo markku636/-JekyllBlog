@@ -43,12 +43,13 @@
       &:hover {
         border-bottom: 1px solid $gray;
       }
-    }
-
-    .icon-categories, .icon-tags{
-      color: #bbb;
     }    
   }  
+  
+  .icon-categories, .icon-tags{
+    color: #bbb !important;
+  }    
+
 
   .post__tags {
    .post__tags-tag {
