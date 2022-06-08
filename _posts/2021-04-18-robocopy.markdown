@@ -3,7 +3,7 @@ layout: post
 title:  用 Power shell 跳窗指定複製的資料夾
 date:   2021-05-03 15:01:35 +0800
 image:  robocopy.webp
-categories1:  PowerShell
+categories:  PowerShell
 tags:   opendialog robocopy powershell
 ---
 

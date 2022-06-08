@@ -3,7 +3,7 @@ layout: post
 title: 擴充 inobounce.js 套件，支援橫向滑動，處理 iOS 橡皮筋行為
 date:  2021-12-13 01:01:01 +0800
 image: ios-bounce.webp
-categories1: Frontend
+categories: Frontend
 tags: inobounce iOS bounce
 ---
 

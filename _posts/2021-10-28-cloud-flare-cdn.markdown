@@ -3,7 +3,7 @@ layout: post
 title:  將你的網站，配置 Could Flare 國際級 CDN
 date:   2021-10-28 01:01:35 +0800
 image:  cloudflare.webp
-categories1: Infra
+categories: Infra
 tags: Could flare cdn
 ---
 # 將你的網站，配置 Could Flare 國際級 CDN

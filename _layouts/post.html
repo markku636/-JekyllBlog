@@ -11,14 +11,14 @@ layout: default
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
 		<div class="post__info">
-    <i class="ion-md-bookmarks icon-categories1"></i>
-		<div class="post__categories1">      
+    <i class="ion-md-bookmarks icon-categories"></i>
+		<div class="post__categories">      
       <span>大分類</span>                        
         </div>
-		 {% if page.categories1 %}
+		 {% if page.categories %}
 		  <div class="post__tags">
-       {% for category in page.categories1 %}              
-      <a href="{{ site.baseurl }}/categories1/#{{ category | slugify }}" class="post-tag">
+       {% for category in page.categories %}              
+      <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="post-tag">
 			{{ category }} 
 			</a>
             {% endfor %}

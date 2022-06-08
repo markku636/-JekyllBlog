@@ -3,7 +3,7 @@ layout: post
 title:  防範WebShell Attack
 date:   2020-12-21 15:01:35 +0300
 image:  webshellattack.webp
-categories1: Security
+categories: Security
 tags:   Resources
 ---
 

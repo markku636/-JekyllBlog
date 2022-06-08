@@ -3,7 +3,7 @@ layout: post
 title:  用 Google Cloud Platform 搭建內網穿透伺服器 ( Frp Server ) 
 date:   2021-07-22 01:01:01 +0800
 image:  reverse-proxy.webp
-categories1: Cloud
+categories: Cloud
 tags:   frp frp-c reverse proxy
 ---
 # 反向代理之 Part2 - 用 Google cloud platform 搭建內網穿透反向代理伺服器 ( Frp Server )

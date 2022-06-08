@@ -3,7 +3,7 @@ layout: post
 title:  Nuget CLI 常用指令
 date:   2021-04-14 15:01:35 +0800
 image:  nuget.webp
-categories1: NETCORE
+categories: NETCORE
 tags:   nuget
 ---
 # Nuget CLI 常用指令

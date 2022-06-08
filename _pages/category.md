@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /categories1/
+permalink: /categories/
 title: 文章分類
 ---
 
@@ -8,9 +8,9 @@ title: 文章分類
     <h2>所有分類</h2>
 </div>	
 <div class="container">
-  <div class="categories1-expo-list container">
-  {% assign categories1 = site.categories1 | sort %}
-	{% for category in categories1 %}
+  <div class="categories-expo-list container">
+  {% assign categories = site.categories | sort %}
+	{% for category in categories %}
 	<span class="site-tag">
     <a href="#{{ category[0] | slugify }}"
         style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
@@ -21,7 +21,7 @@ title: 文章分類
   </div>
   <br/>
   <div class="">
-  {% for category in categories1 %}	
+  {% for category in categories %}	
 	<div class="container">
     <h3 id="{{ category[0] | slugify }}">{{ category[0] }}</h3>
 	</div>	

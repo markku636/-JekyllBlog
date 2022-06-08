@@ -3,7 +3,7 @@ layout: post
 title: 申請 Line messaging api for uptime-kuma 服務監控異常通知
 date:  2022-01-04 01:01:01 +0800
 image:  uptime-kuma.webp
-categories1: DevOps
+categories: DevOps
 tags: line messaging uptime kuma notify 
 ---
 # 申請 Line messaging api for uptime-kuma 服務監控異常通知

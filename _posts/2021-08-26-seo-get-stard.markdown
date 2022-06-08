@@ -3,7 +3,7 @@ layout: post
 title: 捲起袖子動手做 SEO Part's 1 - 開始優化你的網站的 SEO
 date:   2021-08-26 01:01:01 +0800
 image:  seo.webp
-categories1: SEO
+categories: SEO
 tags:   seo google
 ---
 # SEO - 捲起袖子動手做 - 優化網站的 SEO - Get Started Part's 1

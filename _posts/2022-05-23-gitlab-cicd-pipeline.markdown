@@ -3,7 +3,7 @@ layout: post
 title: 輕量化且免費，適用小團隊的 CICD - 使用 Gitlab Pipeline 及 地端 Gitlab Runner 
 date:  2022-05-23 01:01:01 +0800
 image: gitlab-runner.webp
-categories1: DevOps
+categories: DevOps
 tags: cicd gitlab free pipeline gitlab runner notify dotnet auto build auto deploy
 ---
 # 輕量化且免費，適用小團隊的 CICD - 使用 Gitlab Pipeline 及 地端 Gitlab Runner 

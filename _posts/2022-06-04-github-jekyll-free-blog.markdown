@@ -4,7 +4,7 @@ title:  超省錢架站法，透過 GitHub Pages + JeKyll，搭建自己免費 B
 date:   2022-06-04 01:01:35 +0800
 image:  jekyll.webp
 tags:   Jekyll
-categories1: Infra
+categories: Infra
 description : A short description of the page's content
 author : Mark ku
 keywords : test

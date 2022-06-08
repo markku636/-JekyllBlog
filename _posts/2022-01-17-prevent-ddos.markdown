@@ -3,7 +3,7 @@ layout: post
 title: DDOS 防禦筆記
 date:  2022-01-17 01:01:01 +0800
 image: defense-ddos.webp
-categories1: Security
+categories: Security
 tags: ddos prevent ddos 
 ---
 ## 解決問題
