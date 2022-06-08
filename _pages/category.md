@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /categories/
-title: 分類目錄
+title: 分類
 ---
 
 <div id="archives">

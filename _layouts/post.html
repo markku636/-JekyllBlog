@@ -11,6 +11,9 @@ layout: default
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
 		<div class="post__info">
+		<div class="post__author">
+            <span>大分類</span>            
+         </div>
 		 {% if page.categories %}
 		  <div class="post__tags">
               {% for category in page.categories %}
