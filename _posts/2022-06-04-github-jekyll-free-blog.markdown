@@ -4,7 +4,10 @@ title:  超省錢架站法，透過 GitHub Pages + JeKyll，搭建自己免費 B
 date:   2022-06-04 01:01:35 +0800
 image:  jekyll.webp
 tags:   Jekyll
+
 description : A short description of the page's content
+author : Mark ku
+keywords : test
 ---
 ## 問題
 因為身邊很多，想和我一樣，擁有一個個人的網站，但架一個網站，光是放在雲端空間，至少費用4000元 以上，但也不是每個人都像我有自己的伺服器，因此，今天我想來寫一篇超省錢的架站法。
