@@ -13,7 +13,7 @@ layout: default
 		<div class="post__info">
 		<div class="post__categories">
             <span>大分類</span>            
-            <i class="ion-md-bookmarks"></i>
+            <i class="ion-md-bookmarks icon-categories"></i>
         </div>
 		 {% if page.categories %}
 		  <div class="post__tags">
@@ -34,7 +34,7 @@ layout: default
 			{% if page.tags %}
 		  <div class="post__tags">
               {% for tag in page.tags %}
-              <i class="ion-ios-pricetags"></i>
+              <i class="ion-ios-pricetags icon-tags"></i>
             <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">
 			{{ tag }} 
 			</a>

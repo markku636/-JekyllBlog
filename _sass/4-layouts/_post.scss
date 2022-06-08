@@ -38,12 +38,16 @@
     font-weight: 700;
     
     .author-name {
-      color: $gray;
+      color: #6c6868;
       border-bottom: 1px solid transparent;
       &:hover {
         border-bottom: 1px solid $gray;
       }
     }
+
+    .icon-categories, .icon-tags{
+      color: #bbb;
+    }    
   }  
 
   .post__tags {
