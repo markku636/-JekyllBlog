@@ -78,3 +78,4 @@ zolan/_config.yml => 網站設置，可調整分頁大小
 zolan/_layouts/ => 如果懂一些 html 可以調整板型  
 ### 先前文章，在容器中架設JeKyll [連結](https://blog.markkulab.net/2021/04/14/Jekyll-Markdown-Blog/)
 
+### github jekyll-tagging 是無法使用的，主因為 github 不允許這個套件，如想要一個分類頁或標籤，可以選擇自己刻 [連結](http://bunchpost.site/jekyll/2018/07/08/step-jekyll-category-in-3teps.html?fbclid=IwAR304KV4xHSYgFP2AISx_Jj-JOv6QTsRIqygYqGBBOooWN9_NI-pAcdtjIg#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2)
