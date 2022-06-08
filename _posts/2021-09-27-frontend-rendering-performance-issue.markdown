@@ -3,7 +3,7 @@ layout: post
 title: 解決前端渲染大量資料渲染效能問題
 date:  2021-09-27 01:01:01 +0800
 image:  frontend-rendering-performance-issue.webp
-categories: 前端
+categories: Frontend
 tags: frontend-large-data-rendering 
 ---
 ## 問題

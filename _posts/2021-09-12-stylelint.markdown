@@ -3,7 +3,7 @@ layout: post
 title: Stylelint - 提昇讓你的專案中的 CSS 樣式，擁有像 Eslint 的自動排版及檢查錯誤
 date:  2021-09-15 01:01:01 +0800
 image:  stylelint.webp
-categories: 前端
+categories: Frontend
 tags:   vue style lint scss
 ---
 # Stylelint - 提昇讓你的專案中的 CSS 樣式，擁有像 Eslint 的自動排版及檢查錯誤
