@@ -7,7 +7,7 @@ title: 文章分類
 <div class="container">
     <h2>所有分類</h2>
 </div>	
-<div class=" container">
+<div class="container">
   <div class="categories-expo-list container">
   {% assign categories = site.categories | sort %}
 	{% for category in categories %}
@@ -21,7 +21,6 @@ title: 文章分類
   </div>
   <br/>
   <div class="">
-  {% assign categories = site.categories | sort %}
   {% for category in categories %}	
 	<div class="container">
     <h3 id="{{ category[0] | slugify }}">{{ category[0] }}</h3>
