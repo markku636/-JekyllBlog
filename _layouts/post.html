@@ -12,13 +12,12 @@ layout: default
         <h1 class="post-title">{{ page.title | escape }}</h1>
 		<div class="post__info">
 		<div class="post__categories">
-            <span>分類</span>            
+            <span><i class="ion-md-bookmark"></i>大分類</span>            
          </div>
 		 {% if page.categories %}
 		  <div class="post__tags">
-              {% for category in page.categories %}
-			  
-            <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="post-tag">
+       {% for category in page.categories %}              
+      <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="post-tag">
 			{{ category }} 
 			</a>
             {% endfor %}
@@ -34,7 +33,7 @@ layout: default
 			{% if page.tags %}
 		  <div class="post__tags">
               {% for tag in page.tags %}
-			  
+              <i class="ion-ios-pricetag"></i>
             <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">
 			{{ tag }} 
 			</a>
