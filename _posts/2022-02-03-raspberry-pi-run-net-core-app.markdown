@@ -3,7 +3,7 @@ layout: post
 title:  樹莓派 4B 運行 net core 6.0 應用程式及網站
 date:   2022-02-03 01:01:01 +0800
 image:  raspberry-2.webp
-categories: NET CORE
+categories: NETCORE
 tags:   raspberry pi run net core  web site 4B
 ---
 # 樹莓派 4B 運行 net core 6.0 應用程式及網站
