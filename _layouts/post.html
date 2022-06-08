@@ -11,14 +11,14 @@ layout: default
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
 		<div class="post__info">
-		<div class="post__author">
-            <span>大分類</span>            
+		<div class="post__categories">
+            <span>分類</span>            
          </div>
 		 {% if page.categories %}
 		  <div class="post__tags">
               {% for category in page.categories %}
 			  
-            <a href="{{ site.baseurl }}/tags/#{{ category | slugify }}" class="post-tag">
+            <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="post-tag">
 			{{ category }} 
 			</a>
             {% endfor %}
