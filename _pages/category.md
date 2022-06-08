@@ -21,12 +21,12 @@ title: 文章分類
   </div>
   <br/>
   <div class="">
-    {% for category in site.categories %}	
+    {% for category in site.categories | sort %}	
 	<div class="container">
     <h3 id="{{ category[0] | slugify }}">{{ category[0] }}</h3>
 	</div>	
     
-    {% for post in category[1] %}
+    {% for post in category[1] | sort %}
      {% include article-content.html %}
     {% endfor %}
     
