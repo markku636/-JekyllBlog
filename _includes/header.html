@@ -27,21 +27,6 @@
               <li class="nav__item">
                 <a href="{{site.baseurl}}/" class="nav__link">首頁</a>
               </li>
-              <li class="nav__item">
-                <a href="{{site.baseurl}}/categories/#frontend" class="nav__link">前端開發</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{site.baseurl}}/categories/#PowerShell" class="nav__link">PowerShell</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{site.baseurl}}/categories/#devops" class="nav__link">DevOps</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{site.baseurl}}/categories/#SEO" class="nav__link">SEO</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{site.baseurl}}/categories/#SEO" class="nav__link">文章分類</a>
-              </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
               {% if page.title %}
