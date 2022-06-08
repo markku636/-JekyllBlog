@@ -18,7 +18,7 @@ layout: default
 		 {% if page.categories %}
 		  <div class="post__tags">
        {% for category in page.categories %}              
-      <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="post-tag">
+      <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}" class="post__tags-tag">
 			{{ category }} 
 			</a>
             {% endfor %}
@@ -35,7 +35,7 @@ layout: default
 			<i class="ion-ios-pricetags icon-tags"></i>
 		    <div class="post__tags">
               {% for tag in page.tags %}              
-            <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">
+            <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post__tags-tag">
 			{{ tag }} 
 			</a>
       {% endfor %}
