@@ -10,7 +10,18 @@ layout: default
         </span>
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
-
+		<div class="post__info">
+		 {% if page.categories %}
+		  <div class="post__tags">
+              {% for category in page.categories %}
+			  
+            <a href="{{ site.baseurl }}/tags/#{{ category | slugify }}" class="post-tag">
+			{{ category }} 
+			</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+		</div>
         <div class="post__info">
           <div class="post__author">
             <span>By</span>
