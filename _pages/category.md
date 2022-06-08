@@ -7,14 +7,14 @@ title: 分章分類
 <div class="container">
     <h2>所有分類</h2>
 </div>	
-<div class="">
-  <div class="categories-expo-list">
+<div class=" container">
+  <div class="categories-expo-list container">
     {% for category in site.categories %}
     <a href="#{{ category[0] | slugify }}" class="post-category">{{ category[0] }}</a>
     {% endfor %}
   </div>
   <br/>
-  <div class="">
+  <div class="container">
     {% for category in site.categories %}	
 	<div class="">
     <h3 id="{{ category[0] | slugify }}">{{ category[0] }}</h3>
