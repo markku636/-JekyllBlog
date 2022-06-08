@@ -13,6 +13,10 @@ plugins:
 paginate: 5
 paginate_path: "/page/:num"
 
+# route
+permalink: /:year/:month/:day/:title:output_ext
+
+
 # Pages Path
 defaults:
   - scope:
