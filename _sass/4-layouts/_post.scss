@@ -75,6 +75,15 @@
   }
 }
 
+@media only screen and (max-width: 576px)
+{
+ .post-image {
+    min-height: 200px;    
+  }
+}
+
+}
+
 .post {
   margin: 80px auto;
 
