@@ -9,9 +9,15 @@ title: 文章分類
 </div>	
 <div class=" container">
   <div class="categories-expo-list container">
-    {% for category in site.categories %}
-    <a href="#{{ category[0] | slugify }}" class="post-category">{{ category[0] }}</a>
-    {% endfor %}
+  {% assign tags = site.tags | sort %}
+	{% for tag in tags %}
+	<span class="site-tag">
+    <a href="/tag/{{ tag | first | slugify }}/"
+        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    </a>
+	</span>
+	{% endfor %}
   </div>
   <br/>
   <div class="">
@@ -27,3 +33,10 @@ title: 文章分類
     {% endfor %}
   </div>
 </div>
+
+<style>
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
+</style>
