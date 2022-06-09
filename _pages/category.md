@@ -19,7 +19,7 @@ title: 文章分類
 	</span>
 	{% endfor %}
   </div>
-  <br/>
+  
   <div class="">
   {% for category in categories %}	
 	<div class="container">
