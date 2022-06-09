@@ -2,7 +2,7 @@
 layout: post
 title:  超省錢架站法，透過 GitHub Pages + JeKyll，搭建自己免費 Blog 空間
 date:   2022-06-04 01:01:35 +0800
-image:  https://i.imgur.com/uw3SOV9.jpg
+image:  jekyll.webp
 tags:   Jekyll
 categories: Infra network
 author : Mark ku
