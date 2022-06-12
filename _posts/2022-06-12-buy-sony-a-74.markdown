@@ -32,8 +32,8 @@ author : Mark ku
 ## 第一次充電
 新電池完全沒電，充滿預計三個小時左右，充飽會熄燈，充飽大概可以用兩小時。
 
-## 整理了一下常用的按鍵功能
-![](https://i.imgur.com/cWvckY4.jpg)
+## 花了些時間，整理了一下常用的按鍵功能
+![](https://i.imgur.com/fjN8caW.jpg)
 
 ## 主要模式
 Auto－自動模式。
