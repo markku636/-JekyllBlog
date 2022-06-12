@@ -36,13 +36,13 @@ author : Mark ku
 ![](https://i.imgur.com/fjN8caW.jpg)
 
 ## 主要模式
-Auto－自動模式。
-A模式－可以調整光圈。
-S模式－可以調整快門。
-M模式－同時可以調整光圈及快門。
+Auto－自動模式。  
+A模式－可以調整光圈。  
+S模式－可以調整快門。  
+M模式－同時可以調整光圈及快門。  
 
 ## AF 按鍵
-對焦輔助按鈕 可以取代半按快門，
+對焦輔助按鈕 可以取代半按快門。
 
 ## 柔膚效果
 https://helpguide.sony.net/ilc/2110/v1/zh-tw/contents/TP1000543536.html
