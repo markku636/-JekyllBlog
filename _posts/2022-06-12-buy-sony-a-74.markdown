@@ -1,0 +1,62 @@
+---
+layout: post
+title:  新手上路 - Sony A74 的微物攝影筆記 Part's 1
+date:   2022-06-12 01:01:35 +0800
+image:  sony-a74.webp
+categories: photography 
+tags:   photography  a74  A7M4 α7IV 微距鏡頭
+description : 新手上路 - Sony A74 的微物攝影筆記 Part's 1
+author : Mark ku
+---
+# 新手上路 - Sony A74 的微物攝影筆記 Part's 1
+
+## 前言
+身為前端網站開發者的我，一直好奇，為何很多網站的照片都很拍的都不是很好看，約了好友 Howrad 到三創 Sony 進行試拍。
+
+## 至三創 2F Sony A7M4 試拍
+![](https://i.imgur.com/Qlrh9fo.jpg)
+
+### 人物拍攝 - 景深效果
+![](https://i.imgur.com/JtrNfqK.jpg)
+
+### 靜態物拍攝 - 老姐的果乾細節
+![](https://i.imgur.com/e3REn7u.png)
+
+### 試拍的結果很滿意，真的覺得很強，一般的相機很難拍出這麼細節，但因為售價真的不低，最後猶豫了很久才購買了，覺得有興趣，且會一直投入下去，就決定買了。
+
+* [SONY α7IV A7M4 ILCE-7M4 相機 ](https://www.sony.com.tw/zh/electronics/interchangeable-lens-cameras/ilce-7m4)
+* [FE 90 mm F2.8 微距鏡頭 G OSS ](https://store.sony.com.tw/product/SEL90M28G)
+
+## 第一次充電
+新電池完全沒電，充滿預計三個小時左右，充飽會熄燈，充飽大概可以用兩小時。
+
+## 整理了一下常用的按鍵功能
+![](https://i.imgur.com/cWvckY4.jpg)
+
+## 主要模式
+Auto－自動模式。
+A模式－可以調整光圈。
+S模式－可以調整快門。
+M模式－同時可以調整光圈及快門。
+
+## AF 按鍵
+對焦輔助按鈕 可以取代半按快門，
+
+## 柔膚效果
+https://helpguide.sony.net/ilc/2110/v1/zh-tw/contents/TP1000543536.html
+
+## 在有一次打開相機時，突然發現拍起都很模糊，詢問了三創的 Sony 銷售人員得知，我不小心將相機切換到手動對焦，因為我還是新手，還是先切回自動對焦。
+![](https://i.imgur.com/zkX791N.jpg)
+
+## 把玩兩天的作品 
+![](https://i.imgur.com/q2rTtXs.png)
+![](https://i.imgur.com/oYz15EV.png)
+![](https://i.imgur.com/RwlQUAs.png)
+![](https://i.imgur.com/ZNA32vI.png)
+連灰塵都能拍的很清楚
+
+## 相關學習拍攝網站
+### [Sony 數位頻道](https://www.youtube.com/playlist?list=PLvH2i7Dq6qFglS1KXP0d9d-ZSVuwUJdXJ)
+
+## 心得
+Sony A74 真的是很強的一台相機，可玩度很高，到目前也沒後悔買這台相機，但目前的我還駕馭不了這台相機，不會過我持續的加強我的拍攝技巧。
