@@ -47,7 +47,7 @@ Jekyll是一個簡單的靜態網站生成器，用於生成個人，專案或�
 
 ### 9. 此時，Github Action 會重新建置部署，建置部署好，你就可以訪問你的 blog 
 ![](https://i.imgur.com/NJtReZL.png)
-### 10. 如果想要 https 憑證，可以將 DNS 網域託管在 Cloud Flare，即可獲得免費憑證。 [參考先前的文章](https://blog.markkulab.net/2021/10/27/clould-flare-cdn/)
+### 10. 如果想要 https 憑證，可以將 DNS 網域託管在 Cloud Flare，即可獲得免費的 SSL 服務。 [參考先前的文章](https://blog.markkulab.net/2021/10/27/clould-flare-cdn/)
 
 ## 網站文章編輯
 ### 1. 切換到專案 Code >  zolan/_posts，此資料夾就是blog 的文章，點選任一選則文章。
