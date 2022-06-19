@@ -5,8 +5,9 @@ date:   2022-06-18 10:13:35 +0800
 image:  mongodb.webp
 categories: PowerShell
 tags:   mongodb tools backup restore 
-description : title:  Mongo db 備份及還原筆記
+description : Mongo db 備份及還原筆記
 ---
+
 # Mongodb tools backup & restore
 ## 解決問題
 因為工作上需要用到，目的是為了改寫一套前端的 CMS系統，資料庫主要是 mongodb ，就記錄了一下如何備份及還原。
