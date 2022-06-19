@@ -3,7 +3,7 @@ layout: post
 title:  新手上路 - Sony α7IV 的微物攝影筆記 Part's 1
 date:   2022-06-12 01:01:35 +0800
 image:  sony-a74.webp
-categories: photography 
+categories: Photography 
 tags:   photography  a74  A7M4 α7IV 微距鏡頭 微物攝影 微距攝影
 description : 新手上路 - Sony A74 的微物攝影筆記 Part's 1
 author : Mark ku
