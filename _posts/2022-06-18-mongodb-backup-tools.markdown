@@ -10,7 +10,7 @@ description : Mongo db 備份及還原筆記
 
 # Mongodb tools backup & restore
 ## 解決問題
-因為工作上需要用到，目的是為了改寫一套前端的 CMS系統，資料庫主要是 mongodb ，就記錄了一下如何備份及還原。
+因為工作上需要用到改寫一套前端的 CMS系統，資料庫主要是 mongodb ，就記錄了一下如何備份及還原。
 
 ## 備份原理
 主要是透過 PowerShell 腳本指令操作 Mongodb tools，達成備份。
@@ -32,7 +32,7 @@ C:\Program Files\MongoDB\Tools\100\bin
 ```
 mongodump --host  127.0.0.1 --port 27017 --authenticationDatabase admin --username mark --password pass.1234 --out ./test
 ```
-P.S. 如果沒有特別指定驗證資料庫，就預設填 admin。
+P.S. 如果沒有特別指定驗證資料庫，就預設填 admin
 
 ## 還原指令
 ```
