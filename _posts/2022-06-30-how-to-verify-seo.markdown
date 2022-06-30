@@ -59,7 +59,7 @@ A seventh rule related to fake bots was deployed during the incident:
 
 100035_BETA - Fake google bot, based on partial useragent match and ASN
 ```
-### 但是免費版不能管理這個規則
+### 但這解法，礙於免費版不能管理這個規則，所以無法測試
 ![](https://i.imgur.com/smFNMo1.png)
 
 ### 如果 SEO 渲染正常就會顯示正常的頁面
