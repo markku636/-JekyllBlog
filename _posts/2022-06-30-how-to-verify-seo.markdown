@@ -61,17 +61,14 @@ A seventh rule related to fake bots was deployed during the incident:
 
 100035_BETA - Fake google bot, based on partial useragent match and ASN
 ```
-
-### 如果渲染正常就會顯示這個畫面
+### 如果 SEO 渲染正常就會顯示正常的頁面
 ![](https://i.imgur.com/TZci26Z.jpg)
-
-### 接著去訪問該網站
 
 ## 二、驗證頁面有沒有正確被 google 收錄
 
-### 訪問該網站，SEO 取得 head description ，並拿去 google 搜尋
+### 訪問該網站，從 html 中取得 head description ，並拿去 google 搜尋
 ![](https://i.imgur.com/R4ac5dl.png)
 
-### 確認是否有沒有被收錄
+### 確認是否有沒有被正確收錄
 ![](https://i.imgur.com/55WLOCy.png)
 
