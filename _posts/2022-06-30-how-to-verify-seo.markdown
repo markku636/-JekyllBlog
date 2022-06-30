@@ -11,7 +11,7 @@ author : Mark ku
 ## 前言
 最近發現有些網站有做 SEO，但都沒正常運行，所以就順手寫了一篇筆記，記錄如何 SEO 功能有辦法被 Google 爬蟲所收納。
 
-### 一、模擬爬蟲訪問網站 ( 最即時 )
+### 方法一、模擬爬蟲訪問網站 ( 最即時 )
 ### 到 Chrome 市集安裝 [user-agent-switch](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=zh-TW) 套件
 
 ### 參考 [Google Doc](https://developers.google.com/search/blog/2019/10/updating-user-agent-of-googlebot)，得知 Google搜尋引擎的爬蟲，是採用什麼 useragent 來收錄你的網站
@@ -64,7 +64,7 @@ A seventh rule related to fake bots was deployed during the incident:
 
 ### 如果 SEO 正常，就會顯示正常的頁面
 ![](https://i.imgur.com/TZci26Z.jpg)
-## 二、驗證頁面有沒有正確被 google 收錄，這不是立即就生效，需要時間等待 Google 收錄。
+## 方法二、驗證頁面有沒有正確被 google 收錄，這不是立即就生效，需要時間等待 Google 收錄。
 
 ### 訪問該網站，從 html 中取得 head description ，並拿去 google 搜尋
 ![](https://i.imgur.com/R4ac5dl.png)
@@ -72,5 +72,9 @@ A seventh rule related to fake bots was deployed during the incident:
 ### 確認是否有沒有被正確收錄
 ![](https://i.imgur.com/55WLOCy.png)
 
-## 三、[查看 Google Search Console  收錄狀態](https://search.google.com/search-console/about)
+## 方法三、[查看 Google Search Console  收錄狀態](https://search.google.com/search-console/about)
 ![](https://i.imgur.com/XkLNyOa.png)
+
+## 補充
+### Chrome DevTools > More tools > Network conditions > 取消 Use browser default 預設有好幾種 ua 可以讓你選，其中就包含了 Google Bot。
+ 
