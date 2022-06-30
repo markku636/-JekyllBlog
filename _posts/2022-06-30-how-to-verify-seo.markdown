@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 驗證 SSR 或 Pre render SEO 是否正常運行
+title: 驗證 SSR 或 Pre render SEO 是否正常運行的幾種方式
 date:  2022-06-30 01:01:01 +0800
 image: seo.webp
 categories: SEO
