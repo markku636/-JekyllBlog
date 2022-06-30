@@ -9,7 +9,7 @@ description : 驗證 SSR 或 Pre render SEO 是否正常運行幾種方法
 author : Mark ku
 ---
 ## 前言
-最近面試了一些公司，通常面試官都會問人家網站有什麼優化空間，我也會事前準備，就發現一些公司的 SEO 好像是沒有正常作用，就順手寫了一篇筆記。
+最近發現有些網站有做 SEO，但都沒正常運行，所以就順手寫了一篇筆記，記錄如何驗證 SEO。
 
 ### 一、模擬爬蟲訪問網站
 ### 到 Chrome 市集安裝 [user-agent-switch](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=zh-TW) 套件
