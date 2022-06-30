@@ -5,7 +5,7 @@ date:   2022-06-18 10:13:35 +0800
 image:  mongodb.webp
 categories: PowerShell
 tags:   mongodb tools backup restore 
-description : Mongo db 備份及還原筆記
+description : Powershell Mongodb 備份及還原筆記
 ---
 
 # Mongodb tools backup & restore
