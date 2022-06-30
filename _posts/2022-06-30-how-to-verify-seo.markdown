@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 驗證 SSR 或 Pre render SEO 是否正常運行幾種方法
+title: 如何驗證 SSR 或 Pre render SEO 是否正常運行幾種方法
 date:  2022-06-30 01:01:01 +0800
 image: seo.webp
 categories: SEO
@@ -62,7 +62,6 @@ A seventh rule related to fake bots was deployed during the incident:
 ```
 ### 如果 SEO 渲染正常就會顯示正常的頁面
 ![](https://i.imgur.com/TZci26Z.jpg)
-
 ## 二、驗證頁面有沒有正確被 google 收錄
 
 ### 訪問該網站，從 html 中取得 head description ，並拿去 google 搜尋
