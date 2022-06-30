@@ -62,7 +62,7 @@ A seventh rule related to fake bots was deployed during the incident:
 ### 但這解法，礙於免費版不能管理這個規則，所以無法測試
 ![](https://i.imgur.com/smFNMo1.png)
 
-### 如果 SEO 渲染正常就會顯示正常的頁面
+### 如果 SEO 正常，就會顯示正常的頁面
 ![](https://i.imgur.com/TZci26Z.jpg)
 ## 二、驗證頁面有沒有正確被 google 收錄，這不是立即就生效，需要時間等待 Google 收錄。
 
@@ -72,6 +72,6 @@ A seventh rule related to fake bots was deployed during the incident:
 ### 確認是否有沒有被正確收錄
 ![](https://i.imgur.com/55WLOCy.png)
 
-## 三、Google Search Console 
+## 三、查看 Google Search Console  狀態
 https://search.google.com/search-console/about
-![](https://i.imgur.com/opBSW43.png)
+![](https://i.imgur.com/XkLNyOa.png)
