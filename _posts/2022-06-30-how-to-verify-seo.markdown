@@ -34,8 +34,7 @@ Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +h
 ### 結果發現被 Cloud Flare 擋下來了
 ![](https://i.imgur.com/LQMIVyW.png)
 
-### 我參考的 [Cloud falre社群的討論](https://community.cloudflare.com/t/cloudflare-managed-special-rules-are-blocking-googlebot/82911/14)，看起來是他的規則造成，免費版，是無法管理這個規則
-
+### 我參考的 [Cloud falre社群的討論](https://community.cloudflare.com/t/cloudflare-managed-special-rules-are-blocking-googlebot/82911/14)，得知看起來是他的規則造成，免費版，是無法管理這個規則
 ![](https://i.imgur.com/smFNMo1.png)
 
 ```
