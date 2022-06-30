@@ -5,13 +5,13 @@ date:  2022-06-30 01:01:01 +0800
 image: seo.webp
 categories: SEO
 tags: seo verify cloud flare block
-description : 驗證 SSR 或 Pre render SEO 是否正常運行幾種方法
+description : 立即驗證 SSR 或 Pre render SEO 是否正常運行的幾種方式
 author : Mark ku
 ---
 ## 前言
 最近發現有些網站有做 SEO，但都沒正常運行，所以就順手寫了一篇筆記，記錄如何 SEO 功能有辦法被 Google 爬蟲所收納。
 
-### 一、模擬爬蟲訪問網站
+### 一、模擬爬蟲訪問網站 ( 最即時 )
 ### 到 Chrome 市集安裝 [user-agent-switch](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=zh-TW) 套件
 
 ### 參考 [Google Doc](https://developers.google.com/search/blog/2019/10/updating-user-agent-of-googlebot)，得知 Google搜尋引擎的爬蟲，是採用什麼 useragent 來收錄你的網站
@@ -34,7 +34,7 @@ Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +h
 ### 結果發現被 Cloud Flare 擋下來了
 ![](https://i.imgur.com/LQMIVyW.png)
 
-### 我參考了[Cloud falre社群的討論](https://community.cloudflare.com/t/cloudflare-managed-special-rules-are-blocking-googlebot/82911/14)，得知看起來是他的規則造成的
+### 我參考了[Cloud falre社群的討論](https://community.cloudflare.com/t/cloudflare-managed-special-rules-are-blocking-googlebot/82911/14)，得知看起來是他的 WAF 規則造成的
 
 ```
 Workaround
@@ -64,7 +64,7 @@ A seventh rule related to fake bots was deployed during the incident:
 
 ### 如果 SEO 渲染正常就會顯示正常的頁面
 ![](https://i.imgur.com/TZci26Z.jpg)
-## 二、驗證頁面有沒有正確被 google 收錄
+## 二、驗證頁面有沒有正確被 google 收錄，這不是立即就生效，需要時間等待 Google 收錄。
 
 ### 訪問該網站，從 html 中取得 head description ，並拿去 google 搜尋
 ![](https://i.imgur.com/R4ac5dl.png)
@@ -72,3 +72,6 @@ A seventh rule related to fake bots was deployed during the incident:
 ### 確認是否有沒有被正確收錄
 ![](https://i.imgur.com/55WLOCy.png)
 
+## 三、Google Search Console 
+https://search.google.com/search-console/about
+![](https://i.imgur.com/opBSW43.png)
