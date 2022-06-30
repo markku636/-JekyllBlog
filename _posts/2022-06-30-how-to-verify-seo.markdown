@@ -72,6 +72,5 @@ A seventh rule related to fake bots was deployed during the incident:
 ### 確認是否有沒有被正確收錄
 ![](https://i.imgur.com/55WLOCy.png)
 
-## 三、查看 Google Search Console  狀態
-https://search.google.com/search-console/about
+## 三、[查看 Google Search Console  收錄狀態](https://search.google.com/search-console/about)
 ![](https://i.imgur.com/XkLNyOa.png)
