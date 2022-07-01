@@ -29,7 +29,7 @@ Mozilla/5.0 (compatible; Googlebot/2.1; +https://www.google.com/bot.html)
 Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +https://www.google.com/bot.html) Safari/537.36
 ```
 
-### 依據　Google Doc 的 useragent，模擬 google bot 的訪問你的網站
+### 透過 chrome 套件 user-agent-switch，模擬 google bot 的訪問你的網站
 ![](https://i.imgur.com/3K3T80i.png)
 ### 結果發現被 Cloud Flare 擋下來了
 ![](https://i.imgur.com/LQMIVyW.png)
