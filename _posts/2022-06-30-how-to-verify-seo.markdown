@@ -11,7 +11,7 @@ author : Mark ku
 ## 前言
 最近發現有些網站有做 SEO，但都沒正常運行，所以就順手寫了一篇筆記，記錄如何驗證 SEO 功能面有辦法被 Google 爬蟲所收納。
 
-### 方法一、模擬爬蟲訪問網站 ( 最即時 )
+### 方法一、最即時的方式，就是模擬爬蟲訪問網站
 ### 到 Chrome 市集安裝 [user-agent-switch](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=zh-TW) 套件
 
 ### 參考 [Google Doc](https://developers.google.com/search/blog/2019/10/updating-user-agent-of-googlebot)，得知 Google搜尋引擎的爬蟲，是採用什麼 useragent 來收錄你的網站
