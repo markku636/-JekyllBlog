@@ -32,12 +32,10 @@ All Server 群組
 Batch A 群組   
 192.168.0.1  
 192.168.0.3  
-...
 
 Batch B 群組  
 192.168.0.2  
 192.168.0.4  
-...
 
 ### 二、佈署 Batch A 伺服器群組 ( 由 Batch B 服務用戶 ) 
 ![](https://i.imgur.com/dzRKYnd.png)
