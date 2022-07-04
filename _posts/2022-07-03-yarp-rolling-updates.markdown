@@ -98,7 +98,6 @@ private string ChooseCluster(HttpContext context)
 ## 參考資料
 [參考資料連結](https://microsoft.github.io/reverse-proxy/articles/ab-testing.html)  
 
-[參考資料連結](
-https://segmentfault.com/a/1190000041000199?fbclid=IwAR2aZheEq9ADoyXk4EckJhjrzb6EGpMFHipK3D88B9L-OUoPkwXW13Wu-yk)  
+[參考資料連結](https://segmentfault.com/a/1190000041000199?fbclid=IwAR2aZheEq9ADoyXk4EckJhjrzb6EGpMFHipK3D88B9L-OUoPkwXW13Wu-yk)  
 
 [參考資料連結](https://thenewstack.io/deployment-strategies/)  
