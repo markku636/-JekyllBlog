@@ -11,7 +11,9 @@ author : Mark ku
 # 淺談使用開源 Yarp Revert Proxy 實現滾動式部署 ( Rolling-update ) 設計思路
 
 ## 為何要使用滾動式更新應用程式( Rolling-update )
-現今的電子商務網站，幾乎 365天 * 24小時在運營，隨時都可能會員在使用系統，而傳統佈署網站的過程中，你的網站是不能夠做生意的，同時也可能給用戶帶了不好的體驗 ex: 用戶可能出現錯誤畫面，或被登出，若維護停機時間太久，用戶也可能轉向其他的平台去下單，進而流失用戶，那麼滾動式部署，可以減少因部署的停機時間，給用戶更好的體驗，同時也增加可以做生意的時間。
+現今的電子商務網站，幾乎 365天 * 24小時在運營，隨時都有可能會員在使用系統，而傳統佈署網站的過程中，網站是不能夠做生意的，同時也可能給用戶帶了不好的體驗 ex: 用戶可能出現錯誤畫面，或被登出，若維護停機時間太久，用戶也可能轉向其他的平台去下單，進而流失用戶。  
+
+而滾動式部署，可以減少因部署的停機時間，給用戶更好的體驗，同時也增加可以做生意的時間。  
 
 參考[六大部署策略](https://thenewstack.io/deployment-strategies/)，滾動式佈署是相較容易建置，而這些策略 Load balance 支持，此篇採用的微軟開源的 YARP 反向代理，進行設計滾動式佈署的機制。  
 
@@ -59,7 +61,7 @@ Batch B 群組
 * 後端的部份，API一定得下向相容幾個版本後，才可以移除不需要的功能。
  
 ## 如何實作
-最後參考微軟官方 ![yarp 的官方文件](https://microsoft.github.io/reverse-proxy/articles/ab-testing.html)的範例程式，我們可以很輕易透過 ReassignProxyRequest 指定伺服器群組 (Cluster)，並透過 API 修改目前的伺服器的群組，達到 AB test 及 滾動式部署，
+最後參考微軟官方 [yarp的官方文件](https://microsoft.github.io/reverse-proxy/articles/ab-testing.html)的範例程式，我們可以很輕易透過 ReassignProxyRequest 指定伺服器群組 (Cluster)，並透過 API 修改目前的伺服器的群組，達到 AB test 及 滾動式部署，
 但因為暫時沒時間實作，先將設計概念撰寫下來。
 
 ```
