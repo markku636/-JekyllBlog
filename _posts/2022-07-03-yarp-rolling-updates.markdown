@@ -23,18 +23,18 @@ author : Mark ku
 在 LTM 中，在 yarp 中將伺服器分成三個群組:  
 All Server 、Batch A 、Batch B，依據部署階段的不同，切換不同的伺服器群組。
 
-All Server  
+All Server 群組  
 192.168.0.1  
 192.168.0.2  
 192.168.0.3  
 192.168.0.4  
 
-Batch A   
+Batch A 群組   
 192.168.0.1  
 192.168.0.3  
 ...
 
-Batch B  
+Batch B 群組  
 192.168.0.2  
 192.168.0.4  
 ...
@@ -42,17 +42,17 @@ Batch B
 ### 二、佈署 Batch A 伺服器群組 ( 由 Batch B 服務用戶 ) 
 ![](https://i.imgur.com/dzRKYnd.png)
 
-#### 1.Call LTM Api ，將伺服器群組，切到 Batch B Only
+#### 1.Call LTM Api ，將伺服器群組，切到 Batch B 群組
 #### 2.部署應用程式
 #### 3.內部測試
-#### 4. Call LTM Api，將伺服器群組，切到 Batch A Only
+#### 4.Call LTM Api，將伺服器群組，切到 Batch A 群組
 
 ### 三、佈署 Batch B 伺服器群組 ( 由 Batch A 服務用戶 )
 
 ![](https://i.imgur.com/BTe4xnV.png)
 #### 1.部署應用程式
 #### 2.內部測試
-#### 3.Call LTM Api，將伺服器群組，切到 All Server 模式
+#### 3.Call LTM Api，將伺服器群組，切到 All Server 群組
 ### 驗證在線網站
 ### 完成伺服器部署
 
@@ -61,7 +61,7 @@ Batch B
 * 後端的部份，API一定得下向相容幾個版本後，才可以移除不需要的功能。
  
 ## 如何實作
-最後參考微軟官方 yarp 的官方文件的範例程式，我們可以很輕易透過 ReassignProxyRequest 指定伺服器群組 (Cluster)，並透過 API 修改目前的伺服器的群組，達到 AB test 及 滾動式部署，
+最後參考微軟官方 ![yarp 的官方文件](https://microsoft.github.io/reverse-proxy/articles/ab-testing.html)的範例程式，我們可以很輕易透過 ReassignProxyRequest 指定伺服器群組 (Cluster)，並透過 API 修改目前的伺服器的群組，達到 AB test 及 滾動式部署，
 但因為暫時沒時間實作，先將設計概念撰寫下來。
 
 ```
