@@ -39,7 +39,7 @@ Batch B
 192.168.0.4  
 ...
 
-### 二、佈署 Batch A 伺服器群組
+### 二、佈署 Batch A 伺服器群組 ( 由 Batch B 服務用戶 ) 
 ![](https://i.imgur.com/dzRKYnd.png)
 
 #### 1.Call LTM Api ，切到 Batch B Only
@@ -47,7 +47,7 @@ Batch B
 #### 3.內部測試
 #### 4. Call LTM Api，切到 Batch A Only
 
-### 三、佈署 Batch B 伺服器群組
+### 三、佈署 Batch B 伺服器群組 ( 由 Batch A 服務用戶 )
 
 ![](https://i.imgur.com/BTe4xnV.png)
 #### 1.部署應用程式
