@@ -42,17 +42,17 @@ Batch B
 ### 二、佈署 Batch A 伺服器群組 ( 由 Batch B 服務用戶 ) 
 ![](https://i.imgur.com/dzRKYnd.png)
 
-#### 1.Call LTM Api ，切到 Batch B Only
+#### 1.Call LTM Api ，將伺服器群組，切到 Batch B Only
 #### 2.部署應用程式
 #### 3.內部測試
-#### 4. Call LTM Api，切到 Batch A Only
+#### 4. Call LTM Api，將伺服器群組，切到 Batch A Only
 
 ### 三、佈署 Batch B 伺服器群組 ( 由 Batch A 服務用戶 )
 
 ![](https://i.imgur.com/BTe4xnV.png)
 #### 1.部署應用程式
 #### 2.內部測試
-#### 3.Call LTM Api，切到 All Server 模式
+#### 3.Call LTM Api，將伺服器群組，切到 All Server 模式
 ### 驗證在線網站
 ### 完成伺服器部署
 
