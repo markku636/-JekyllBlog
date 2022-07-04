@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 淺談使用開源 Yarp Revert Proxy 實現滾動式部署 ( Rolling-update )
+title: 淺談使用開源 Yarp Revert Proxy 實現滾動式部署 ( Rolling-update ) 設計思路
 date:  2022-07-03 01:01:01 +0800
 image: balance.webp
 categories: devops
 tags: yarp reverse proxy load balance rolling update 
-description : 用微軟的開源的 YARP 反向代理打造專屬的負載平衡軟體及多功能網關
+description : 淺談使用開源 Yarp Revert Proxy 實現滾動式部署 ( Rolling-update ) 設計思路
 author : Mark ku
 ---
-# 淺談使用開源 Yarp Revert Proxy 實現滾動式部署 ( Rolling-update )
+# 淺談使用開源 Yarp Revert Proxy 實現滾動式部署 ( Rolling-update ) 設計思路
 
 ## 為何要使用滾動式更新應用程式( Rolling-update )
 現今的電子商務網站，幾乎 365天 * 24小時在運營，隨時都可能會員在使用系統，而在傳統部署在線應用程式過程中，電子商務網站是不能夠做生意的，佈署網站的過程中，同時也可能給用戶帶了不好的體驗，平台用戶可能出現錯誤畫面，或被登出，維護停機時間太久，用戶也可能轉往其他的平台去下單，進而流失用戶，那麼滾動式部署，可以減少因部署的停機時間，同時也增加可以做生意的時間。
