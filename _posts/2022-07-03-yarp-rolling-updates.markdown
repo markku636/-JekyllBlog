@@ -22,7 +22,7 @@ author : Mark ku
 ## 設計思路
 ### 一、首先，將伺服器分組
 ![](https://i.imgur.com/zSfGciH.png)  
-在 LTM 中，在 yarp 中將伺服器分成三個群組:  
+在 LTM 中，中將伺服器分成三個群組:  
 All Server 、Batch A 、Batch B，依據佈署階段的不同，切換不同的伺服器群組。
 
 All Server 群組  
