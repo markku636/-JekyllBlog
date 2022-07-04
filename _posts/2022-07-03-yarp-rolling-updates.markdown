@@ -15,7 +15,7 @@ author : Mark ku
 
 參考[六大部署策略](https://thenewstack.io/deployment-strategies/)，滾動式佈署是相較簡易建置，而這些策略 Load balance 支持，此篇採用的微軟開源的 Application Load balance YARP，進行設計滾動式佈署的機制。  
 
-[先前YARP相關文章](https://blog.markkulab.net/2022/01/13/yarp-reverse-proxy)  
+[先前撰寫 YARP 的相關文章](https://blog.markkulab.net/2022/01/13/yarp-reverse-proxy)  
 
 ## 設計思路
 ### 一、首先，將伺服器分組
