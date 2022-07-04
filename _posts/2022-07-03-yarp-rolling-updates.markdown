@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) 設計思路
+title: 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 date:  2022-07-03 01:01:01 +0800
 image: balance.webp
 categories: devops
 tags: yarp reverse proxy load balance rolling update 
-description : 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) 設計思路
+description : 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 author : Mark ku
 ---
 # 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) 設計思路
@@ -15,7 +15,7 @@ author : Mark ku
 
 而滾動式佈署，減少了佈署的停機時間，也給用戶更好的體驗，增加系統可以運營的時間。  
 
-參考[六大佈署策略](https://thenewstack.io/deployment-strategies/)，滾動式佈署是相較容易建置，此篇採用的微軟開源的 YARP 做軟體的負載平衡，設計滾動式佈署。  
+此篇採用的微軟開源的 YARP 做軟體的負載平衡，設計滾動式佈署。  
 
 [先前撰寫 YARP 的相關文章](https://blog.markkulab.net/2022/01/13/yarp-reverse-proxy)  
 
