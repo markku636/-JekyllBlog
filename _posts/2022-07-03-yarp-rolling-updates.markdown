@@ -61,7 +61,7 @@ Batch B
 * 後端的部份，API一定得下向相容幾個版本後，才可以移除不需要的功能。
  
 ## 如何實作
-最後參考微軟官方 yarp 的官方文件的範例程式，我們可以很輕易ReassignProxyRequest 指定伺服器群組 (Cluster)，並透過 API 修改目前的伺服器的群組，達到 AB test 及 滾動式部署，
+最後參考微軟官方 yarp 的官方文件的範例程式，我們可以很輕易透過 ReassignProxyRequest 指定伺服器群組 (Cluster)，並透過 API 修改目前的伺服器的群組，達到 AB test 及 滾動式部署，
 但因為暫時沒時間實作，先將設計概念撰寫下來。
 
 ```
