@@ -16,11 +16,7 @@ author : Mark ku
 而滾動式佈署，減少了佈署的停機時間，也給用戶更好的體驗，增加系統可以運營的時間。  
 
 
-[參考六大步署策略](https://thenewstack.io/deployment-strategies/)，滾動式佈署，是相對容易建置的。  
-
-此篇採用的微軟開源的 YARP 做軟體的負載平衡，設計滾動式佈署。  
-
-[先前撰寫 YARP 的相關文章](https://blog.markkulab.net/2022/01/13/yarp-reverse-proxy)  
+[參考六大步署策略](https://thenewstack.io/deployment-strategies/)，滾動式佈署，是相對容易建置的，此篇採用的微軟開源的 YARP 做軟體的負載平衡，設計滾動式佈署。  
 
 ## 設計思路
 ### 一、首先，將伺服器分組
@@ -99,8 +95,10 @@ private string ChooseCluster(HttpContext context)
 ```
 
 ## 參考資料
-[參考資料連結](https://microsoft.github.io/reverse-proxy/articles/ab-testing.html)  
+[先前撰寫 YARP 的相關文章](https://blog.markkulab.net/2022/01/13/yarp-reverse-proxy)  
 
-[參考資料連結](https://segmentfault.com/a/1190000041000199?fbclid=IwAR2aZheEq9ADoyXk4EckJhjrzb6EGpMFHipK3D88B9L-OUoPkwXW13Wu-yk)  
+[Yarp 官方文件 - ab testing](https://microsoft.github.io/reverse-proxy/articles/ab-testing.html)  
 
-[參考資料連結](https://thenewstack.io/deployment-strategies/)  
+[应用不停机发布的思考与初识](https://segmentfault.com/a/1190000041000199?fbclid=IwAR2aZheEq9ADoyXk4EckJhjrzb6EGpMFHipK3D88B9L-OUoPkwXW13Wu-yk)  
+
+[Six Strategies for Application Deployment](https://thenewstack.io/deployment-strategies/)  
