@@ -10,7 +10,7 @@ author : Mark ku
 ---
 # 關於SameSite Cookie Issue 
 # 起緣
-因為GDPR法規關係，各大瀏覽器會限縮網頁的第三方，去寫入Cookie，對使用者進行廣告追蹤，
+因為GDPR法規關係，各大瀏覽器會限縮網頁的第三方網站，去寫入Cookie，對使用者進行廣告追蹤，
 而我們的產品端常常會被客戶鑲嵌(iframe) 在網站中，因此踩到此限制。 
 
 # 曾經發生的問題
@@ -22,14 +22,14 @@ author : Mark ku
 
 ## 解決方案
 ### 短期
-1.將網頁導到產品方網站。
-2.採用蘋果的Storeage Access api
+1.將網頁導到產品方網站。  
+2.採用蘋果的Storeage Access api  
 平台端:iframe sandbox 要加allow-same-origin allow-storage-access-by-user-activation
 產品端:在set cookie的頁面需要要加上一個按鈕讓使用者確認按下,執行storage access api。
 
 ### 中長期(產品端)
 1. 採 Token Base 驗證機制 (產品端不再使用Cookie)
-1. 移除Sticky Cookie(移掉需要考量之後log怎麼追)。不熟Sticky Cookie的同學，可以我另一篇文章。
+1. 移除Sticky Cookie(需要考量之後log怎麼追)。
 1. 移除Cookie Data。
 
 ### 補充
