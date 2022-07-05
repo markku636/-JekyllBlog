@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
+title: 淺談使用 Dotnet 開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 date:  2022-07-03 01:01:01 +0800
 image: balance.webp
 categories: devops
-tags: yarp reverse proxy load balance rolling update 
+tags: dotnet yarp reverse proxy load balance rolling update 
 description : 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 author : Mark ku
 ---
-# 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) 設計思路
+# 淺談使用 Dotnet 開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 
 ## 為何要使用滾動式更新應用程式( Rolling-update )
 現今的電子商務網站，近乎 365天 * 24小時在運營，隨時隨地都有可能有會員正在使用系統，在傳統佈署網站的過程中，網站是不能運營的，也可能給用戶帶了不好的體驗，如: 用戶可能出現錯誤畫面或被強制登出，若維護停機時間太久，用戶也可能轉向其他的平台去下單，進而流失用戶。  
