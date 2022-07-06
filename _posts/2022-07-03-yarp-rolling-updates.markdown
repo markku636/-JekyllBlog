@@ -5,7 +5,7 @@ date:  2022-07-03 01:01:01 +0800
 image: balance.webp
 categories: devops
 tags: dotnet yarp reverse proxy load balance rolling update 
-description : 淺談使用開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
+description : 淺談使用 Dotnet 開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 author : Mark ku
 ---
 ## 為何要使用滾動式更新應用程式( Rolling-update )
@@ -20,7 +20,7 @@ author : Mark ku
 ### 一、首先，將伺服器分組
 ![](https://i.imgur.com/zSfGciH.png)  
 在 LTM 中，中將伺服器分成三個群組:  All Server 、Batch A 、Batch B，  
-依據佈署階段的不同，切換不同的在線伺服器群組。
+依據佈署階段的不同，將 LTM 切換不同的在線伺服器群組。
 
 All Server 群組  
 192.168.0.1  
