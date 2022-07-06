@@ -3,7 +3,7 @@ layout: post
 title: 淺談使用 Dotnet 開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 date:  2022-07-03 01:01:01 +0800
 image: balance.webp
-categories: devops
+categories: DevOps
 tags: dotnet yarp reverse proxy load balance rolling update 
 description : 淺談使用 Dotnet 開源 Yarp Revert Proxy 實現滾動式佈署 ( Rolling-update ) - Part's 1 設計思路
 author : Mark ku
