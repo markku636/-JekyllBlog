@@ -14,7 +14,7 @@ author : Mark ku
 而滾動式佈署，減少了佈署的停機時間，也給用戶更好的體驗，增加系統可以運營的時間。  
 
 
-[參考六大步署策略](https://thenewstack.io/deployment-strategies/)，滾動式佈署，是相對容易建置的，此篇採用的微軟開源的 YARP 做軟體的負載平衡，設計滾動式佈署。  
+[參考六大步署策略](https://thenewstack.io/deployment-strategies/)，滾動式佈署，是相對容易建置的，此篇採用的微軟 dotnet 開源的 YARP 做軟體的負載平衡，設計滾動式佈署。  
 
 ## 設計思路
 ### 一、首先，將伺服器分組
