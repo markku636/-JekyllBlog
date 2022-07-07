@@ -99,11 +99,10 @@ export default Test;
 ```
 
 ## 組件的生命周期，變得很簡單
-掛載(Mounting)：已插入真實 DOM
-更新(Updating)：正在被重新渲染
-卸載(Unmounting)：已移出真實 DOM
+掛載(Mounting)：已插入真實 DOM  
+更新(Updating)：正在被重新渲染  
+卸載(Unmounting)：已移出真實 DOM  
 ![](https://i.imgur.com/KnnGOO7.png)
-
 
 ## 心得
 開始寫 React時，就發現缺少了很多語法糖，寫起來突然很不習慣，撰寫真的比較貼近 js ，渲染的引擎，幾乎沒有框架的語法，就是單純的 js ，下面就是我覺得差異最多的是  
