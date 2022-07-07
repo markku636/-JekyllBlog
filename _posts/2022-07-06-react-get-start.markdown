@@ -14,7 +14,7 @@ author : Mark ku
 
 ## 三大框架，各自的優勢
 Angular - 框架有很明確的規範，有完整的解決方案及強大的 CLI，後端人員上手比較容易。
-Vue - 開發快速， api 簡單，使用起來無負擔，舊系統整合翻寫比較容易。
+Vue - 開發快速， api 簡單，使用起來無負擔，舊系統整合翻寫比較容易。  
 React - 前端生態更完整，撰寫起來更貼近 JS 語法。  
 
 ## 專案建立
@@ -98,6 +98,13 @@ export const Test = () => {
 export default Test;
 ```
 
+組件的生命周期可分成三個狀態：
+Mounting(掛載)：已插入真實 DOM
+Updating(更新)：正在被重新渲染
+Unmounting(卸載)：已移出真實 DOM
+![](https://i.imgur.com/KnnGOO7.png)
+
+
 ## 心得
 開始寫 React時，就發現缺少了很多語法糖，寫起來突然很不習慣，撰寫真的比較貼近 js ，渲染的引擎，幾乎沒有框架的語法，就是單純的 js ，下面就是我覺得差異最多的是  
 
@@ -108,3 +115,7 @@ export default Test;
 5.撰寫自由度很高 ( 不見得是好事 )
 
 但三大框架的共通點，都更完整支援 typescript
+
+
+## 參考資料
+[參考資料](https://www.runoob.com/react/react-component-life-cycle.html)  
