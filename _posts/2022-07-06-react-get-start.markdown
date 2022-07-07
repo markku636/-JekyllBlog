@@ -98,10 +98,10 @@ export const Test = () => {
 export default Test;
 ```
 
-組件的生命周期可分成三個狀態：
-Mounting(掛載)：已插入真實 DOM
-Updating(更新)：正在被重新渲染
-Unmounting(卸載)：已移出真實 DOM
+## 組件的生命周期，變得很簡單
+掛載(Mounting)：已插入真實 DOM
+更新(Updating)：正在被重新渲染
+卸載(Unmounting)：已移出真實 DOM
 ![](https://i.imgur.com/KnnGOO7.png)
 
 
