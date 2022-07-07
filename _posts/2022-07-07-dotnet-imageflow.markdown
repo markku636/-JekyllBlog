@@ -24,10 +24,11 @@ author : Mark ku
 或是在圖片取回來時，可以輕易透過 query string ，自動處理成我想要圖片格式及尺寸。  
 
 開源專案  
-https://github.com/imazen/imageflow-dotnet
+[連結](https://github.com/imazen/imageflow-dotnet)  
+
 
 query command 指令   
-https://docs.imageflow.io/querystring/transforms.html
+[連結](https://docs.imageflow.io/querystring/transforms.html)  
 
 ## 使用方式
 ![](https://camo.githubusercontent.com/eac2ee518c905a3a81dda7dd3e6973604dd9eca4e35b22f9c2752c3295202409/68747470733a2f2f7777772e696d616765666c6f772e696f2f696d616765732f656469742d75726c2e676966)
