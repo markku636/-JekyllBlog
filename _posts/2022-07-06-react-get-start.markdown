@@ -108,13 +108,12 @@ Unmounting(卸載)：已移出真實 DOM
 ## 心得
 開始寫 React時，就發現缺少了很多語法糖，寫起來突然很不習慣，撰寫真的比較貼近 js ，渲染的引擎，幾乎沒有框架的語法，就是單純的 js ，下面就是我覺得差異最多的是  
 
-1.會影響元件再渲染的就只有 prop 和 state  (變得很單純)
-2.生命週期更單純 - Mounting、Updating、Unmounting
-3.條件判斷  -  也是寫一個 function , return 一個 html 標籤
-4.for 迴圈渲染 - 就是自己寫 map 去渲染.
-5.撰寫自由度很高 ( 不見得是好事 )
-
-但三大框架的共通點，都更完整支援 typescript
+1.會影響元件再渲染的就只有 prop 和 state  (變得很單純)  
+2.生命週期更單純 - Mounting、Updating、Unmounting  
+3.條件判斷  -  也是寫一個 function , return 一個 html 標籤  
+4.for 迴圈渲染 - 就是自己寫 map 去渲染.  
+5.撰寫自由度很高 ( 不見得是好事 )  
+但三大框架的共通點，都更傾向完整支援 typescript
 
 
 ## 參考資料
