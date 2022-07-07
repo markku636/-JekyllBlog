@@ -49,4 +49,4 @@ https://docs.imageflow.io/querystring/transforms.html
 2.用戶端訪問你的網站  
 3.瀏覽器依據 img 的 srcset 屬性，去載入適當解析度的圖片  
 
-### 如果你在 Imageflow 掛上 cloudflare，他就能夠將你的動態圖片，快取起來。
+### 如果你在 Imageflow 掛上 cloudflare，他就能夠將你的動態查詢圖片做快。
