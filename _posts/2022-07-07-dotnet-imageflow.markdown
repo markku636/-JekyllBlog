@@ -1,0 +1,52 @@
+---
+layout: post
+title: 使用 dotnet 開源 Imageflow ，輕鬆透過 query string 達到栽切、壓縮圖片、浮水印及格式轉換
+date:  2022-07-07 01:01:01 +0800
+image: image-flow.svg
+categories: NETCORE
+tags: resize image Imageflow query command
+description : 使用 dotnet 開源 Imageflow ，輕鬆透過 query string 達到栽切、壓縮圖片、浮水印及格式轉換
+author : Mark ku
+---
+## 問題
+在觀查許多電子商務網站時，發現很多圖片大小不均一，甚至上圖時，可能使用者忘了壓縮，而上傳到一張非大的圖，為了等待圖片，而影響了網頁的載入速度。
+
+## 解決方案
+解決大圖檔一共有幾個解法，像
+* 後台上傳前檢查
+* 雲端空間圖床api(阿里雲)
+* cloudflare image resize api 
+* 手動壓縮
+* webpack 打包時壓縮圖片等 
+
+## Imageflow
+今天就來介紹Imageflow 是我覺得dotnet很棒的開源圖片處理專案，它可以輕易使我達成圖片格式轉換、剪裁及壓縮等功能，且可以由前端決定傳入 Command 到後端，在由我的後端上傳到我的 Image storage，
+或是在圖片取回來時，可以輕易透過 query string ，自動處理成我想要圖片格式及尺寸。  
+
+開源專案  
+https://github.com/imazen/imageflow-dotnet
+
+query command 指令   
+https://docs.imageflow.io/querystring/transforms.html
+
+## 使用方式
+![](https://camo.githubusercontent.com/eac2ee518c905a3a81dda7dd3e6973604dd9eca4e35b22f9c2752c3295202409/68747470733a2f2f7777772e696d616765666c6f772e696f2f696d616765732f656469742d75726c2e676966)
+先將專案跑起來，調整圖片的 query command，就能調整圖片的大小。
+
+```
+<img src="http://localhost:39876/demo_images/u3.jpg?w=300" />
+
+<img src="" srcset="    http://localhost:39876/demo_images/u3.jpg?w=300 300w
+                        http://localhost:39876/demo_images/u3.jpg?w=800 800w
+                        http://localhost:39876/demo_images/u3.jpg?w=1600 1600w" />
+```
+
+## 延伸應用
+### 響應式縮圖
+![](https://i.imgur.com/t5DYnIB.png)
+
+1.使用者上圖片到 amazon s3 的 storeage  
+2.用戶端訪問你的網站  
+3.瀏覽器依據 img 的 srcset 屬性，去載入適當解析度的圖片  
+
+### 如果你在 Imageflow 掛上 cloudflare，他就能夠將你的動態圖片，快取起來。
