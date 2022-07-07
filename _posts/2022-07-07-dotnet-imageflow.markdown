@@ -28,7 +28,7 @@ author : Mark ku
 query command 指令   
 [連結](https://docs.imageflow.io/querystring/transforms.html)  
 ## 使用方式
-![](https://camo.githubusercontent.com/eac2ee518c905a3a81dda7dd3e6973604dd9eca4e35b22f9c2752c3295202409/68747470733a2f2f7777772e696d616765666c6f772e696f2f696d616765732f656469742d75726c2e676966)
+![](https://camo.githubusercontent.com/eac2ee518c905a3a81dda7dd3e6973604dd9eca4e35b22f9c2752c3295202409/68747470733a2f2f7777772e696d616765666c6f772e696f2f696d616765732f656469742d75726c2e676966)  
 先將專案跑起來，調整圖片的 query command，就能調整圖片的大小。
 
 ```
