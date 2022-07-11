@@ -16,8 +16,8 @@ author : Mark ku
 * 後台上傳前檢查
 * 雲端空間圖床api(阿里雲)
 * cloudflare image resize api 
-* 手動壓縮
 * webpack 打包時壓縮圖片等 
+* 手動壓縮圖檔
 
 ## 何謂 Imageflow
 今天就來介紹 Imageflow 是我覺得 dotnet 很棒的開源圖片處理專案，擁有像阿里雲的圖片調整api，透過 query string 可以輕易使我達成圖片格式轉換、剪裁及壓縮等功能，且可以由前端決定傳入圖片參數到後端轉換，在由我的後端上傳到我的 Image storage，
