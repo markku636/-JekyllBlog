@@ -102,5 +102,9 @@ author : Mark ku
 1. Review IIS Request Filtering 設定
 1. Windows update 每半年至少做一次更新，有微軟網站公佈的重大資安漏洞，就得提前做。可以由[Windows 更新導覽網站](https://msrc.microsoft.com/update-guide)去查詢有沒有重大資安漏。
 
+## 參考資料 
+[How to Secure a Site in IIS](https://www.liquidweb.com/kb/how-to-secure-a-site-in-iis/)
+[政府組態基準(GCB)IIS 8.5](https://download.nccst.nat.gov.tw/attachfilegcb/02.108%E5%B9%B4GCB%E5%AF%A6%E4%BD%9C%E7%A0%94%E7%BF%92%E6%B4%BB%E5%8B%95_Microsoft%20IIS%208.5%E7%B5%84%E6%85%8B%E8%A8%AD%E5%AE%9A%E8%88%87%E5%AF%A6%E4%BD%9C%E7%B7%B4%E7%BF%92v1.0_1081111.pdf)
+[4MOSAn GCB Doctor 政府組態基準導入與檢測 工具](https://www.4mosan.com/product/gcb-tw.php)
 
 
