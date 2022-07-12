@@ -105,6 +105,10 @@ author : Mark ku
 ## 參考資料 
 [How to Secure a Site in IIS](https://www.liquidweb.com/kb/how-to-secure-a-site-in-iis/)
 [政府組態基準(GCB)IIS 8.5](https://download.nccst.nat.gov.tw/attachfilegcb/02.108%E5%B9%B4GCB%E5%AF%A6%E4%BD%9C%E7%A0%94%E7%BF%92%E6%B4%BB%E5%8B%95_Microsoft%20IIS%208.5%E7%B5%84%E6%85%8B%E8%A8%AD%E5%AE%9A%E8%88%87%E5%AF%A6%E4%BD%9C%E7%B7%B4%E7%BF%92v1.0_1081111.pdf)
-[4MOSAn GCB Doctor 政府組態基準導入與檢測 工具](https://www.4mosan.com/product/gcb-tw.php)
+[政府組態基準導入與檢測 工具](https://www.4mosan.com/product/gcb-tw.php)
+[.NET Security Application/Web Development - Overview](https://www.slideshare.net/chentientsai/net-security-applicationweb-development-overview)
+[.NET Security Application/Web Development - Overview - 2](https://www.slideshare.net/chentientsai/net-security-applicationweb-development-part-ii)
+[.NET Security Application/Web Development - Overview - 3](https://www.slideshare.net/chentientsai/net-security-applicationweb-development-part-iii)
+[.NET Security Application/Web Development - Overview - 3](https://www.slideshare.net/chentientsai/net-security-applicationweb-development-part-iv-129410445)
 
 
