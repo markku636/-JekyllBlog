@@ -99,6 +99,7 @@ author : Mark ku
 ## 最後我的解決方案
 1. 從Web config 移除不必要的網頁腳本 (ASPX 、ASP .... )
 1. Review IIS目錄權限，並禁止繼承D磁碟糟權限，限制User只有看的權限，不能夠執行腳本及寫入
+1. Review IIS Request Filtering 設定
 1. Windows update 每半年至少做一次更新，有微軟網站公佈的重大資安漏洞，就得提前做。可以由[Windows 更新導覽網站](https://msrc.microsoft.com/update-guide)去查詢有沒有重大資安漏。
 
 ## 參考資料 
