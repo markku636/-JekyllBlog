@@ -92,9 +92,7 @@ author : Mark ku
 </html>
 ```
 
-☆★最後參考保哥blog發現，IIS預設目錄是安全的，但我們移到Ｘ糟，就繼承了Ｘ糟額外的權限，最後我們IIS的目錄發現確實是能夠寫入及修改檔案的。
-
-<https://blog.miniasp.com/post/2009/03/16/IIS-6-Identity-and-Windows-Access-Control-is-not-what-you-expected>
+☆★最後參考保哥 [blog 文章](https://blog.miniasp.com/post/2009/03/16/IIS-6-Identity-and-Windows-Access-Control-is-not-what-you-expected)發現，IIS預設目錄是安全的，但我們移到Ｘ糟，就繼承了Ｘ糟額外的權限，最後我們IIS的目錄發現確實是能夠寫入及修改檔案的。
 
 ## 最後我的解決方案
 1. 從Web config 移除不必要的網頁腳本 (ASPX 、ASP .... )
@@ -103,6 +101,7 @@ author : Mark ku
 1. Windows update 每半年至少做一次更新，有微軟網站公佈的重大資安漏洞，就得提前做。可以由[Windows 更新導覽網站](https://msrc.microsoft.com/update-guide)去查詢有沒有重大資安漏。
 
 ## 參考資料 
+[IIS 執行的身份識別與 Windows 權限控管不是你想的那樣](https://blog.miniasp.com/post/2009/03/16/IIS-6-Identity-and-Windows-Access-Control-is-not-what-you-expected)
 [How to Secure a Site in IIS](https://www.liquidweb.com/kb/how-to-secure-a-site-in-iis/)  
 [政府組態基準(GCB)IIS 8.5](https://download.nccst.nat.gov.tw/attachfilegcb/02.108%E5%B9%B4GCB%E5%AF%A6%E4%BD%9C%E7%A0%94%E7%BF%92%E6%B4%BB%E5%8B%95_Microsoft%20IIS%208.5%E7%B5%84%E6%85%8B%E8%A8%AD%E5%AE%9A%E8%88%87%E5%AF%A6%E4%BD%9C%E7%B7%B4%E7%BF%92v1.0_1081111.pdf)  
 [政府組態基準導入與檢測 工具](https://www.4mosan.com/product/gcb-tw.php)  
@@ -110,5 +109,4 @@ author : Mark ku
 [.NET Security Application/Web Development - Overview - 2](https://www.slideshare.net/chentientsai/net-security-applicationweb-development-part-ii)  
 [.NET Security Application/Web Development - Overview - 3](https://www.slideshare.net/chentientsai/net-security-applicationweb-development-part-iii)  
 [.NET Security Application/Web Development - Overview - 3](https://www.slideshare.net/chentientsai/net-security-applicationweb-development-part-iv-129410445)  
-
 
