@@ -18,6 +18,7 @@ author : Mark ku
 
 #### 離開賽前一天 - 避免心裡因素影響比賽表現，我最在比賽前一天和 Kevin 到蒔里沙灘試游，面對深不見底大海，我並不是沒有恐懼，但經過訓練，使我變得勇敢！結果試游當日浪很小，非常好游。
 ![](https://i.imgur.com/K36z8rT.jpg)  
+
 <div class="iframe-container">
     <iframe
         src="https://www.youtube.com/embed/bXOGkVU9wGs"
