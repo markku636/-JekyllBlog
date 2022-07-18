@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: 關於我
 permalink: /about
 image: about.webp

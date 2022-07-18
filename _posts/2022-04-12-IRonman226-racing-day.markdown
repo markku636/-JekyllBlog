@@ -18,7 +18,15 @@ author : Mark ku
 
 #### 離開賽前一天 - 避免心裡因素影響比賽表現，我最在比賽前一天和 Kevin 到蒔里沙灘試游，面對深不見底大海，我並不是沒有恐懼，但經過訓練，使我變得勇敢！結果試游當日浪很小，非常好游。
 ![](https://i.imgur.com/K36z8rT.jpg)  
-[試泳影片](https://youtube.com/shorts/bXOGkVU9wGs?feature=share) 
+<div class="iframe-container">
+    <iframe
+        src="https://www.youtube.com/embed/bXOGkVU9wGs"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
+
 ## 比賽日 - D DAY 
 每次在下水等待是最難熬的，真的超緊張的，這輩子從來沒有游過這麼長的海泳。
 ![](https://i.imgur.com/ZtoeHuq.jpg)
@@ -43,8 +51,6 @@ author : Mark ku
         allowfullscreen>
     </iframe>
 </div>
-
-[終點影片](https://youtube.com/shorts/QXxuNpwIk4I?feature=share)  
 
 ![](https://i.imgur.com/RdLr1ri.jpg)
 
