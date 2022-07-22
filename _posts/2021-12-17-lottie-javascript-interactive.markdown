@@ -135,5 +135,5 @@ Adobe After Effect 腳本引擎是 Javascript，應該能寫條件判斷式，�
 
 Lottie web (播放器)，提供相當多鉤子事件及屬性可以調整，像是速度、播放次數、重覆播放，播放完成執行那些事件等等。
 
-## [下一章 - 透過 Adobe After Effect 製作 lottie 動畫，並與 Javascript 互動 Part 2 - 進階互動應用](https://blog.markkulab.net/2022/05/26/live-streaming-player/)
+## [下一章 - 透過 Adobe After Effect 製作 lottie 動畫，並與 Javascript 互動 Part 2 - 進階互動應用](https://blog.markkulab.net/2021/12/19/lottie-javascript-interactive-part-2)
 
