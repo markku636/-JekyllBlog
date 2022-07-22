@@ -11,7 +11,7 @@ author : Mark ku
 # 透過 Adobe After Effect 製作 lottie 動畫，並與 Javascript 互動 Part 2 - 進階互動應用
 
 ## 前言
-[前一篇](https://blog.markkulab.net/2021/12/16/lottie-javascript-interactive/)的文章得知，Adobe After Effect透過將圖層給 “#” 當特殊後缀命名，字元輸出後會 #字之後字元將會轉換成 id，Javascript 透過操作 DOM 就能與動畫溝通。這篇針對一些比較JS 和動畫互動的功能做介紹。
+[前一篇](https://blog.markkulab.net/2021/12/16/lottie-javascript-interactive)的文章得知，Adobe After Effect透過將圖層給 “#” 當特殊後缀命名，字元輸出後會 #字之後字元將會轉換成 id，Javascript 透過操作 DOM 就能與動畫溝通。這篇針對一些比較JS 和動畫互動的功能做介紹。
 
 ## 在使用程式控制幀數前，先要了解什麼是幀數(Frame per second/Frame Rate)
 幀數是動畫播放的單位，簡單來說就是每秒播放幾個畫格。  
