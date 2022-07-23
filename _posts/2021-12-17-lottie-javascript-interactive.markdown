@@ -131,9 +131,7 @@ export default {
 [Demo 影片連結](https://www.loom.com/share/c882bb074441462bb1f926f2a39cf7d2)
 
 ## 結論
-Adobe After Effect 腳本引擎是 Javascript，應該能寫條件判斷式，本身透過DOM 當接口，能綁定前端事件做互動，對於撰寫小遊戲真的相當的方便。  
-
-Lottie web (播放器)，提供相當多鉤子事件及屬性可以調整，像是速度、播放次數、重覆播放，播放完成執行那些事件等等。
+Adobe After Effect 本身可透過 Lottie Api 達到前端和動畫做互動，對於撰寫小遊戲真的相當的方便，提供相當多事件及屬性可以調整，像是速度、播放次數、重覆播放，播放完成執行事件等等。
 
 ## [下一章 - 透過 Adobe After Effect 製作 lottie 動畫，並與 Javascript 互動 Part 2 - 進階互動應用](https://blog.markkulab.net/2021/12/19/lottie-javascript-interactive-part-2)
 
