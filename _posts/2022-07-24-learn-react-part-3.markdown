@@ -26,6 +26,7 @@ this.setState ({ count: this.state.count + 1 }, () => {
 });
 ```
 * setState 執行兩次相同的事件，只會執行一次，可以用傳入一個函數取得前一個生命週期的狀態 (preState、preProps)
+
 ```
 onClick={() => {
             this.setState(
@@ -54,7 +55,7 @@ onClick={() => {
 #### componentDidUpdate(prevProps, prevState) 
 P.S.但需要特別注意的是，當該元件中任何state被setState設定時，componentDidUpdate都會被重新呼叫。所以必須特別注意目前的邏輯是否有出現無限遞迴的可能。  
 
-#### shouldComponentUpdate - 元件需不需要 update ，預設值為 true，不需要則不更新，
+#### shouldComponentUpdate - 元件需不需要 update ，預設值為 true，不需要則不更新。
 ```
 shouldComponentUpdate(nextProps, nextState) {
   return true; // 反回true 更新 false 不更新
