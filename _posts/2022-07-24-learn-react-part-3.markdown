@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React 學習筆記 - state、props、setState、挷定正確 this - Part's 3
+title: React 學習筆記 - state、props、setState、Binding this - Part's 3
 date:  2022-07-24 01:01:01 +0800
 image: react.webp
 categories: Frontend
