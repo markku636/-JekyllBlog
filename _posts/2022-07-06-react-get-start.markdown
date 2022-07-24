@@ -1,11 +1,11 @@
 ---
 layout: post
-title: React 初探
+title: React 學習筆記 - React 初探 - Part's 1
 date:  2022-07-06 01:01:01 +0800
 image: react.webp
 categories: Frontend
 tags: React get start
-description : React 初探
+description : React 學習筆記 - React 初探 - Part's 1
 author : Mark ku
 ---
 
