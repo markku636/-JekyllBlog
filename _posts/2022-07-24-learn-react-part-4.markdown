@@ -27,7 +27,7 @@ Hook 是 React 16.8 中增加的新功能。它讓你不必寫 class 就能使�
 P.S. useEffect 若不帶第二個參數，每次被渲染就會被調用，會造成無窮無死循環，若不想發生可以給他空 array。   
 ![](https://i.imgur.com/915DCg8.png)
 
-## 因為 useEffect 是同步方法，但可以用來 promise，如果要用 async wait，則必在 useEffect 裡擴充一個 async 方法，並執行他
+## 因為 useEffect 是同步方法，但可以用直接 promise，如果要用 async wait，則必在 useEffect 裡擴充一個 async 方法，並執行他
  
  ```
  // promise 用法

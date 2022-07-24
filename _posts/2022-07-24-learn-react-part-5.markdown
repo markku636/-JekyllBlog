@@ -16,7 +16,7 @@ npm install react-router-dom --save // 基於 react-router 實作的 lib
 npm install @types/react-router-dom --save-deve // 官方沒提供
 ```
 ## 使用方法
-React 露由用法主要是由這三個所組成  
+React 路由用法主要是由這三個所組成  
 BroserRouter + Switch+ Route  
 ```
 app.tsx
