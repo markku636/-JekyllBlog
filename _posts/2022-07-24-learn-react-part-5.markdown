@@ -66,7 +66,7 @@ export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = (
 ```
    
 ### 子組件獲得路由的參數資訊 
-使用組件 React Route 時，預設會在子組件中 props 取得 match 、history、location ，但太多層級就得搭配
+使用組件 React Route 時，預設會在子組件中 props 取得 match 、history、location ，但如果要跨組件傳遞時則  
 * 使用 app context 來做
 * hoc 高階組件
 * 使用 useParams Hook 函數取得 ( 簡化取得 )
