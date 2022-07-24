@@ -1,0 +1,172 @@
+---
+layout: post
+title: React 學習筆記 - 框架優勢、XSS、CSS 使用方式 - Part 2 
+date:  2022-07-23 01:01:01 +0800
+image: react.webp
+categories: Frontend
+tags: React get start
+description : React 初探
+author : Mark ku
+---
+# react 學習筆記
+## react 框架的成功關鍵
+## 單向挷定
+雙向通過數據的改變，動態改變 UI ，項目越來大，數據也越來越不可碰。
+
+## 單向渲染
+好像一個函數，同樣的輸入參數，輸出同樣的組件
+
+## 虛擬dom 
+瀏覽器操作 dom 成本很高，js 抽像層，用最小代價部份更新
+
+![](https://i.imgur.com/WUh2W3r.png)
+
+## 組件化
+一個應用是無數的元件我搭建，元件本身擁有著獨立、完整、自由組合特性，可以使
+* 一致性
+* 視覺風格統一
+* 有利程式開發協作
+
+## React 結合 interface
+```
+interface RobotProps {
+  id: string;
+  name: string;
+  email: string;
+}
+
+const Robot: React.FC<RobotProps> = (props) => {
+  const id = props.id;
+  return <h1>{id}</h1>;
+};
+
+export default Robot;
+```
+
+## react xss 
+{html} =>jsx react 會將 xss 轉換成特殊字元  轉成編碼字串。
+得透過 dangerouslySetInnerHTML ，但要小心使用。
+
+```
+import React from "react";
+import logo from "./logo.svg";
+
+import Robot from "Robot";
+import "App.css";
+
+function App() {
+  let html = "<img alt='rebot' src='https://robohash.org/GDZ.png?set=set3'} />";
+  let jsHack = "javascript: alert('123')";  
+
+  let user = { name: "hannah </script><script>alert(1);//" };
+
+  return (
+    <div className="App">      
+
+      <span dangerouslySetInnerHTML={{ __html: user.name }} />
+      <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Learn Reactaa
+      </a>
+      {/* <Robot id="GDZ.png?set=set3" email="edaad" name="mark" /> */}
+      <a href={jsHack}>JShACK</a>
+      {html}
+    </div>
+  );
+}
+
+export default App;
+```   
+    
+##  react 引用 css  方法
+### 1. 直接引入整個css 文件
+```
+import './index.css'
+<div className="app" />
+```
+
+P.S.這樣匯入可能造成，全域 css 汙染
+
+### 2. 在組件中寫css
+```
+import React from "react";
+
+class Header extends React.Component {
+	style1 = {
+		background: 'red',
+		height: '25px'
+	};	
+	 	
+  render() {
+    return (
+		<div  style={this.style1}>		
+			123
+		</div>
+    );
+  }
+}
+
+export default Header;
+```
+
+### css in js ( JSS 模快化引入 )
+
+最後顯示結果是 JSS 名稱動態生成 CssName，但好處是可以按使用需求才引入使用
+宣告 css 模塊
+
+```
+declare module "*.css" {
+  const css: { [key: string]: string };
+  export default css;
+}
+```
+
+```
+import style from './index'
+<div className={styles.app}>
+```
+
+#### vscode 智能提示 css in Js 功能( 安裝 typescript css 模塊組件 )
+
+```
+npm install typescript-plugin-css-modules --save --dev
+```
+#### 修改 tsconfig.json 設定檔，加入 plugins
+```
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    ...
+  
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ]
+    ...
+  },
+}
+```
+
+#### 加入 vs code 配置( .vscode\settings.json )
+```
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true
+}
+```
+#### 此時 vs code 會提示，按下允許就，重啟 vs code 則，就能擁有模塊的 css 模組的自動提示
+
+![](https://i.imgur.com/rDoTdb4.png)
+
+P.S. 從React 底層，發現，圖片格式及其他類型 react moudule 都預設宣告好了，直接引就好行了  
+![](https://i.imgur.com/xwbguAU.png)
