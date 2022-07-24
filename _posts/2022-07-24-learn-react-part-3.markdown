@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React 學習筆記 - state、props、setState、Binding this - Part's 3
+title: React 學習筆記 - state、props、setState、Binding this - Part's 5
 date:  2022-07-24 01:01:01 +0800
 image: react.webp
 categories: Frontend
@@ -51,7 +51,7 @@ onClick={() => {
 #### componentDidMount() - 組件剛剛掛載後觸發的事件
 #### 生命週期二:更新
 在組件接收到一個新的 prop 或更新後被調用  
-#### static getDerivedStateFromProps(props, state) {} 
+#### static getDerivedStateFromProps(props, state)
 #### componentDidUpdate(prevProps, prevState) 
 P.S.但需要特別注意的是，當該元件中任何state被setState設定時，componentDidUpdate都會被重新呼叫。所以必須特別注意目前的邏輯是否有出現無限遞迴的可能。  
 
