@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React 學習筆記 - 框架優勢、XSS、CSS 使用方式 - Part 2 
+title: React 學習筆記 - 框架優勢、XSS、CSS in JS 使用方式 - Part 2 
 date:  2022-07-23 01:01:01 +0800
 image: react.webp
 categories: Frontend
@@ -10,38 +10,25 @@ author : Mark ku
 ---
 # react 學習筆記
 ## react 框架的成功關鍵
-## 單向挷定
-雙主要透過數據的改變，動態改變 UI ，應用程式越來大，數據也越來越不好控制，大多數情況不需要雙向綁定，反而造成效能的消耗。
+### 單向挷定
+雙主要透過數據的改變，動態改變 UI ，應用程式越來大，大多數情況不需要雙向綁定，反而造成效能的消耗，數據也越來越不好控制，
+AngularJs - 雙向數據流，
+Angular - AngularJs 雙單向數據，衍伸的問題太多後，後面也採單向數據流。 
+Vue - 單向數據流框架，v-model 只是語法糖，用來減少 控制數據流向的代碼，讓用戶的操作可以通過單向的數據流向 更新到綁定值中，綁定值在通過更新渲染更新到頁面上。
 
-## 單向渲染
-好像一個函數，同樣的輸入參數，輸出同樣的組件。
+### 單向渲染
+數據和界面挷定，就好像一個函數，同樣的輸入參數，輸出同樣的組件。
 
-## 虛擬dom 
+### 虛擬dom 
 瀏覽器操作 dom 成本很高，js 模擬出 DOM 抽像層，用最小代價達成部份渲染更新。
 
 ![](https://i.imgur.com/WUh2W3r.png)
 
-## 組件化
+### 元件化
 一個應用是無數的元件我搭建，元件本身擁有著獨立、完整、自由組合特性，可以使  
 * 一致性
 * 視覺風格統一
 * 有利程式開發協作
-
-## React 結合 interface
-```
-interface RobotProps {
-  id: string;
-  name: string;
-  email: string;
-}
-
-const Robot: React.FC<RobotProps> = (props) => {
-  const id = props.id;
-  return <h1>{id}</h1>;
-};
-
-export default Robot;
-```
 
 ## react xss 
 {html} =>jsx react 會將 xss 轉換成特殊字元  轉成編碼字串。
@@ -154,7 +141,6 @@ npm install typescript-plugin-css-modules --save --dev
   },
 }
 ```
-
 #### 加入 vs code 配置( .vscode\settings.json )
 ```
 {
