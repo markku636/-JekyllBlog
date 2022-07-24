@@ -8,7 +8,6 @@ tags: React get start
 description : React 學習筆記 - 路由 ( Router ) - Part's 5
 author : Mark Ku
 ---
-# React router
 ## 路由的原理原理
 路由的原理，依據 url 請求，動態去載入相對應的元件。
 ## 安裝 react router ( 最常見 )
