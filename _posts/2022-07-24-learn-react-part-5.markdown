@@ -1,0 +1,119 @@
+---
+layout: post
+title: React 學習筆記 - 路由 ( Router ) - Part's 5
+date:  2022-07-24 01:01:01 +0800
+image: react.webp
+categories: Frontend
+tags: React get start
+description : React 學習筆記 - 路由 ( Router ) - Part's 5
+author : Mark Ku
+---
+# React router
+## 路由的原理原理
+路由的原理，依據 url 請求，動態去載入相對應的元件。
+## 安裝 react router ( 最常見 )
+```
+npm install react-router-dom --save // 基於 react-router 實作的 lib 
+npm install @types/react-router-dom --save-deve // 官方沒提供
+```
+## 使用方法
+React 露由用法主要是由這三個所組成  
+BroserRouter + Switch+ Route  
+```
+app.tsx
+<BroserRouter>
+<Switch>
+    <Route exect path="/" component={HomePage} />
+     <Route path="/sign" render={()=><h1>sign</h1>} />
+    <Route render={()=><h1>404</h1>} />
+     
+ </Switch>
+</BroserRouter>
+```
+* exect - 嚴謹的，完全匹配，才會生效
+* Switch - 避免頁面推疊，要用使 Switch，只會有一個頁面組件生效。
+* 404 頁面要放在最後一個，所有沒匹配才會生效
+
+## 如何透過路由傳遞參數
+### 1. 使用 "?" 來傳遞參數
+
+```
+http://localhost:3000/product?id=5
+```
+### 2. 使用路由 Segments 來 傳遞參數
+
+```
+http://localhost:3000/product/123456
+```
+
+### 透過 RouteComponentProps 取得路由的參數
+```
+import React from "react";
+import { RouteComponentProps } from "react-router-dom";
+
+interface MatchParams {
+  touristRouteId: string;
+}
+
+export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = (
+  props
+) => {
+//   console.log(props.history);
+//   console.log(props.location);
+//   console.log(props.match);
+  return <h1>路游路线详情页面, 路线ID: {props.match.params.touristRouteId}</h1>;
+};
+```
+   
+### 子組件獲得路由的參數資訊 
+* 使用 app context 來做
+* import React, { useState, useCallback } from "react";
+```
+import { createBrowserHistory } from "history";
+import Context from "./Context";
+
+const BrowserRouter = props => {
+  const history = createBrowserHistory();
+  const [location, setLocation] = useState(history.location);
+
+  const computeRootMatch = useCallback(pathname => {
+    return { path: "/", url: "/", params: {}, isExact: pathname === "/" };
+  }, []);
+
+  history.listen(location => {
+    setLocation(location);
+  });
+
+  return (
+    <Context.Provider
+      value={{ history, location, match: computeRootMatch(location.pathname) }}
+    >
+      {props.children}
+    </Context.Provider>
+  );
+};
+
+export default BrowserRouter;
+```
+* hoc 高階組件
+* 使用 useParams Hook 函數取得 ( 簡化取得 )
+
+```
+import { useParams } from "react-router-dom";
+const { touristRouteId }: MatchParams = useParams();
+alert(touristRouteId);
+```
+
+## 導頁
+React 導頁的方式主要有兩種
+### 1. history push
+```
+<Button onClick={() => history.push("signIn")}>登陆</Button>
+```
+### 2. 使用 link 組件 ( 封裝過的 a 標籤 + history push )
+``` 
+<Link to={`detail/${id}`}>
+  連結      
+</Link>
+``` 
+## 未完成
