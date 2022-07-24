@@ -67,29 +67,18 @@ export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = (
 ### 子組件獲得路由的參數資訊 
 使用組件 React Route 時，預設會在子組件中 props 取得 match 、history、location ，但如果要跨組件傳遞時則  
 * 使用 app context 來做
-* hoc 高階組件 (共享組件)
+* hoc 高階組件
+
 ```
-import React from "react";
-import PropTypes from "prop-types";
-import { withRouter } from "react-router";
-
-class ShowTheLocation extends React.Component {
-  // 將match、location、history當成props傳入ShowTheLocation組件，可以讓原本沒有接收props或是state的component能夠因為location的改變而render
-  static propTypes = {
-    match: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-    history: PropTypes.object.isRequired
-  };
-
-  render() {
-    const { match, location, history } = this.props;
-
-    return <div>You are now at {location.pathname}</div>;
-  }
+import React,{Component} from 'react'
+import {withRouter} from 'react-router-dom' 
+class App extends Component{
+    console.log(this.props);  // {match: {…}, location: {…}, history: {…}, 等}
+    render(){return (<div className='app'></div>)
+    }
 }
+export default withRouter(App);  // 這里透遛WithRouter將路由參數傳入props中
 
-const ShowTheLocationWithRouter = withRouter(ShowTheLocation);
-export default ShowTheLocationWithRouter;
 ```
 * 使用 Hook 函數取得 ( 簡化取得 )
 
