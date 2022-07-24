@@ -60,7 +60,7 @@ export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = (
 //   console.log(props.history);
 //   console.log(props.location);
 //   console.log(props.match);
-  return <h1>路游路线详情页面, 路线ID: {props.match.params.touristRouteId}</h1>;
+  return <h1>路游路線詳情頁面, 路線ID: {props.match.params.touristRouteId}</h1>;
 };
 ```
    
