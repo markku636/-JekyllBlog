@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React 學習筆記 - state、props、setState、挷定正確 this
+title: React 學習筆記 - state、props、setState、挷定正確 this - Part's 3
 date:  2022-07-24 01:01:01 +0800
 image: react.webp
 categories: Frontend
@@ -46,9 +46,9 @@ onClick={() => {
 ### React Class Component ( 舊 ) 
 ![](https://i.imgur.com/lgWfIZe.png)
 
-### 生命週期一:初始化
+#### 生命週期一:初始化
 #### componentDidMount() - 組件剛剛掛載後觸發的事件
-### 生命週期二:更新
+#### 生命週期二:更新
 在組件接收到一個新的 prop 或更新後被調用  
 #### static getDerivedStateFromProps(props, state) {} 
 #### componentDidUpdate(prevProps, prevState) 
@@ -60,11 +60,11 @@ shouldComponentUpdate(nextProps, nextState) {
   return true; // 反回true 更新 false 不更新
 }
 ```
-### 生命週期三: 銷毀 
+#### 生命週期三: 銷毀 
 
 #### componentWillUnmount() - 用於組件銷毀前調用，避免記憶體洩漏
 
-### pure components
+### function component ( 目前新開的專案 App.tsx 也都是預設都是 function component )
 
 ```
 interface RobotProps {
