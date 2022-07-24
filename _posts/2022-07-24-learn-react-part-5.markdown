@@ -66,35 +66,8 @@ export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = (
 ```
    
 ### 子組件獲得路由的參數資訊 
+使用組件 React Route 時，預設會在子組件中 props 取得 match 、history、location ，但太多層級就得搭配
 * 使用 app context 來做
-* import React, { useState, useCallback } from "react";
-```
-import { createBrowserHistory } from "history";
-import Context from "./Context";
-
-const BrowserRouter = props => {
-  const history = createBrowserHistory();
-  const [location, setLocation] = useState(history.location);
-
-  const computeRootMatch = useCallback(pathname => {
-    return { path: "/", url: "/", params: {}, isExact: pathname === "/" };
-  }, []);
-
-  history.listen(location => {
-    setLocation(location);
-  });
-
-  return (
-    <Context.Provider
-      value={{ history, location, match: computeRootMatch(location.pathname) }}
-    >
-      {props.children}
-    </Context.Provider>
-  );
-};
-
-export default BrowserRouter;
-```
 * hoc 高階組件
 * 使用 useParams Hook 函數取得 ( 簡化取得 )
 
