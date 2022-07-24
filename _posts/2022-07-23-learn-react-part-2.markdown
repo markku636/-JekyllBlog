@@ -13,7 +13,7 @@ author : Mark ku
 ### 單向挷定
 雙主要透過數據的改變，動態改變 UI ，應用程式越來大，大多數情況不需要雙向綁定，反而造成效能的消耗，數據也越來越不好控制。  
 AngularJs - 雙向數據流。  
-Angular - AngularJs 雙單向數據，衍伸的問題太多後，後面也採單向數據流。 
+Angular - AngularJs 雙單向數據，衍伸的問題太多後，後面也採單向數據流。  
 Vue - 單向數據流框架，v-model 只是語法糖，用來減少 控制數據流向的代碼，讓用戶的操作可以通過單向的數據流向 更新到綁定值中，綁定值在通過更新渲染更新到頁面上。  
 
 ### 單向渲染
@@ -148,9 +148,9 @@ npm install typescript-plugin-css-modules --save --dev
 	"typescript.enablePromptUseWorkspaceTsdk": true
 }
 ```
-#### 此時 vs code 會提示，按下允許就，重啟 vs code 則，就能擁有模塊的 css 模組的自動提示
-
+#### 此時 vs code 會提示，按下允許，重啟 vs code，就能擁有模塊的 css 模組的自動提示
 ![](https://i.imgur.com/rDoTdb4.png)
-
+### 自動提示功能
+![](https://i.imgur.com/S6loSZi.png)
 P.S. 從React 底層，發現，圖片格式及其他類型 react moudule 都預設宣告好了，直接引就好行了  
 ![](https://i.imgur.com/xwbguAU.png)
