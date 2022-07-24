@@ -68,13 +68,39 @@ export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = (
 ### 子組件獲得路由的參數資訊 
 使用組件 React Route 時，預設會在子組件中 props 取得 match 、history、location ，但如果要跨組件傳遞時則  
 * 使用 app context 來做
-* hoc 高階組件
-* 使用 useParams Hook 函數取得 ( 簡化取得 )
+* hoc 高階組件 (共享組件)
+```
+import React from "react";
+import PropTypes from "prop-types";
+import { withRouter } from "react-router";
+
+class ShowTheLocation extends React.Component {
+  // 將match、location、history當成props傳入ShowTheLocation組件，可以讓原本沒有接收props或是state的component能夠因為location的改變而render
+  static propTypes = {
+    match: PropTypes.object.isRequired,
+    location: PropTypes.object.isRequired,
+    history: PropTypes.object.isRequired
+  };
+
+  render() {
+    const { match, location, history } = this.props;
+
+    return <div>You are now at {location.pathname}</div>;
+  }
+}
+
+const ShowTheLocationWithRouter = withRouter(ShowTheLocation);
+export default ShowTheLocationWithRouter;
+```
+* 使用 Hook 函數取得 ( 簡化取得 )
 
 ```
-import { useParams } from "react-router-dom";
+import { useHistory, useLocation, useParams, useRouteMatch } from "react-router-dom";
+const history = useHistory();
+const location = useLocation();
 const { touristRouteId }: MatchParams = useParams();
-alert(touristRouteId);
+const match = useRouteMatch();
+
 ```
 
 ## 導頁
@@ -83,10 +109,11 @@ React 導頁的方式主要有兩種
 ```
 <Button onClick={() => history.push("signIn")}>登陆</Button>
 ```
+
 ### 2. 使用 link 組件 ( 封裝過的 a 標籤 + history push )
 ``` 
 <Link to={`detail/${id}`}>
   連結      
 </Link>
 ``` 
-## 未完成 (WithRouter 与 useRouter)
+## 未完成 
