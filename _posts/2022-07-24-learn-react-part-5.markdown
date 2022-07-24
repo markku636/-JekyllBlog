@@ -107,7 +107,7 @@ const match = useRouteMatch();
 React 導頁的方式主要有兩種
 ### 1. history push
 ```
-<Button onClick={() => history.push("signIn")}>登陆</Button>
+<Button onClick={() => history.push("signIn")}>登入</Button>
 ```
 
 ### 2. 使用 link 組件 ( 封裝過的 a 標籤 + history push )
