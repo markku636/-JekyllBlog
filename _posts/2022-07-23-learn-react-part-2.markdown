@@ -30,9 +30,7 @@ Vue - 單向數據流框架，v-model 只是語法糖，用來減少 控制數�
 * 有利程式開發協作
 
 ## react xss 
-{html} =>jsx react 會將 xss 轉換成特殊字元  轉成編碼字串。
-得透過 dangerouslySetInnerHTML ，但要小心使用。
-
+{html} => 在 jsx 模板中被渲染時，xss 相關字元，轉換成特殊字元轉成編碼字串，如果要渲染 Html，得透過 dangerouslySetInnerHTML ，但要小心使用。
 ```
 import React from "react";
 import logo from "./logo.svg";
