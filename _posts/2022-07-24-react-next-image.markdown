@@ -22,7 +22,7 @@ author : Mark Ku
 
 ## 我參考了[NZXT的網站](https://nzxt.com/assets/cms)，他們也是採用 next js，應該也是用 next/image 載入圖片，因為他們採用　imgix 的縮圖服務，所以沒發生這個問題，
 
-## 在去查[next 官方文件](https://nextjs.org/docs/api-reference/next/image#loader-configuration)，發現 next/image 的 loader 是可以客製化設定的
+## 查看[next js 官方文件](https://nextjs.org/docs/api-reference/next/image#loader-configuration)，發現 next/image 的 loader 是可以客製化設定的
 
 ```
 images: {
