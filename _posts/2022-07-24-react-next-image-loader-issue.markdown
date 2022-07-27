@@ -16,7 +16,7 @@ author : Mark Ku
 <img src="https://www.markkulab.com/_next/image?url=https://content.markkulab.com//Images/en-US/Lobby/same_day_rdy_next_01.png&w=1920&q=75"/>
 ```
 
-## 造成影響
+## 對系統的影響
 * next 伺服器渲染的效能的消耗
 * docker 映像檔過大
 
