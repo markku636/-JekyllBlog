@@ -10,7 +10,7 @@ author : Mark Ku
 ---
 
 ## 問題
-透過 next/image 元件的載入圖片，都會透過 next server 去調整圖片大小，圖片載入的路徑會如下:
+透過 next/image 元件的載入圖片，都會透過 next server 去調整圖片大小，圖片路徑會渲染成如下面範圍:
 
 ```
 <img src="https://www.markkulab.com/_next/image?url=https://content.markkulab.com//Images/en-US/Lobby/same_day_rdy_next_01.png&w=1920&q=75"/>
