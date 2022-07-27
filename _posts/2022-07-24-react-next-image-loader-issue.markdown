@@ -34,6 +34,6 @@ images: {
 
 ## 可行的解決方案
 * 啟動 Cloudflare Image Optimization [連結](https://developers.cloudflare.com/images/image-resizing/integration-with-frameworks/)
-* 購買 imgix 服務 ( 省時，但花錢 300 USD / month )
+* 購買 imgix 服務 ( 300 USD / month )
 * 自架 image loader，ex: uploadcare or  ... 
 * 棄用 next/image，自己寫新的圖片載元件，透過 cloudflare 類似的服務縮圖服務 =>　不建議太麻煩了
