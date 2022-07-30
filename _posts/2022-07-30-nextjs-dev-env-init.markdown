@@ -183,4 +183,4 @@ code --install-extension  esbenp.prettier-vscode
     "parser": "babel"
   }
 ```
-##　完成配置，你己擁有三大功能。
+## 完成配置，你己擁有三大功能。
