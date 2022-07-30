@@ -28,17 +28,16 @@ ESlint + StyleLint + Prettier 己經現今前端開發協作相當重要的工�
 npx create-next-app@latest --typescript
 
 ```
-### init next vscode plugin ( 專在案目錄執行，可以寫成 powershell )
+### 自動化安裝相關的套件( 專在案目錄執行，可以寫成 powershell )
 
 ```
-code --install-extension  dbaeumer.vscode-eslint
+code --install-extension  dbaeumer.vscode-eslint 
+npm add eslint --save -D 
 
-npm add eslint --save -D
 code --install-extension  stylelint.vscode-stylelint
 npm add stylelint-config-standard-scss --save -D
 
 code --install-extension  esbenp.prettier-vscode
-
 ```
 
 ## 建立相關套件的配置檔案
