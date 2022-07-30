@@ -152,7 +152,6 @@ code --install-extension  esbenp.prettier-vscode
 }
 
 ```
-
 ### .prettierrc
 
 ```
