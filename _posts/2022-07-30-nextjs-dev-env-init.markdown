@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Next js 快速建立開發環境筆記 ( ESlint + Style + Prettier )
+title: 快速建立 Next js 開發環境筆記 ( ESlint + Style + Prettier )
 date:  2022-07-30 01:01:01 +0800
 image: nextjs.webp
 categories: Frontend
@@ -15,7 +15,6 @@ ESlint + StyleLint + Prettier 己經現今前端開發協作相當重要的工�
 * StyleLint : CSS 自動校驗是不是符合團隊規範，自動調整成團隊規範的 CSS。
 * Prettier: 讓團隊有一致的，自動整理程式碼格式。
 
-
 ## 開發環境配置
 ESlint + StyleLint + Prettier 己經現今前端開發協作相當重要的工具，他可以讓團隊有一致的程式碼風格及規範，並透過 Vscode 開發工具，能夠協助修正一些錯誤。
 
@@ -26,7 +25,6 @@ ESlint + StyleLint + Prettier 己經現今前端開發協作相當重要的工�
 ## 建立 next js 項目
 ```
 npx create-next-app@latest --typescript
-
 ```
 ### 自動化安裝相關的套件( 專在案目錄執行，可以寫成 powershell )
 
@@ -55,7 +53,6 @@ code --install-extension  esbenp.prettier-vscode
   },
   "editor.formatOnSave": true, //true = 開啟,false = 關閉
 }
-
 ```
 
 ### .eslintrc.json
@@ -63,7 +60,6 @@ code --install-extension  esbenp.prettier-vscode
 {
   "extends": ["next/core-web-vitals","eslint:recommended"]
 }
-
 ```
 
 ### .stylelintrc
@@ -155,7 +151,6 @@ code --install-extension  esbenp.prettier-vscode
 
     }
 }
-
 ```
 
 ### .prettierrc
