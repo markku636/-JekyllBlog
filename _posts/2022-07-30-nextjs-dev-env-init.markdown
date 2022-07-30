@@ -74,7 +74,7 @@ code --install-extension  esbenp.prettier-vscode
             "ignoreTypes": []
         }],
         "selector-pseudo-element-no-unknown": [true, {
-            "ignorePseudoElements": ["v-deep"]
+            "ignorePseudoElements": []
         }],
         "comment-no-empty": true,
         "shorthand-property-no-redundant-values": true,
