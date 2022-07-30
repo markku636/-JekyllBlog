@@ -66,8 +66,22 @@ code --install-extension  esbenp.prettier-vscode
 ```
 {
     "extends": "stylelint-config-standard-scss",
-    "rules": {        
+    "rules": {
         "color-hex-case": "upper",
+        "block-no-empty": true,
+        "color-hex-length": "long",
+        "selector-type-no-unknown": [true, {
+            "ignoreTypes": []
+        }],
+        "selector-pseudo-element-no-unknown": [true, {
+            "ignorePseudoElements": ["v-deep"]
+        }],
+        "comment-no-empty": true,
+        "shorthand-property-no-redundant-values": true,
+        "value-no-vendor-prefix": true,
+        "property-no-vendor-prefix": true,
+        "number-leading-zero": "never",
+        "no-empty-first-line": true,
         "no-descending-specificity": null,
         "at-rule-no-unknown": null,
         "order/properties-order": [
@@ -147,7 +161,7 @@ code --install-extension  esbenp.prettier-vscode
             "text-shadow",
             "resize",
             "transition"
-        ]    
+        ]
 
     }
 }
