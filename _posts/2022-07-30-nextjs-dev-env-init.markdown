@@ -15,16 +15,10 @@ ESlint + StyleLint + Prettier 己經現今前端開發協作相當重要的工�
 * StyleLint : CSS 自動校驗是不是符合團隊規範，自動調整成團隊規範的 CSS。
 * Prettier: 讓團隊有一致的，自動整理程式碼格式。
 
-## 開發環境配置
-ESlint + StyleLint + Prettier 己經現今前端開發協作相當重要的工具，他可以讓團隊有一致的程式碼風格及規範，並透過 Vscode 開發工具，能夠協助修正一些錯誤。
-
-* ESlint : 程式碼撰寫風格校驗，開發階段找到很多潛在問題。
-* StyleLint : CSS 自動校驗是不是符合團隊規範，自動調整成團隊規範的 CSS。
-* Prettier: 讓團隊有一致的，自動整理程式碼格式。
-
-## 建立 next js 項目
+## 建立 next js 應用程式
 ```
 npx create-next-app@latest --typescript
+npm run dev
 ```
 ### 自動化安裝相關的套件( 專在案目錄執行，可以寫成 powershell )
 
