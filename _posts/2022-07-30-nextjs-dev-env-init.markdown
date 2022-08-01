@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 快速建立 Next js 開發環境筆記 ( ESlint + Style + Prettier )
+title: 快速建立 Next js 開發環境筆記 ( ESlint + StyleLint + Prettier )
 date:  2022-07-30 01:01:01 +0800
 image: nextjs.webp
 categories: Frontend
 tags: React Next dev init env enviorment
-description : Next js 快速建立開發環境筆記 ( ESlint + Style + Prettier )
+description : 快速建立 Next js 開發環境筆記 ( ESlint + StyleLint + Prettier )
 author : Mark Ku
 ---
 ## 目的
@@ -23,29 +23,41 @@ npm run dev
 ### 自動化安裝相關的套件( 專在案目錄執行，可以寫成 powershell )
 
 ```
-code --install-extension  dbaeumer.vscode-eslint 
-npm add eslint --save -D 
-
-code --install-extension  stylelint.vscode-stylelint
+code --install-extension dbaeumer.vscode-eslint 
+code --install-extension stylelint.vscode-stylelint@0.87.6
+code --install-extension esbenp.prettier-vscode
+code --install-extension rvest.vs-code-prettier-eslint
+cd ..
 npm add stylelint-config-standard-scss --save -D
-
-code --install-extension  esbenp.prettier-vscode
 ```
 
 ## 建立相關套件的配置檔案
 ### .vscode\settings.json 
 
 ```
-{
+{  
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,  // 存檔時自動修正 eslint 錯誤
-    "source.fixAll.stylelint": true, // 存檔時自動修正 stylelint 錯誤
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html,javascript]": {
+  "[html,javascript,json,xml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true, //true = 開啟,false = 關閉
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "stylelint.validate": ["css", "scss", ".module.scss"],
+  "eslint.alwaysShowStatus": true,
+  "eslint.debug": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "html", "vue", "json", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.options": {
+    "extensions": [".html", ".js", ".vue", ".jsx", "json", ".tsx"]
+  }
 }
 ```
 
@@ -59,105 +71,117 @@ code --install-extension  esbenp.prettier-vscode
 ### .stylelintrc
 ```
 {
-    "extends": "stylelint-config-standard-scss",
-    "rules": {
-        "color-hex-case": "upper",
-        "block-no-empty": true,
-        "color-hex-length": "long",
-        "selector-type-no-unknown": [true, {
-            "ignoreTypes": []
-        }],
-        "selector-pseudo-element-no-unknown": [true, {
-            "ignorePseudoElements": []
-        }],
-        "comment-no-empty": true,
-        "shorthand-property-no-redundant-values": true,
-        "value-no-vendor-prefix": true,
-        "property-no-vendor-prefix": true,
-        "number-leading-zero": "never",
-        "no-empty-first-line": true,
-        "no-descending-specificity": null,
-        "at-rule-no-unknown": null,
-        "order/properties-order": [
-            "position",
-            "top",
-            "right",
-            "bottom",
-            "left",
-            "z-index",
-            "display",
-            "justify-content",
-            "align-items",
-            "float",
-            "clear",
-            "overflow",
-            "overflow-x",
-            "overflow-y",
-            "margin",
-            "margin-top",
-            "margin-right",
-            "margin-bottom",
-            "margin-left",
-            "border",
-            "border-style",
-            "border-width",
-            "border-color",
-            "border-top",
-            "border-top-style",
-            "border-top-width",
-            "border-top-color",
-            "border-right",
-            "border-right-style",
-            "border-right-width",
-            "border-right-color",
-            "border-bottom",
-            "border-bottom-style",
-            "border-bottom-width",
-            "border-bottom-color",
-            "border-left",
-            "border-left-style",
-            "border-left-width",
-            "border-left-color",
-            "border-radius",
-            "padding",
-            "padding-top",
-            "padding-right",
-            "padding-bottom",
-            "padding-left",
-            "width",
-            "min-width",
-            "max-width",
-            "height",
-            "min-height",
-            "max-height",
-            "font-size",
-            "font-family",
-            "font-weight",
-            "text-align",
-            "text-justify",
-            "text-indent",
-            "text-overflow",
-            "text-decoration",
-            "white-space",
-            "color",
-            "background",
-            "background-position",
-            "background-repeat",
-            "background-size",
-            "background-color",
-            "background-clip",
-            "opacity",
-            "filter",
-            "list-style",
-            "outline",
-            "visibility",
-            "box-shadow",
-            "text-shadow",
-            "resize",
-            "transition"
-        ]
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
+      }
+    ],
+    "declaration-block-trailing-semicolon": null,
+    "no-descending-specificity": null,
+    "color-hex-case": "upper",
+    "block-no-empty": true,
+    "color-hex-length": "long",
+    "selector-type-no-unknown": [
+      true,
+      {
+        "ignoreTypes": []
+      }
+    ],
+    "selector-pseudo-element-no-unknown": [
+      true,
+      {
+        "ignorePseudoElements": []
+      }
+    ],
+    "comment-no-empty": true,
+    "shorthand-property-no-redundant-values": true,
+    "value-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "number-leading-zero": "never",
+    "no-empty-first-line": true,
 
-    }
+    "order/properties-order": [
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "z-index",
+      "display",
+      "justify-content",
+      "align-items",
+      "float",
+      "clear",
+      "overflow",
+      "overflow-x",
+      "overflow-y",
+      "margin",
+      "margin-top",
+      "margin-right",
+      "margin-bottom",
+      "margin-left",
+      "border",
+      "border-style",
+      "border-width",
+      "border-color",
+      "border-top",
+      "border-top-style",
+      "border-top-width",
+      "border-top-color",
+      "border-right",
+      "border-right-style",
+      "border-right-width",
+      "border-right-color",
+      "border-bottom",
+      "border-bottom-style",
+      "border-bottom-width",
+      "border-bottom-color",
+      "border-left",
+      "border-left-style",
+      "border-left-width",
+      "border-left-color",
+      "border-radius",
+      "padding",
+      "padding-top",
+      "padding-right",
+      "padding-bottom",
+      "padding-left",
+      "width",
+      "min-width",
+      "max-width",
+      "height",
+      "min-height",
+      "max-height",
+      "font-size",
+      "font-family",
+      "font-weight",
+      "text-align",
+      "text-justify",
+      "text-indent",
+      "text-overflow",
+      "text-decoration",
+      "white-space",
+      "color",
+      "background",
+      "background-position",
+      "background-repeat",
+      "background-size",
+      "background-color",
+      "background-clip",
+      "opacity",
+      "filter",
+      "list-style",
+      "outline",
+      "visibility",
+      "box-shadow",
+      "text-shadow",
+      "resize",
+      "transition"
+    ]
+  }
 }
 ```
 
@@ -165,25 +189,12 @@ code --install-extension  esbenp.prettier-vscode
 
 ```
 {
-    "arrowParens": "always",
-    "bracketSpacing": true,
-    "endOfLine": "lf",
-    "htmlWhitespaceSensitivity": "css",
-    "insertPragma": false,
-    "jsxBracketSameLine": false,
-    "jsxSingleQuote": false,
-    "printWidth": 80,
-    "proseWrap": "preserve",
-    "quoteProps": "as-needed",
-    "requirePragma": false,
-    "semi": true,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5",
-    "useTabs": false,
-    "vueIndentScriptAndStyle": false,
-    "parser": "babel"
-  }
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 120
+}
 ```
 
 ## 完成配置，你己擁有三大功能。
