@@ -101,10 +101,17 @@ css in js 的特性是，最後渲染結果的 CssName 會是動態生成的，�
 宣告 css 模塊。
 
 ```
-declare module "*.css" {
-  const css: { [key: string]: string };
-  export default css;
+global.d.ts
+declare module "*.module.css" {
+    const classes: { [key: string]: string}
+    export default classes
 }
+
+declare module "*.module.scss" {
+    const classes: { [key: string]: string}
+    export default classes
+}
+  
 ```
 
 ```
@@ -135,6 +142,11 @@ npm install typescript-plugin-css-modules --save --dev
       }
     ]
     ...
+	...
+   "include": [
+	"global.d.ts"
+   ]
+   ...
   },
 }
 ```
@@ -142,7 +154,8 @@ npm install typescript-plugin-css-modules --save --dev
 ```
 {
 	"typescript.tsdk": "node_modules/typescript/lib",
-	"typescript.enablePromptUseWorkspaceTsdk": true
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"]
 }
 ```
 #### 此時 vs code 會提示，按下允許，重啟 vs code，就能擁有模塊的 css 模組的自動提示

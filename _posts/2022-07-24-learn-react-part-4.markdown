@@ -12,7 +12,7 @@ author : Mark ku
 Hook 是 React 16.8 中增加的新功能。它讓你不必寫 class 就能使用 state 以及其他 React 的功能。 (from 官方文件)  
 並「函式」來複用邏輯的概念，重新設計元件，更新粒度更細，讓程式碼更清晰, 並逐步將 class component 替換成函式型元件 Function Component。
  
-## 何副作用
+## 何副作用 Effect
 呼叫同個方法，給同樣的參數，永遠應該返回同樣的值，react 元件中，給相同的 props ，渲染的 ui應該永遠一樣，但副作用和純函數相反，還處理了和返回值無關的事。
 
 ## useEffect 異步存取資料
@@ -24,7 +24,8 @@ Hook 是 React 16.8 中增加的新功能。它讓你不必寫 class 就能使�
   }, [count]);
 ```
   
-P.S. useEffect 若不帶第二個參數，每次被渲染就會被調用，會造成無窮無死循環，若不想發生可以給他空 array。   
+P.S. useEffect 若不帶第二個參數，每次被渲染就會被調用，會造成無窮無死循環，若不想發生可以給他空 array。  
+P.S. useEffect watch 空 array 時，他只會初始化一次，在 Next JS 時可以當來用戶端初始化事件。
 ![](https://i.imgur.com/915DCg8.png)
 
 ## 因為 useEffect 是同步方法，但可以用直接 promise，如果要用 async wait，則必在 useEffect 裡擴充一個 async 方法，並執行他
