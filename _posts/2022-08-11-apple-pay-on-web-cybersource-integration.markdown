@@ -365,7 +365,7 @@ session.onpaymentauthorized = event => {
 ![](https://i.imgur.com/j6wfsV6.png)
 cybersource沒有提供 Apple Pay的測試環境，請直接用正式環境，進行開發
 
-### 引入 apple js 時 type script error 
+### 引入 Apple js 時，專案有使用 Typescript，出現 type script error 
 ```
 npm install @types/applepayjs --save --dev
 ```
