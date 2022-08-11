@@ -21,7 +21,7 @@ author : Mark ku
 ## Apple Pay / Google Pay 和第三方支付的差異
 Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公司會協助處理和銀行帳務問題，但 Apple Pay / Google Pay 並不會。
 
-在 Apple 官方的[成功案例中](https://developer.apple.com/apple-pay/payment-platforms/)，自己對接 Apple Pay的公司規模都相當的大，大多數都是透過 Payment Provider，我猜主要因為大部分的銀行並沒有這麼標準及各國法規都不太一樣，各家銀行如果資料交換失敗，要處理的帳務問題就會很多，處理這段的問題是一般公司無法負擔的，我們在美國的金流商，則是採用 cyber source。
+在 Apple 官方的[成功案例中](https://developer.apple.com/apple-pay/payment-platforms/) 發現自己對接 Apple Pay 及銀行的公司規模都相當的大，大多數都是透過 Payment Provider，我猜主要因為大部分的銀行並沒有這麼標準及各國法規都不太一樣，各家銀行如果資料交換失敗，要處理的帳務問題就會很多，處理這段的問題是一般公司無法負擔的，我們在美國的金流商，則是採用 Cybersource。
 
 ## 網頁如何發起支付 
 早期各家瀏覽器都是各自載入 JS Lib 去實作，後面 W3C 網站對瀏覽器的對支付訂義標準規格，現今Safari 及 Chrome 都己實作，PaymentRequest Api。
