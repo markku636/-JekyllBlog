@@ -246,7 +246,7 @@ session.onpaymentauthorized = event => {
         });
     }
 
-
+    // 付款
     function paymentProcess(data) {
         return new Promise(function (resolve, reject) {
 
@@ -352,7 +352,7 @@ session.onpaymentauthorized = event => {
       [HttpPost]
       public async JsonResult PaymentProcess(PaymentProcessRequest)
       {
-      // 和你的金流商串接，呼叫你的金流商 Api 
+        // todo 和金流商串接，呼叫你的金流商付款 Api 
       }
    }
 ```
