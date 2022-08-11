@@ -90,7 +90,7 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
 
 ##### 三、驗證域名是不是自己的
 輸入驗證域名 > 下載驗證檔案 > 放在該台網站伺服器 > 按下 Verify按鈕  
-![](https://i.imgur.com/ob8Lwks.png)
+![](https://i.imgur.com/FzjvoxG.png)
 
 ## 撰寫程式
 參考蘋果[官方的 Apple Pay Live Demo](https://applepaydemo.apple.com/)，可以從範例程式得知，Apple Pay 的前端主要的事件流程有:
