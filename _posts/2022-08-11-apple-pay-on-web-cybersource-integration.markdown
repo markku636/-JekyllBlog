@@ -140,7 +140,7 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
                 "discover"
             ],
             "total": {
-                "label": "Ibuypower",
+                "label": "付給 xxx 公司",
                 "type": "final",
                 "amount": "0.1"
             }
