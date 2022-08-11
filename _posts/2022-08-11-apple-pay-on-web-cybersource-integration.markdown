@@ -72,10 +72,10 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
 
 ##### 4.至開發人員後台 > Apple Pay Merchant Identity Certificate  > 將剛產生的 CSR 上傳上去
 
-##### 5.上傳完後會有個 Download，按下後會將憑證下載至電腦，之後商戶驗證時和蘋果發出請求需要憑證，但 net 元件 x509 無法使用 Cer，所以要透過 apple 電腦轉成 p12 檔。
+##### 5.上傳完後會有個 Download，按下後會將憑證下載至電腦，之後商戶驗證時和蘋果發出請求需要憑證，但 NET x509 元件無法使用 Cer，因此要透過 Apple 電腦轉成 p12 檔。
 ![](https://i.imgur.com/px1rkOO.png)
 
-##### 6. 產生 P12 檔 for 後端程式商戶驗證
+##### 6. 產生 P12 檔 for 後端商戶驗證 Api
 將下載下來的 cer 拖進 Keychain Access 的 loign, 剛拖進來會發現憑證是 certificate is not trusted。
 ![](https://i.imgur.com/TAw4e5H.png)
 
