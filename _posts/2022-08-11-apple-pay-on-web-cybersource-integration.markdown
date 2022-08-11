@@ -377,6 +377,6 @@ npm install @types/applepayjs --save --dev
 ### [立即富線上金流 Apple Pay 串接文件](https://www.paynow.com.tw/applepay/PayNow_ApplePay_v1.0.5.pdf)
 ### [Radial Payments & Fraud Documentation](https://docs.radial.com/ptf/Content/Topics/payments/apple-pay-web.htm)
 ### [院長的系統開發大小事](https://ianwu.tw/press/programming/third_party/integrate_apple_pay_on_web.html#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99)
-### [參考 React 範例程式](https://github.com/google-pay/google-pay-button/tree/main/src/button-react)
+### [參考 Apple React 範例程式](https://github.com/google-pay/google-pay-button/tree/main/src/button-react)
 ### [綠界科技 Apple Pay 金流介接 - NET 範例程式](https://github.com/ECPay/ApplePay_NET)
 ### [站內付 2.0 - 串接文件](https://www.ecpay.com.tw/Content/files/gw_701.pdf)
