@@ -4,13 +4,13 @@ title: 網站網路封包錄製筆記 - fiddler
 date:  2022-08-10 01:01:01 +0800
 image: debug.webp
 categories: Infra
-tags: node Js Vscode 除錯 debugger 筆記
+tags: node Js fiddler netwowrk record
 description : 網站網路封包錄製筆記 - fiddler 
 author : Mark ku
 ---
 
 ## 解決問題
-為了查出網站伺服器發出的請求是不是正確，我們通常會用抓包軟體，看對方傳了什麼或是站台做了什麼額外的請求，久久使用一次，常常忘了怎麼設定，想說寫篇筆記
+為了查出網站伺服器發出的請求是不是正確，我們通常會用抓包軟體，看對方傳了什麼或是站台做了什麼額外的請求，久久使用一次，常常忘了怎麼設定，想說寫篇筆記幫助回憶。
 
 ## 安裝步驟
 ### 下載並安裝
