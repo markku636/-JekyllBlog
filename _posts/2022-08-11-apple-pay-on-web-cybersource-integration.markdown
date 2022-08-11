@@ -2,7 +2,7 @@
 layout: post
 title: Apple Pay on Web + Cybersource 串接筆記
 date:  2022-08-11 01:01:01 +0800
-image: apple-pay.png
+image: apple-pay.svg
 categories: Payment
 tags: Apple Pay Cybersource integrate Fontend NET MVC
 description : Apple Pay on Web + Cybersource 串接筆記
