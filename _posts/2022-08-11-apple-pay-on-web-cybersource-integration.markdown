@@ -24,7 +24,7 @@ Apple Pay / Google pay 和第三方支付最大的不同是，第三方金流公
 在 Apple 官方的[成功案例中](https://developer.apple.com/apple-pay/payment-platforms/)，自己對接 Apple Pay的公司規模都相當的大，大多數都是透過 Payment Provider，我猜主要因為大部分的銀行並沒有這麼標準及各國法規都不太一樣，各家銀行如果資料交換失敗，要處理的帳務問題就會很多，處理這段的問題是一般公司無法負擔的，我們在美國的金流商，則是採用 cyber source。
 
 ## 網頁如何發起支付 
-早期各家瀏覽器都是各自載入 JS Lib 去實作，後面 W3C 網站瀏覽器的對支付訂義標準規格，Safari 及 Chrome 都己實作，PaymentRequest api。
+早期各家瀏覽器都是各自載入 JS Lib 去實作，後面 W3C 網站瀏覽器的對支付訂義標準規格，Safari 及 Chrome 都己實作，PaymentRequest Api。
 ![](https://i.imgur.com/foyz78G.png)
 (相容性)
 * 實測 window.PaymentRequest，一定要 https ，否則會在瀏覽器中，找不到這物件。
@@ -39,7 +39,7 @@ Apple Pay / Google pay 和第三方支付最大的不同是，第三方金流公
 * Apple Pay Button 及 相關 logo 需符合 [Apple UI 規範 ](https://developer.apple.com/apple-pay/marketing/)
 
 ## Apple Pay 付款流程
-當使用者按下付款按鈕 >  前端 Call 後端 api 去和蘋果驗證金流商戶，並建立交易的 session，取得用戶端 token > 此時 iphone 會請求使用者刷臉或指紋驗證 > 透過金流商去建立訂單。
+當使用者按下付款按鈕 >  前端 Call 後端 Api 去和蘋果驗證金流商戶，並建立交易的 session，取得用戶端 token > 此時 iphone 會請求使用者刷臉或指紋驗證 > 透過金流商去建立訂單。
 
 ## 後台設定並取得憑證
 ### 建立金流商戶 ( Merchant )
@@ -102,7 +102,7 @@ Apple Pay / Google pay 和第三方支付最大的不同是，第三方金流公
 
 ### 前端範例程式
 ```
-<script src="https://applepay.cdn-apple.com/jsapi/v1/apple-pay-sdk.js"></script>
+<script src="https://applepay.cdn-apple.com/jsApi/v1/apple-pay-sdk.js"></script>
 
 <style>
     apple-pay-button {
@@ -352,14 +352,14 @@ session.onpaymentauthorized = event => {
       [HttpPost]
       public async JsonResult PaymentProcess(PaymentProcessRequest)
       {
-      // 和你的金流商串接，呼叫你的金流商 api 
+      // 和你的金流商串接，呼叫你的金流商 Api 
       }
    }
 ```
 
 ## 遇到比較特別的問題
 ### 後端請求和蘋果在商戶驗證時，出現 The underlying connection was closed: An unexpected error occurred on a send 錯誤
-錯誤的憑證蘋果的 api gateway 不會回應你，請檢查商戶或域名驗證、請求時帶的憑證，傳遞的 Payload 一定要正確。
+錯誤的憑證蘋果的 Api gateway 不會回應你，請檢查商戶或域名驗證、請求時帶的憑證，傳遞的 Payload 一定要正確。
 
 ### 和 Cybersource 建立定單時，出現 Invalid_Request，並指定paymentInformation.fluidData.value  欄位錯誤
 ![](https://i.imgur.com/j6wfsV6.png)
