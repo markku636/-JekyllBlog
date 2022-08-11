@@ -39,7 +39,7 @@ Apple Pay / Google pay 和第三方支付最大的不同是，第三方金流公
 * Apple Pay Button 及 相關 logo 需符合 [Apple UI 規範 ](https://developer.apple.com/apple-pay/marketing/)
 
 ## Apple Pay 付款流程
-當使用者按下付款按鈕 >  前端 Call 後端 Api 去和蘋果驗證金流商戶，並建立交易的 session，取得用戶端 token > 此時 iphone 會請求使用者刷臉或指紋驗證 > 透過金流商去建立訂單。
+當使用者按下付款按鈕 >  前端 Call 後端 Api 去和蘋果驗證金流商戶，並建立交易的 session，取得用戶端 token > 此時 iphone 會請求使用者刷臉或指紋驗證 > Call 自己的後端 Api，向金流商請求建立訂單。
 
 ## 後台設定並取得憑證
 ### 建立金流商戶 ( Merchant )
