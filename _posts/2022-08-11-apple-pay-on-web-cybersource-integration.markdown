@@ -9,7 +9,7 @@ description : Apple Pay on Web + Cybersource 串接筆記
 author : Mark ku
 ---
 
-## 目的
+## 時空背景
 因工作需要美國及德國電商網站，需要界接 Apple Pay。
 
 ## Apple Pay 原理
