@@ -10,25 +10,25 @@ author : Mark ku
 ---
 
 ## 目的
-因工作需要美國及德國專案需要界接 apple pay。
+因工作需要美國及德國專案需要界接 Apple Pay。
 
 ## Apple Pay 原理
 [參考 啾啾鞋影片](https://www.youtube.com/watch?v=ksFXEY6P_ec) 
 
-## 美國有多少人口使用 apple pay
+## 美國有多少人口使用 Apple Pay
 [參考 statista 網站](https://www.oberlo.com/statistics/how-many-people-use-apple-pay)
 
-## Apple pay / Google pay 和第三方支付的差異
-Apple pay / Google pay 和第三方支付最大的不同是，第三方金流公司會協助處理和銀行帳務問題，但 Apple pay / Google pay 並不會。
+## Apple Pay / Google pay 和第三方支付的差異
+Apple Pay / Google pay 和第三方支付最大的不同是，第三方金流公司會協助處理和銀行帳務問題，但 Apple Pay / Google pay 並不會。
 
-在 Apple 官方的[成功案例中](https://developer.apple.com/apple-pay/payment-platforms/)，自己對接 apple pay的公司規模都相當的大，大多數都是透過 payment provider，我猜主要因為大部分的銀行並沒有這麼標準及各國法規都不太一樣，各家銀行如果資料交換失敗，要處理的帳務問題就會很多，處理這段的問題是一般公司無法負擔的，我們在美國的金流商，則是採用 cyber source。
+在 Apple 官方的[成功案例中](https://developer.apple.com/apple-pay/payment-platforms/)，自己對接 Apple Pay的公司規模都相當的大，大多數都是透過 payment provider，我猜主要因為大部分的銀行並沒有這麼標準及各國法規都不太一樣，各家銀行如果資料交換失敗，要處理的帳務問題就會很多，處理這段的問題是一般公司無法負擔的，我們在美國的金流商，則是採用 cyber source。
 
 ## 網頁如何發起支付 
 早期各家瀏覽器都是各自載入 js lib 去實作，後面 w3c 網站瀏覽器的對支付訂義標準規格，Safari 及 Chrome 都己實作，PaymentRequest api。
 ![](https://i.imgur.com/foyz78G.png)
 (相容性)
 * 實測 window.PaymentRequest，一定要 https ，否則會在瀏覽器中，找不到這物件。
-* Google pay 只能在 chrome 上用，Apple pay 只能在 safari 上使用 ( desktop and mobile )
+* Google pay 只能在 chrome 上用，Apple Pay 只能在 safari 上使用 ( desktop and mobile )
 * 但 Apple Pay Payment Request API ，官方範例感覺有缺漏，目前仍需要用 apple lib 進行發起支付
 
 ## 程式串接前需提前準備的項目
@@ -37,7 +37,7 @@ Apple pay / Google pay 和第三方支付最大的不同是，第三方金流公
 * 商店需自行申辦 Apple Developer 開發者帳號 ( 99 USD / Year )
 * 在開發者後台商戶域名通過驗證
 * 在開發者後台上傳 金流商 CSR 及開發者 CSR 至蘋果後台
-* Apple pay Button 及 相關 logo 需符合 [Apple UI 規範 ](https://developer.apple.com/apple-pay/marketing/)
+* Apple Pay Button 及 相關 logo 需符合 [Apple UI 規範 ](https://developer.apple.com/apple-pay/marketing/)
 
 ## Apple Pay 付款流程
 當使用者按下付款按鈕 >  前端 Call 後端 api 去和蘋果驗證金流商戶，並建立交易的 session，取得用戶端 token > 此時 iphone 會請求使用者刷臉或指紋驗證 > 透過金流商去建立訂單。
@@ -94,7 +94,7 @@ Apple pay / Google pay 和第三方支付最大的不同是，第三方金流公
 ![](https://i.imgur.com/ob8Lwks.png)
 
 ## 撰寫程式
-可以參考蘋果[官方的 Apple Pay Live Demo](https://applepaydemo.apple.com/)，可以從範例程式得知，使用　apple pay 的前端主要的事件流程有:
+可以參考蘋果[官方的 Apple Pay Live Demo](https://applepaydemo.apple.com/)，可以從範例程式得知，使用　Apple Pay 的前端主要的事件流程有:
 * onvalidatemerchant ( 使用者按下按鈕，至自己的後端驗證商戶 )  
 * onpaymentauthorized  ( 商戶驗證成功，觸發交易 )
 * onpaymentmethodselected ( 付款方式選擇 )
@@ -116,7 +116,7 @@ Apple pay / Google pay 和第三方支付最大的不同是，第三方金流公
 </style>
 
 <h1>Apple Pay Welcome</h1>
-<h2>Apple pay button is only show in safari!!! </h2>
+<h2>Apple Pay button is only show in safari!!! </h2>
 
 <apple-pay-button buttonstyle="black" type="plain" locale="en" onclick="onApplePayButtonClicked()">123</apple-pay-button>
 
@@ -364,7 +364,7 @@ session.onpaymentauthorized = event => {
 
 ### 和 Cybersource 建立定單時，出現 Invalid_Request，並指定paymentInformation.fluidData.value  欄位錯誤
 ![](https://i.imgur.com/j6wfsV6.png)
-cybersource沒有提供 apple pay的測試環境，請直接用正式環境，進行開發
+cybersource沒有提供 Apple Pay的測試環境，請直接用正式環境，進行開發
 
 ### 引入 apple js 時 type script error 
 ```
@@ -375,9 +375,9 @@ npm install @types/applepayjs --save --dev
 ### [cybersource 交易狀態碼](https://support.cybersource.com/knowledgebase/Knowledgearticle/?code=000001630)
 ### [Apple Pay 官方網站](https://developer.apple.com/apple-pay/planning/)
 ### [关于Apple Pay接入和开发，看这一篇就够了](https://zhuanlan.zhihu.com/p/45068888)
-### [立即富線上金流 apple pay 串接文件](https://www.paynow.com.tw/applepay/PayNow_ApplePay_v1.0.5.pdf)
+### [立即富線上金流 Apple Pay 串接文件](https://www.paynow.com.tw/applepay/PayNow_ApplePay_v1.0.5.pdf)
 ### [Radial Payments & Fraud Documentation](https://docs.radial.com/ptf/Content/Topics/payments/apple-pay-web.htm)
 ### [院長的系統開發大小事](https://ianwu.tw/press/programming/third_party/integrate_apple_pay_on_web.html#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99)
 ### [參考 React 範例程式](https://github.com/google-pay/google-pay-button/tree/main/src/button-react)
-### [綠界科技 APPLE PAY 金流介接 - NET 範例程式](https://github.com/ECPay/ApplePay_NET)
+### [綠界科技 Apple Pay 金流介接 - NET 範例程式](https://github.com/ECPay/ApplePay_NET)
 ### [站內付 2.0 - 串接文件](https://www.ecpay.com.tw/Content/files/gw_701.pdf)
