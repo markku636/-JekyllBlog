@@ -14,8 +14,7 @@ author : Mark ku
 
 ## 安裝步驟
 ### 下載並安裝
-fiddler-classic 是免費版，其他是付費版。
-https://www.telerik.com/fiddler/
+[fiddler-classic 免費版下載連結](https://www.telerik.com/fiddler/)
 
 ### Tool > Options
 ![](https://i.imgur.com/e13g9ZJ.png)
