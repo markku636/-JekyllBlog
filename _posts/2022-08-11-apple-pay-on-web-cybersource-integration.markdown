@@ -93,7 +93,7 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
 ![](https://i.imgur.com/ob8Lwks.png)
 
 ## 撰寫程式
-可以參考蘋果[官方的 Apple Pay Live Demo](https://applepaydemo.apple.com/)，可以從範例程式得知，使用　Apple Pay 的前端主要的事件流程有:
+可以參考蘋果[官方的 Apple Pay Live Demo](https://applepaydemo.apple.com/)，可以從範例程式得知，Apple Pay 的前端主要的事件流程有:
 * onvalidatemerchant ( 使用者按下按鈕，至自己的後端驗證商戶 )  
 * onpaymentauthorized  ( 商戶驗證成功，觸發交易 )
 * onpaymentmethodselected ( 付款方式選擇 )
