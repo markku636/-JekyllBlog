@@ -359,7 +359,7 @@ session.onpaymentauthorized = event => {
 
 ## 遇到比較特別的問題
 ### 後端請求和蘋果在商戶驗證時，出現 The underlying connection was closed: An unexpected error occurred on a send 錯誤
-錯誤的憑證蘋果的 Api gateway 不會回應你，請檢查商戶或域名驗證、請求時帶的憑證，傳遞的 Payload 一定要正確。
+錯誤的憑證蘋果的 Api gateway 不會回應你，請仔細檢查商戶或域名驗證、請求時帶的憑證，傳遞的 Payload 一定要正確。
 
 ### 和 Cybersource 建立訂單時，出現 Invalid_Request，並指定paymentInformation.fluidData.value  欄位錯誤
 ![](https://i.imgur.com/j6wfsV6.png)
