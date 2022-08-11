@@ -24,7 +24,7 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
 在 Apple 官方的[成功案例中](https://developer.apple.com/apple-pay/payment-platforms/)，自己對接 Apple Pay的公司規模都相當的大，大多數都是透過 Payment Provider，我猜主要因為大部分的銀行並沒有這麼標準及各國法規都不太一樣，各家銀行如果資料交換失敗，要處理的帳務問題就會很多，處理這段的問題是一般公司無法負擔的，我們在美國的金流商，則是採用 cyber source。
 
 ## 網頁如何發起支付 
-早期各家瀏覽器都是各自載入 JS Lib 去實作，後面 W3C 網站瀏覽器的對支付訂義標準規格，Safari 及 Chrome 都己實作，PaymentRequest Api。
+早期各家瀏覽器都是各自載入 JS Lib 去實作，後面 W3C 網站對瀏覽器的對支付訂義標準規格，現今Safari 及 Chrome 都己實作，PaymentRequest Api。
 ![](https://i.imgur.com/foyz78G.png)
 (相容性)
 * 實測 window.PaymentRequest，一定要 Https ，否則會在瀏覽器中，找不到這物件。
