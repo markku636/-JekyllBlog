@@ -18,8 +18,8 @@ author : Mark ku
 ## 美國有多少人口使用 Apple Pay
 [參考 statista 網站](https://www.oberlo.com/statistics/how-many-people-use-apple-pay)
 
-## Apple Pay / Google pay 和第三方支付的差異
-Apple Pay / Google pay 和第三方支付最大的不同是，第三方金流公司會協助處理和銀行帳務問題，但 Apple Pay / Google pay 並不會。
+## Apple Pay / Google Pay 和第三方支付的差異
+Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公司會協助處理和銀行帳務問題，但 Apple Pay / Google Pay 並不會。
 
 在 Apple 官方的[成功案例中](https://developer.apple.com/apple-pay/payment-platforms/)，自己對接 Apple Pay的公司規模都相當的大，大多數都是透過 Payment Provider，我猜主要因為大部分的銀行並沒有這麼標準及各國法規都不太一樣，各家銀行如果資料交換失敗，要處理的帳務問題就會很多，處理這段的問題是一般公司無法負擔的，我們在美國的金流商，則是採用 cyber source。
 
