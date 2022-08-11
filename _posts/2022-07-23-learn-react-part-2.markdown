@@ -5,7 +5,7 @@ date:  2022-07-23 01:01:01 +0800
 image: react.webp
 categories: Frontend
 tags: React get start
-description : React 初探
+description : React 學習筆記 - 框架優勢、XSS、CSS in JS 使用方式 - Part 2 
 author : Mark ku
 ---
 # react 學習筆記

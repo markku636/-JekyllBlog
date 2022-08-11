@@ -5,7 +5,7 @@ date:  2022-07-24 01:01:01 +0800
 image: react.webp
 categories: Frontend
 tags: React get start
-description : React 初探
+description : React 學習筆記 - 何謂 React Hook、副作用、Loading、錯誤處理、上下文關係(Context) - Part's 4
 author : Mark ku
 ---
 ## 何謂 React Hook 

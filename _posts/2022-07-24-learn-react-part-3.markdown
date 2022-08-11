@@ -5,7 +5,7 @@ date:  2022-07-24 01:01:01 +0800
 image: react.webp
 categories: Frontend
 tags: React get start
-description : React 初探
+description : React 學習筆記 - state、props、setState、binding this - Part's 3
 author : Mark ku
 ---
 
