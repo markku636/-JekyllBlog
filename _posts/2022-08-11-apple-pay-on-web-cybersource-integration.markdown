@@ -58,7 +58,7 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
 ### 接著，從這畫面，我們得知正式撰寫金流程式前必須先準備，以下三項
 ![](https://i.imgur.com/3O8GjP7.png)
 
-#### 一、上傳金流商(CyberSource 的 CSR)
+#### 一、上傳金流商(Cybersource 的 CSR)
 ##### Cybersource's BackOffice > Payment Configuration > Apple Pay > Configure > 填入 Apple Merchant ID > Generate New Certificate Signing Request > 下載憑證 > 上傳至蘋果後台 Apple Pay Payment Processing on the Web
 
 #### 二、透過自己的蘋果電腦產生 CSR，去蘋果後台產生憑證
@@ -363,7 +363,7 @@ session.onpaymentauthorized = event => {
 
 ### 和 Cybersource 建立訂單時，出現 Invalid_Request，並指定paymentInformation.fluidData.value  欄位錯誤
 ![](https://i.imgur.com/j6wfsV6.png)
-cybersource沒有提供 Apple Pay的測試環境，請直接用正式環境，進行開發
+主因 Cybersource沒有提供 Apple Pay 的測試環境，請直接用正式環境，進行開發
 
 ### 引入 Apple js 時，專案有使用 Typescript，出現 type script error 
 ```
@@ -371,7 +371,7 @@ npm install @types/applepayjs --save --dev
 ```
 
 ## 參考資料
-### [cybersource 交易狀態碼](https://support.cybersource.com/knowledgebase/Knowledgearticle/?code=000001630)
+### [Cybersource 交易狀態碼](https://support.cybersource.com/knowledgebase/Knowledgearticle/?code=000001630)
 ### [Apple Pay 官方網站](https://developer.apple.com/apple-pay/planning/)
 ### [关于Apple Pay接入和开发，看这一篇就够了](https://zhuanlan.zhihu.com/p/45068888)
 ### [立即富線上金流 Apple Pay 串接文件](https://www.paynow.com.tw/applepay/PayNow_ApplePay_v1.0.5.pdf)
