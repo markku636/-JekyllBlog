@@ -28,7 +28,7 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
 ![](https://i.imgur.com/foyz78G.png)
 (相容性)
 * 實測 window.PaymentRequest，一定要 Https ，否則會在瀏覽器中，找不到這物件。
-* Apple Pay 只能在 safari 上使用 ( desktop and mobile )
+* Apple Pay 只能在 Safari 上使用 ( desktop and mobile )
 
 ## 程式串接前需提前準備的項目
 * 付款頁需要 Https 環境 ( dev、prod )
