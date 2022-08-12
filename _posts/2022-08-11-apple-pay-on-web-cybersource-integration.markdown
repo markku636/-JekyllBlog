@@ -369,7 +369,7 @@ session.onpaymentauthorized = event => {
 ```
 npm install @types/applepayjs --save --dev
 ```
-#### 十分重要!!! 憑證時效只有兩年
+#### 十分重要!!! 憑證效期只有兩年
 依據[官方文件](https://developer.apple.com/documentation/apple_pay_on_the_web/maintaining_your_environment)蘋果會通知憑證失效，但兩年請重新做一次 p12 及上傳金流商的 CSR
 ![image](https://user-images.githubusercontent.com/109936092/184269606-c8afe843-f443-4f39-85fe-fa4e0282a249.png)
 
