@@ -16,7 +16,7 @@ author : Mark ku
 [參考 啾啾鞋影片](https://www.youtube.com/watch?v=ksFXEY6P_ec) 
 
 ## 美國有多少人口使用 Apple Pay
-[參考 statista 網站](https://www.oberlo.com/statistics/how-many-people-use-apple-pay)
+[參考 oberlo 網站](https://www.oberlo.com/statistics/how-many-people-use-apple-pay)
 
 ## Apple Pay / Google Pay 和第三方支付的差異
 Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公司會協助處理和銀行帳務問題，但 Apple Pay / Google Pay 並不會。
