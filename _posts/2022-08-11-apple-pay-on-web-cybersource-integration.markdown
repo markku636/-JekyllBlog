@@ -76,7 +76,7 @@ Apple Pay / Google Pay 和第三方支付最大的不同是，第三方金流公
 ![](https://i.imgur.com/px1rkOO.png)
 
 ##### 6. 產生 P12 檔 for 後端商戶驗證 Api
-將下載下來的 cer 拖進 Keychain Access 的 loign, 剛拖進來會發現憑證是 certificate is not trusted。
+將下載下來的 cer 拖進 Keychain Access 的 login, 剛拖進來會發現憑證是 certificate is not trusted。
 ![](https://i.imgur.com/TAw4e5H.png)
 
 此時到 [APPLE PKI 網站](https://www.apple.com/certificateauthority/ )    
