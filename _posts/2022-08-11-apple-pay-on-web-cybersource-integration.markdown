@@ -373,6 +373,10 @@ npm install @types/applepayjs --save --dev
 依據[官方文件](https://developer.apple.com/documentation/apple_pay_on_the_web/maintaining_your_environment)蘋果會通知憑證失效，但兩年請重新做一次 p12 及上傳金流商的 CSR
 ![image](https://user-images.githubusercontent.com/109936092/184269606-c8afe843-f443-4f39-85fe-fa4e0282a249.png)
 
+#### apple pay 按鈕出來的了，但按了沒回應
+* 小數位一定要小於兩位
+* apple pay js 可能背景做了些什麼，一定得提前載入
+
 
 ## 參考資料
 ### [Cybersource 交易狀態碼](https://support.cybersource.com/knowledgebase/Knowledgearticle/?code=000001630)
