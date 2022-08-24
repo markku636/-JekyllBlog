@@ -377,6 +377,8 @@ npm install @types/applepayjs --save --dev
 * 小數位一定要小於兩位
 * apple pay js 可能背景做了些什麼，一定得提前載入
 
+#### apple pay 測試卡號
+[官方文件](https://developer.apple.com/apple-pay/sandbox-testing/)
 
 ## 參考資料
 ### [Cybersource 交易狀態碼](https://support.cybersource.com/knowledgebase/Knowledgearticle/?code=000001630)
