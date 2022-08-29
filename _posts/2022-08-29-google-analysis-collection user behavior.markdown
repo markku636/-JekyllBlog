@@ -59,7 +59,7 @@ export const checkoutViewEvent = (params: GTMProducts[]) => {
 
 ## 最後，提交
 ![](https://i.imgur.com/dbWjmxo.png)
-## 靜待等待 24~48小時後，登入 GA，在報表 > 參與 > 事件，你就可以看到你的自訂事件
+## 因為事件追蹤、自訂維度和自訂指標，需要靜待等待 24~48小時才會更新，登入 GA，在報表 > 參與 > 事件，你就可以看到從前端程式傳來的自訂事件
 ![](https://i.imgur.com/viiVtbe.png)
 
 ## 參考資料
