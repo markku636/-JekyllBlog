@@ -27,7 +27,7 @@ author : Mark ku
 ## 接著，我們將 GA 帳號和 GTM 進行關聯，並將其名命為 "GA4整合"，代碼 > 新增 > Google Analytics (分析)：GA4 設定 > 貼上先前從 GA複製的評估 ID > All Pages > 儲存
 ![](https://i.imgur.com/rNSMGh8.png)
 
-## 我們通常會想蒐集會員在網站的行為，並透過前端程式碼去推送事件給GA 
+## 我們通常會想蒐集會員在網站的行為，並透過前端程式碼去推送事件給 GTM，並透過 GTM 挷定好的事件推送給 GA。
 ```
 export const checkoutViewEvent = (params: GTMProducts[]) => {
   if (window.dataLayer) {
