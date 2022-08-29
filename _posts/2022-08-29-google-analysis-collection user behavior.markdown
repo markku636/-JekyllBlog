@@ -8,14 +8,14 @@ tags: ga4 google analysis google tag manger gtm integration
 description : 透過 Google tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis ( 本篇採用 GA4 )
 author : Mark ku
 ---
-# 透過 Google tag manger 將電子商務平台使用者行為搜集至 Google Analysis ( 本篇採用 GA4 )
-
 ## 目的
-我們通常會想蒐集會員在電子網站的操作行為，並將其數據整合在 GA 中。
+我們通常會想蒐集會員在電子網站的操作行為，並將其事件數據整合在 Google Analysis 中。 ex: 有沒有登入、結帳、選擇什麼付款方式，是不是有完成訂單等。
+
+本篇透過 Google tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis。
 
 ## 事前準備
 * 建立 Google Analysis 帳號，並設定好域名
-* 在你的網站，埋入 Google Analysis js 程式
+* 在你的網站，埋入 Google Analysis js 行銷代碼
 * 在你的網站，埋入 GTM 代碼 
 
 ## 步驟
