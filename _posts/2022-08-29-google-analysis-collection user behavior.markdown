@@ -47,14 +47,14 @@ export const checkoutViewEvent = (params: GTMProducts[]) => {
   }
 };
 ```
-## 建立自訂事件
+## 建立自訂事件 > 觸發條件 > 新增 > 選自訂事件 >事件名稱填 前端 push 的 event name > 儲存
 ![](https://i.imgur.com/vWUYcSp.png)
 
 ## 將剛建立的自訂事件關聯到先前的 "GA4整合" 
 代碼 > 新增 > Google Analytics (分析)：GA4 事件 > 選取 "GA4整合" > 事件名稱 checkout >  觸發條件 checkout > 儲存
 ![](https://i.imgur.com/oy9K8oi.png)
 
-## 你可以預覽功能除錯，來確認 GTM 是不是有收到事件，並將其轉發到 GA
+## 你可以透過預覽功能除錯，來確認 GTM 是不是有收到事件，並將其轉發到 GA
 ![](https://i.imgur.com/47vGi0N.png)
 
 ## 最後，提交
