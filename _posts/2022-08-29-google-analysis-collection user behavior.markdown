@@ -9,7 +9,10 @@ description : 透過 Google tag manger 將電子商務網站的使用者行為�
 author : Mark ku
 ---
 ## 目的
-我們通常會想蒐集會員在電子網站的操作行為，並將其事件數據整合在 Google Analysis 中。 如: 用戶有沒有登入、結帳、選擇什麼付款方式，是不是有完成訂單等。本篇透過 Google tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis。  
+身為網站開發者或運營，我們通常會想了解會員在網站的操作行為，並期待將其事件數據整合在 Google Analysis 中。 如: 用戶有沒有登入、結帳、選擇什麼付款方式，是不是有完成訂單等。
+
+## 運作原理
+會員網站執行特定功能時，前端網站透過 Google tag manager api 指令，觸發事先設定好事件，轉發到指定 Google analysis中。
 
 ## 事前準備
 * 建立 Google Analysis 帳號，並設定好域名
