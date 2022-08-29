@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 透過 Google tag manger 將電子商務平台使用者行為搜集至 Google Analysis ( 本篇採用 GA4 )
+title: 透過 Google tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis ( 本篇採用 GA4 )
 date:  2022-08-29 01:01:01 +0800
 image: google-analytics.png
 categories: Google Analysis
 tags: ga4 google analysis google tag manger gtm integration
-description : 透過 Google tag manger 將電子商務平台使用者行為搜集至 Google Analysis ( 本篇採用 GA4 )
+description : 透過 Google tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis ( 本篇採用 GA4 )
 author : Mark ku
 ---
 # 透過 Google tag manger 將電子商務平台使用者行為搜集至 Google Analysis ( 本篇採用 GA4 )
