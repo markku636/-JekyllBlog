@@ -66,3 +66,4 @@ export const checkoutViewEvent = (params: GTMProducts[]) => {
 ### [Google Analytics 4 事件追蹤指南（2022）](https://www.haranhuang.com/google-analytics-4-event-tracking.html?fbclid=IwAR2R-WTqazL3LCTwAN0R-wmRquXLWFk5pBVqONEkfeRQSi17UHM9z9XRwKE)
 ### [GTM 安裝 Google Analytics 4 網站資料串流教學](https://datasupplied.com/google-tag-manager/setup-ga4-web-stream/?fbclid=IwAR2DW0NRSN9K3wMh6-egb7XjarUQpruZAmKQYeMuCzVw0zVncRy819cU1pA)
 ### [新版GA4電子商務事件，新舊差異與Purchase轉換一次解析](https://www.bnext.com.tw/article/63984/new-version-of-ga4-e-commerce-events?fbclid=IwAR3EKq9sAYTcoo-xT96MejTLMYAgh45iAmAkOt92GiCFEdjA6VshVac-WJA)
+### [GA Event Tracking in GTM – Pass-Through Data Layer](https://mixedanalytics.com/blog/ga-gtm-event-tracking-pass-through-datalayer/)
