@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 透過 Google tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis ( 本篇採用 GA4 )
+title: 透過 Google Tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis ( 本篇採用 GA4 )
 date:  2022-08-29 01:01:01 +0800
 image: google-analytics.png
 categories: Google Analysis
 tags: ga4 google analysis google tag manger gtm integration
-description : 透過 Google tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis ( 本篇採用 GA4 )
+description : 透過 Google Tag manger 將電子商務網站的使用者行為，搜集至 Google Analysis ( 本篇採用 GA4 )
 author : Mark ku
 ---
 ## 目的
-身為網站開發者或運營，我們通常會想了解會員在網站的操作行為，並期待將其事件數據整合在 Google Analysis 中，以便了解使用者的行為，作為網站開發及運營的改善依據。 如: 用戶有沒有登入、結帳、選擇什麼付款方式，是不是有完成訂單等。
+身為網站開發者或運營，我們通常會想了解會員在網站的操作行為，並期待將其事件數據整合在 Google Analysis 中，以便了解使用者的行為事件，作為網站開發及運營的改善依據。 如: 用戶有沒有登入、結帳、選擇什麼付款方式，是不是有完成訂單等。
 
 ## 運作原理
 會員網站執行特定功能時，前端網站透過 Google tag manager api 指令，觸發事先設定好事件，轉發到指定 Google analysis中。
@@ -55,12 +55,12 @@ export const checkoutViewEvent = (params: GTMProducts[]) => {
 ![](https://i.imgur.com/oy9K8oi.png)
 
 ## 我們可以透過預覽功能除錯，來確認 GTM 是不是有收到事件，並將其轉發到 GA
-![](https://i.imgur.com/47vGi0N.png)
+![](https://i.imgur.com/ICyNMb4.png)
 
 ## 最後，提交
 ![](https://i.imgur.com/dbWjmxo.png)
 ## 因為事件追蹤、自訂維度和自訂指標，需要靜待等待 24~48小時才會更新，登入 GA，在報表 > 參與 > 事件，你就可以看到從前端程式傳來的自訂事件
-![](https://i.imgur.com/viiVtbe.png)
+![](https://i.imgur.com/FqIhUQN.png)
 
 ## 參考資料
 ### [Google Analytics 4 事件追蹤指南（2022）](https://www.haranhuang.com/google-analytics-4-event-tracking.html?fbclid=IwAR2R-WTqazL3LCTwAN0R-wmRquXLWFk5pBVqONEkfeRQSi17UHM9z9XRwKE)
